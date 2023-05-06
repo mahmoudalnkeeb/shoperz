@@ -3,6 +3,7 @@ const envVars = require('./env');
 const logger = require('../middlewares/logger');
 
 const transporter = nodemailer.createTransport({
+  service: 'gmail',
   host: envVars.mailHost,
   port: envVars.mailPort,
   auth: {
@@ -11,6 +12,10 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+console.log({
+  user: envVars.mailUser,
+  pass: envVars.mailPass,
+});
 transporter.verify(function (error, success) {
   if (error) {
     logger.error(error);
