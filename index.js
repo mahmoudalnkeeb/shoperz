@@ -3,10 +3,11 @@ const cors = require('cors');
 const authRouter = require('./routes/auth.router');
 const errHandler = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
+const envVars = require('./configs/env');
+const logger = require('./middlewares/logger');
 const shoperz = express();
-require('dotenv').config();
 
-connectDB()
+connectDB();
 
 const corsOptions = {
   origin: '*',
@@ -24,7 +25,8 @@ shoperz.use(errHandler);
 
 // START SERVER ON PORT
 const PORT = process.env.PORT || 4000;
+logger.debug(envVars); // debug if set NODE_ENV works
 
 shoperz.listen(PORT, () => {
-  console.log('shoperz api running on port ' + PORT);
+  logger.info('shoperz api running on port ' + PORT);
 });

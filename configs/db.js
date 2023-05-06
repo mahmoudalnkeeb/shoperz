@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 const logger = require('../middlewares/logger');
+const envVars = require('./env');
 
 const connectDB = () => {
   mongoose
-    .connect(process.env.URI, { useNewUrlParser: true, useUnifiedTopology: true, dbName: process.env.DB_NAME })
+    .connect(envVars.dbURI, { useNewUrlParser: true, useUnifiedTopology: true, dbName: envVars.dbName })
     .then((res) => {
       logger.info(`connected to ${res.connections[0].name} database`);
     })

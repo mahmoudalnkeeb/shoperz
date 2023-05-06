@@ -6,6 +6,10 @@ const signup = async (req, res, next) => {
     const { fullname, email, password, phone } = req.body;
     let user = await User.create({ fullname, email, password, phone });
     logger.info(user._id);
+    user.sendVerifyEmail((info) => {
+      logger.debug(info);
+    });
+    await user.save();
     res.status(201).json({ message: `user ${user._id} created` });
   } catch (error) {
     console.log(error);
@@ -27,7 +31,20 @@ const login = async (req, res, next) => {
     next(error);
   }
 };
+
+const verfiyEmail = async (req, res, next) => {
+  try {
+    const { token } = req.query;
+    const user = await User.findOneAndUpdate({ verifyCode: token }, { emailVerified: true }, { new: true });
+    if (!user.emailVerified) return res.status(400).json({ message: 'invalid token' });
+    else res.status(200).send('email verified you can close this page now');
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   signup,
   login,
+  verfiyEmail,
 };

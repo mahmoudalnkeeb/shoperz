@@ -1,31 +1,47 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const ejs = require('ejs');
+const { sendEmail } = require('../configs/nodemailer');
+const envVars = require('../configs/env');
+const logger = require('../middlewares/logger');
+const path = require('path');
 
-const userSchema = new mongoose.Schema({
-  fullname: {
-    type: String,
-    required: true,
+const userSchema = new mongoose.Schema(
+  {
+    fullname: {
+      type: String,
+      required: true,
+    },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    phone: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    password: {
+      type: String,
+      required: true,
+    },
+    emailVerified: {
+      type: Boolean,
+      default: false,
+    },
+    verifyCode: {
+      type: String,
+      required: true,
+      unique: true,
+      default: require('crypto').randomBytes(4).toString('hex'),
+    },
   },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-  phone: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-  password: {
-    type: String,
-    required: true,
-  },
-  emailVerfied: {
-    type: Boolean,
-    default: false,
-  },
-});
+  {
+    timestamps: true,
+  }
+);
 
 userSchema.pre('save', function (next) {
   const user = this;
@@ -34,7 +50,7 @@ userSchema.pre('save', function (next) {
     return next();
   }
 
-  bcrypt.genSalt(+process.env.SALT_ROUNDS, (err, salt) => {
+  bcrypt.genSalt(envVars.slatRounds, (err, salt) => {
     if (err) {
       return next(err);
     }
@@ -49,19 +65,33 @@ userSchema.pre('save', function (next) {
   });
 });
 
+userSchema.methods.sendVerifyEmail = function (cb) {
+  const verifyUrl = process.env.NODE_ENV == 'development' ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify?token=${this.verifyCode}` : `${envVars.apiUrl}/auth/verify?token=${this.verifyCode}`;
+  console.log(verifyUrl);
+  ejs.renderFile(path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')), { verifyUrl }, (err, html) => {
+    if (err) logger.error(err);
+    let mailOptions = {
+      from: 'shoperz team',
+      to: this.email,
+      subject: 'Shoperz verify your email',
+      html: html,
+    };
+    sendEmail(mailOptions, cb);
+  });
+};
+
 userSchema.methods.comparePassword = function (password, callback) {
   let user = this;
   bcrypt.compare(password, user.password, (err, isMatch) => {
     if (err) {
       return callback(err);
     }
-    console.log(password, user.password);
     callback(null, isMatch);
   });
 };
 
 userSchema.methods.createToken = function () {
-  return jwt.sign({ userId: this._id }, process.env.JWT_SECRET);
+  return jwt.sign({ userId: this._id }, envVars.jwtSecret);
 };
 
 const User = mongoose.model('User', userSchema);
