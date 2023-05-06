@@ -7,17 +7,7 @@ let envVars = {
   apiUrl: process.env.API_URL,
 };
 
-if (environment == 'production') {
-  envVars = {
-    ...envVars,
-    dbURI: process.env.URI,
-    dbName: process.env.DB_NAME,
-    mailHost: process.env.MAIL_HOST,
-    mailPort: process.env.MAIL_PORT,
-    mailUser: process.env.MAIL_USER,
-    mailPass: process.env.MAIL_PASS,
-  };
-} else if (environment == 'development') {
+if (environment == 'development') {
   envVars = {
     ...envVars,
     dbURI: process.env.URI_DEV,
@@ -26,6 +16,16 @@ if (environment == 'production') {
     mailPort: process.env.MAIL_PORT_DEV,
     mailUser: process.env.MAIL_USER_DEV,
     mailPass: process.env.MAIL_PASS_DEV,
+  };
+} else {
+  envVars = {
+    ...envVars,
+    dbURI: process.env.URI,
+    dbName: process.env.DB_NAME,
+    mailHost: process.env.MAIL_HOST,
+    mailPort: process.env.MAIL_PORT,
+    mailUser: process.env.MAIL_USER,
+    mailPass: process.env.MAIL_PASS,
   };
 }
 
