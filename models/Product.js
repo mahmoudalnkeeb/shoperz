@@ -19,6 +19,7 @@ const productSchema = new mongoose.Schema(
     },
     images: {
       type: [String],
+      required: true,
     },
     category_id: {
       type: mongoose.Schema.Types.ObjectId,
@@ -36,6 +37,12 @@ const productSchema = new mongoose.Schema(
     },
     specifications: {
       type: mongoose.Schema.Types.Mixed,
+    },
+    discount: {
+      type: Number,
+      required: true,
+      min: 0,
+      max: 100,
     },
   },
   { timestamps: true }
