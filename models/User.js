@@ -7,6 +7,42 @@ const envVars = require('../configs/env');
 const logger = require('../middlewares/logger');
 const path = require('path');
 
+class UserClass {
+  // utiliy function to check user entered password match the real password
+  comparePassword(password, callback) {
+    let user = this;
+    bcrypt.compare(password, user.password, (err, isMatch) => {
+      if (err) {
+        return callback(err);
+      }
+      callback(null, isMatch);
+    });
+  }
+
+  // send email to user email to check ownership
+
+  sendVerifyEmail(cb) {
+    const verifyUrl = process.env.NODE_ENV == 'development' ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify?token=${this.verifyCode}` : `${envVars.apiUrl}/auth/verify?token=${this.verifyCode}`;
+    console.log(verifyUrl);
+    ejs.renderFile(path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')), { verifyUrl }, (err, html) => {
+      if (err) logger.error(err);
+      let mailOptions = {
+        from: 'shoperz team',
+        to: this.email,
+        subject: 'Shoperz verify your email',
+        html: html,
+      };
+      sendEmail(mailOptions, cb);
+    });
+  }
+
+  // create user token on login success
+
+  createToken() {
+    return jwt.sign({ userId: this._id }, envVars.jwtSecret);
+  }
+}
+
 const userSchema = new mongoose.Schema(
   {
     fullname: {
@@ -65,34 +101,7 @@ userSchema.pre('save', function (next) {
   });
 });
 
-userSchema.methods.sendVerifyEmail = function (cb) {
-  const verifyUrl = process.env.NODE_ENV == 'development' ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify?token=${this.verifyCode}` : `${envVars.apiUrl}/auth/verify?token=${this.verifyCode}`;
-  console.log(verifyUrl);
-  ejs.renderFile(path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')), { verifyUrl }, (err, html) => {
-    if (err) logger.error(err);
-    let mailOptions = {
-      from: 'shoperz team',
-      to: this.email,
-      subject: 'Shoperz verify your email',
-      html: html,
-    };
-    sendEmail(mailOptions, cb);
-  });
-};
-
-userSchema.methods.comparePassword = function (password, callback) {
-  let user = this;
-  bcrypt.compare(password, user.password, (err, isMatch) => {
-    if (err) {
-      return callback(err);
-    }
-    callback(null, isMatch);
-  });
-};
-
-userSchema.methods.createToken = function () {
-  return jwt.sign({ userId: this._id }, envVars.jwtSecret);
-};
+userSchema.loadClass(UserClass);
 
 const User = mongoose.model('User', userSchema);
 
