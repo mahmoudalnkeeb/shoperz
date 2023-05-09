@@ -9,6 +9,7 @@ const connectDB = require('./configs/db');
 const envVars = require('./configs/env');
 const logger = require('./middlewares/logger');
 const uploadRouter = require('./routes/upload.router');
+const categoryRouter = require('./routes/category.router');
 const shoperz = express();
 
 connectDB();
@@ -18,13 +19,13 @@ const corsOptions = {
 
 // MIDDLEWARES
 shoperz.use(helmet());
-shoperz.use(winston.Logger);
 shoperz.use(express.urlencoded({ extended: true }));
 shoperz.use(express.json());
 shoperz.use(cors(corsOptions));
 // ROUTES
 shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);
+shoperz.use('/categories', categoryRouter);
 
 // ERROR HANDLER
 shoperz.use(errHandler);
