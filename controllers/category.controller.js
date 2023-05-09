@@ -21,9 +21,9 @@ const getCategoryById = async (req, res, next) => {
 
 const createCategory = async (req, res, next) => {
   try {
-    const category = await Category.create(req.body);
-    await category.save();
-    res.status(200).json(category);
+    const category = new Category(req.body);
+    const newCategory = await category.save();
+    res.status(200).json(newCategory);
   } catch (error) {
     next(error);
   }

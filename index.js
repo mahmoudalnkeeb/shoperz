@@ -1,15 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
-const winston = require('winston');
 const chalk = require('chalk');
 const authRouter = require('./routes/auth.router');
 const errHandler = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
-const envVars = require('./configs/env');
-const logger = require('./middlewares/logger');
 const uploadRouter = require('./routes/upload.router');
 const categoryRouter = require('./routes/category.router');
+const productRouter = require('./routes/product.router');
 const shoperz = express();
 
 connectDB();
@@ -26,13 +24,13 @@ shoperz.use(cors(corsOptions));
 shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);
 shoperz.use('/categories', categoryRouter);
+shoperz.use('/products', productRouter);
 
 // ERROR HANDLER
 shoperz.use(errHandler);
 
 // START SERVER ON PORT
 const PORT = process.env.PORT || 4000;
-logger.debug(envVars); // debug if set NODE_ENV works
 
 shoperz.listen(PORT, () => {
   console.log(
@@ -43,7 +41,7 @@ shoperz.listen(PORT, () => {
   \`Yooo. o8oooo8 8    8 o8YooP' \`boo   o8YooP'    d'  
       \`8  8    8 8    8  8      .P      8   \`b   d'   
        8  8    8 8    8  8      8       8    8  d'    
-  \`YooP'  8    8 \`YooP'  8      \`YooP'  8    8 dooooo 
+  \`YooP'  8    8 \`YooP'  8      \`YooP'  8    8 dooooo |🇪🇬|
                 
 `)
   );
