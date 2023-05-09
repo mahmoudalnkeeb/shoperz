@@ -12,10 +12,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-console.log({
-  user: envVars.mailUser,
-  pass: envVars.mailPass,
-});
 transporter.verify(function (error, success) {
   if (error) {
     logger.error(error);
