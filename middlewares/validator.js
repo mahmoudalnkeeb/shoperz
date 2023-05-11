@@ -48,18 +48,5 @@ function makeValidationError(errors) {
   };
 }
 
-/*
-  schema = {
-    body:{
-      key:{
-        type:"string",
-        required:true,
-        pattern:"regexPattern"
-      }
-    },
-    query:[],
-    params:[],
-  }
-*/
 
 module.exports = validator;
