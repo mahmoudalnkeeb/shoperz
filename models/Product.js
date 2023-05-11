@@ -38,6 +38,11 @@ const productSchema = new mongoose.Schema(
     specifications: {
       type: mongoose.Schema.Types.Mixed,
     },
+    stock: {
+      type: Number,
+      required: true,
+      min: 0,
+    },
     discount: {
       type: Number,
       required: true,
@@ -47,9 +52,13 @@ const productSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+productSchema.virtual('discountedPrice').get(function () {
+  const discountPercentage = this.discount / 100;
+  const discountedPrice = this.price - this.price * discountPercentage;
+  return discountedPrice;
+});
 
 productSchema.loadClass(ProductClass);
-
 const Product = mongoose.model('Product', productSchema);
 
 module.exports = Product;

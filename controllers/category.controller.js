@@ -29,6 +29,15 @@ const createCategory = async (req, res, next) => {
   }
 };
 
+const createCategories = async (req, res, next) => {
+  try {
+    const categories = await Category.create(req.body.categories);
+    res.status(201).json(categories);
+  } catch (error) {
+    next(error);
+  }
+};
+
 const updateCategory = async (req, res, next) => {
   try {
     const id = req.params.id;
@@ -56,6 +65,7 @@ module.exports = {
   getAllCategories,
   getCategoryById,
   createCategory,
+  createCategories,
   updateCategory,
   deleteCategory,
 };

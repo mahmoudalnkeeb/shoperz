@@ -9,14 +9,17 @@ async (req, res, next) => {
 
 */
 
+const Category = require('../models/Category');
 const Product = require('../models/Product');
 
 const getProducts = async (req, res, next) => {
   try {
-    const { limit, lastId } = req.query;
-    const products = await Product.find({ _id: { $gt: lastId } }, null, {
+    const { limit, lastId, sort, order } = req.query;
+
+    const products = await Product.find(lastId ? { _id: { $gt: lastId } } : {}, null, {
       limit: limit,
-    });
+      sort: { [sort]: order == 'asc' ? 1 : -1 },
+    }).lean();
     res.status(200).json(products);
   } catch (error) {
     next(error);

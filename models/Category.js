@@ -1,6 +1,14 @@
 const mongoose = require('mongoose');
 
-class CategoryClass {}
+class CategoryClass {
+  static async getIdByName(name) {
+    try {
+      return await this.findOne({ name: name });
+    } catch (error) {
+      throw error;
+    }
+  }
+}
 
 const categorySchema = new mongoose.Schema(
   {

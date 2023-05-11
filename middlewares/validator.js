@@ -33,7 +33,7 @@ const validator = (schema) => {
 
     if (errors.length > 0) {
       const validationError = makeValidationError(errors);
-      res.status(validationError.code).json(validationError);
+      return res.status(validationError.code).json(validationError);
     } else {
       next();
     }
@@ -47,6 +47,5 @@ function makeValidationError(errors) {
     code: 403,
   };
 }
-
 
 module.exports = validator;
