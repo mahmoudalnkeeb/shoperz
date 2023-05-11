@@ -1,4 +1,10 @@
-const { getAllCategories, createCategory, getCategoryById, updateCategory, deleteCategory } = require('../controllers/category.controller');
+const {
+  getAllCategories,
+  createCategory,
+  getCategoryById,
+  updateCategory,
+  deleteCategory,
+} = require('../controllers/category.controller');
 
 const categoryRouter = require('express').Router();
 

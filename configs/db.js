@@ -4,7 +4,11 @@ const envVars = require('./env');
 
 const connectDB = () => {
   mongoose
-    .connect(envVars.dbURI, { useNewUrlParser: true, useUnifiedTopology: true, dbName: envVars.dbName })
+    .connect(envVars.dbURI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      dbName: envVars.dbName,
+    })
     .then((res) => {
       logger.info(`connected to ${res.connections[0].name} database`);
     })

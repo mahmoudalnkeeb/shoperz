@@ -22,18 +22,25 @@ class UserClass {
   // send email to user email to check ownership
 
   sendVerifyEmail(cb) {
-    const verifyUrl = process.env.NODE_ENV == 'development' ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify?token=${this.verifyCode}` : `${envVars.apiUrl}/auth/verify?token=${this.verifyCode}`;
+    const verifyUrl =
+      process.env.NODE_ENV == 'development'
+        ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify?token=${this.verifyCode}`
+        : `${envVars.apiUrl}/auth/verify?token=${this.verifyCode}`;
     console.log(verifyUrl);
-    ejs.renderFile(path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')), { verifyUrl }, (err, html) => {
-      if (err) logger.error(err);
-      let mailOptions = {
-        from: 'shoperz team',
-        to: this.email,
-        subject: 'Shoperz verify your email',
-        html: html,
-      };
-      sendEmail(mailOptions, cb);
-    });
+    ejs.renderFile(
+      path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')),
+      { verifyUrl },
+      (err, html) => {
+        if (err) logger.error(err);
+        let mailOptions = {
+          from: 'shoperz team',
+          to: this.email,
+          subject: 'Shoperz verify your email',
+          html: html,
+        };
+        sendEmail(mailOptions, cb);
+      }
+    );
   }
 
   // create user token on login success

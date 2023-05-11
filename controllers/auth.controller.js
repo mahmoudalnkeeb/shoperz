@@ -25,7 +25,11 @@ const login = async (req, res, next) => {
     user.comparePassword(password, (err, isMatch) => {
       if (err) console.log(err);
       if (!isMatch) return res.status(401).json({ message: 'Wrong email or password!' });
-      else res.status(200).json({ message: 'logged in successfully', token: user.createToken() });
+      else
+        res.status(200).json({
+          message: 'logged in successfully',
+          token: user.createToken(),
+        });
     });
   } catch (error) {
     next(error);
@@ -35,7 +39,11 @@ const login = async (req, res, next) => {
 const verfiyEmail = async (req, res, next) => {
   try {
     const { token } = req.query;
-    const user = await User.findOneAndUpdate({ verifyCode: token }, { emailVerified: true }, { new: true });
+    const user = await User.findOneAndUpdate(
+      { verifyCode: token },
+      { emailVerified: true },
+      { new: true }
+    );
     if (!user.emailVerified) return res.status(400).json({ message: 'invalid token' });
     else {
       await user.save();

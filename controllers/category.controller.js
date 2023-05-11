@@ -32,7 +32,9 @@ const createCategory = async (req, res, next) => {
 const updateCategory = async (req, res, next) => {
   try {
     const id = req.params.id;
-    const category = await Category.findByIdAndUpdate(id, req.body, { new: true });
+    const category = await Category.findByIdAndUpdate(id, req.body, {
+      new: true,
+    });
     await category.save();
     res.status(200).json(category);
   } catch (error) {
@@ -50,4 +52,10 @@ const deleteCategory = async (req, res, next) => {
   }
 };
 
-module.exports = { getAllCategories, getCategoryById, createCategory, updateCategory, deleteCategory };
+module.exports = {
+  getAllCategories,
+  getCategoryById,
+  createCategory,
+  updateCategory,
+  deleteCategory,
+};

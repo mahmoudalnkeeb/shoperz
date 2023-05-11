@@ -14,7 +14,9 @@ const Product = require('../models/Product');
 const getProducts = async (req, res, next) => {
   try {
     const { limit, lastId } = req.query;
-    const products = await Product.find({ _id: { $gt: lastId } }, null, { limit: limit });
+    const products = await Product.find({ _id: { $gt: lastId } }, null, {
+      limit: limit,
+    });
     res.status(200).json(products);
   } catch (error) {
     next(error);
@@ -52,7 +54,9 @@ const createProducts = async (req, res, next) => {
 const updateProduct = async (req, res, next) => {
   try {
     const id = req.params.id;
-    const product = await Product.findByIdAndUpdate(id, req.body, { new: true });
+    const product = await Product.findByIdAndUpdate(id, req.body, {
+      new: true,
+    });
     await product.save();
     res.status(200).json(product);
   } catch (error) {
@@ -69,4 +73,11 @@ const deleteProduct = async (req, res, next) => {
     next(error);
   }
 };
-module.exports = { getProducts, getProductById, createProduct, createProducts, updateProduct, deleteProduct };
+module.exports = {
+  getProducts,
+  getProductById,
+  createProduct,
+  createProducts,
+  updateProduct,
+  deleteProduct,
+};

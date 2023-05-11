@@ -1,5 +1,10 @@
 require('dotenv').config();
-const { ref, getDownloadURL, getStorage, uploadBytesResumable } = require('firebase/storage');
+const {
+  ref,
+  getDownloadURL,
+  getStorage,
+  uploadBytesResumable,
+} = require('firebase/storage');
 const { app, firebaseConfig } = require('../configs/firebase.config');
 
 const storage = getStorage(app, `gs://${firebaseConfig.storageBucket}`);

@@ -1,4 +1,11 @@
-const { getProducts, getProductById, createProduct, createProducts, updateProduct, deleteProduct } = require('../controllers/product.controller');
+const {
+  getProducts,
+  getProductById,
+  createProduct,
+  createProducts,
+  updateProduct,
+  deleteProduct,
+} = require('../controllers/product.controller');
 
 const productRouter = require('express').Router();
 
