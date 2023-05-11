@@ -80,6 +80,11 @@ const userSchema = new mongoose.Schema(
       unique: true,
       default: require('crypto').randomBytes(4).toString('hex'),
     },
+    role: {
+      type: String,
+      required: true,
+      default: 'user',
+    },
   },
   {
     timestamps: true,
