@@ -24,9 +24,8 @@ class UserClass {
   sendVerifyEmail(cb) {
     const verifyUrl =
       process.env.NODE_ENV == 'development'
-        ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify?token=${this.verifyCode}`
-        : `${envVars.apiUrl}/auth/verify?token=${this.verifyCode}`;
-    console.log(verifyUrl);
+        ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify-email?token=${this.verifyCode}`
+        : `${envVars.apiUrl}/auth/verify-email?token=${this.verifyCode}`;
     ejs.renderFile(
       path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')),
       { verifyUrl },

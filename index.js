@@ -8,12 +8,14 @@ const connectDB = require('./configs/db');
 const uploadRouter = require('./routes/upload.router');
 const categoryRouter = require('./routes/category.router');
 const productRouter = require('./routes/product.router');
+require('dotenv').config();
 const shoperz = express();
+const corsOptions = {
+  origin: process.env.origin || '*',
+  credentials: true,
+};
 
 connectDB();
-const corsOptions = {
-  origin: '*',
-};
 
 // MIDDLEWARES
 shoperz.use(helmet());
@@ -31,7 +33,6 @@ shoperz.use(errHandler);
 
 // START SERVER ON PORT
 const PORT = process.env.PORT || 4000;
-
 
 shoperz.listen(PORT, () => {
   console.log(

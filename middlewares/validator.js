@@ -1,6 +1,6 @@
 const Joi = require('joi');
 
-const validator = (schema) => {
+const reqValidator = (schema) => {
   return (req, res, next) => {
     let body = req.body;
     let query = req.query;
@@ -48,4 +48,4 @@ function makeValidationError(errors) {
   };
 }
 
-module.exports = validator;
+module.exports = reqValidator;
