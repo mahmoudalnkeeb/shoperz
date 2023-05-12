@@ -5,15 +5,13 @@ const signup = async (req, res, next) => {
   try {
     const { fullname, email, password, phone } = req.body;
     let user = await User.create({ fullname, email, password, phone });
-    logger.info(user._id);
-    user.sendVerifyEmail((info) => {
-      logger.info(info);
-    });
-    await user.save();
+    let emailDetails = await user.sendVerifyEmail();
     let userWishlist = await user.createWishlist();
+    await user.save();
     logger.info({
       user,
       userWishlist,
+      emailDetails,
     });
     res.status(201).json({ message: `user ${user._id} created` });
   } catch (error) {
@@ -75,9 +73,19 @@ const changePassword = async (req, res) => {
   }
 };
 
+const resetPasswordRequest = async (req, res) => {
+  try {
+    let user = await User.getUserByEmail(req.body.email);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    await user.sendResetEmail();
+    res.status(200).json({ message: 'reset code sent to your email' });
+  } catch (error) {}
+};
+
 module.exports = {
   signup,
   login,
   verfiyEmail,
   changePassword,
+  resetPasswordRequest,
 };

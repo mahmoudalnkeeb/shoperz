@@ -7,6 +7,12 @@ const envVars = require('../configs/env');
 const logger = require('../middlewares/logger');
 const path = require('path');
 const Wishlist = require('./Wishlist');
+const { renderTemplate } = require('../utils/utils');
+
+const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs'));
+const RESET_TEMPLATE = path.resolve(
+  path.join(process.cwd(), './views/resetPassword.ejs')
+);
 
 class UserClass {
   async createWishlist() {
@@ -34,7 +40,7 @@ class UserClass {
 
       return 'Password changed successfully';
     } catch (error) {
-      throw error;
+      throw new Error('Error while changing password', error);
     }
   }
 
@@ -48,29 +54,68 @@ class UserClass {
     });
   }
 
-  sendVerifyEmail(cb) {
-    const verifyUrl =
-      process.env.NODE_ENV == 'development'
-        ? `${envVars.apiUrl}:${process.env.PORT}/auth/verify-email?token=${this.verifyCode}`
-        : `${envVars.apiUrl}/auth/verify-email?token=${this.verifyCode}`;
-    ejs.renderFile(
-      path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs')),
-      { verifyUrl },
-      (err, html) => {
-        if (err) logger.error(err);
-        let mailOptions = {
-          from: 'shoperz team',
-          to: this.email,
-          subject: 'Shoperz verify your email',
-          html: html,
-        };
-        sendEmail(mailOptions, cb);
-      }
-    );
-  }
-
   createToken() {
     return jwt.sign({ userId: this._id }, envVars.jwtSecret);
+  }
+
+  async sendVerifyEmail() {
+    try {
+      let { verifyCode, fullname, email } = this;
+      const developmentUrl = `${envVars.apiUrl}:${process.env.PORT}/auth/verify-email`;
+      const productionUrl = `${envVars.apiUrl}/auth/verify-email`;
+      const verifyUrl =
+        process.env.NODE_ENV == 'development'
+          ? `${developmentUrl}?token=${verifyCode}`
+          : `${productionUrl}?token=${verifyCode}`;
+      const html = await renderTemplate(VERIFY_TEMPLATE, {
+        verifyUrl,
+        name: fullname,
+      });
+      let mailOptions = {
+        from: 'shoperz team',
+        to: email,
+        subject: 'Shoperz verify your email',
+        html: html,
+      };
+      return await sendEmail(mailOptions);
+    } catch (error) {
+      console.log(error);
+      throw error;
+    }
+  }
+
+  async sendResetEmail() {
+    try {
+      let { fullname, email } = this;
+      let resetToken = require('crypto').randomBytes(4).toString('hex');
+      this.resetToken = resetToken;
+      const html = await renderTemplate(RESET_TEMPLATE, {
+        resetToken,
+        name: fullname,
+      });
+      let mailOptions = {
+        from: 'shoperz team',
+        to: email,
+        subject: 'Shoperz reset password',
+        html: html,
+      };
+      return await sendEmail(mailOptions);
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  // statics
+
+  static async getUserByEmail(email) {
+    try {
+      let count = await this.count({ email });
+      if (!count) return count;
+      let user = await this.findOne({ email });
+      return user;
+    } catch (error) {
+      throw new Error('error getting user by email', error);
+    }
   }
 }
 
@@ -103,6 +148,10 @@ const userSchema = new mongoose.Schema(
       required: true,
       unique: true,
       default: require('crypto').randomBytes(4).toString('hex'),
+    },
+    resetToken: {
+      type: String,
+      unique: true,
     },
     role: {
       type: String,

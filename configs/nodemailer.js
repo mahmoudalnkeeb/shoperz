@@ -20,9 +20,11 @@ transporter.verify(function (error, success) {
   }
 });
 
-exports.sendEmail = (mailOptions, cb) => {
-  transporter.sendMail(mailOptions, (err, info) => {
-    if (err) logger.error(err);
-    else cb(info);
+exports.sendEmail = (options) => {
+  return new Promise((resolve, reject) => {
+    transporter.sendMail(options, (err, info) => {
+      if (err) reject(err);
+      else resolve(info);
+    });
   });
 };
