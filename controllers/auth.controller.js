@@ -59,7 +59,7 @@ const verfiyEmail = async (req, res, next) => {
   }
 };
 
-const resetPassword = async (req, res) => {
+const changePassword = async (req, res) => {
   const { currentPassword, newPassword } = req.body;
 
   try {
@@ -68,10 +68,10 @@ const resetPassword = async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    await user.resetPassword(currentPassword, newPassword);
-    res.status(200).json({ message: 'Password reset successfully' });
+    await user.changePassword(currentPassword, newPassword);
+    res.status(200).json({ message: 'Password changed successfully' });
   } catch (error) {
-    res.status(500).json({ message: 'Error resetting password' });
+    res.status(500).json({ message: 'Error changing password' });
   }
 };
 
@@ -79,5 +79,5 @@ module.exports = {
   signup,
   login,
   verfiyEmail,
-  resetPassword,
+  changePassword,
 };

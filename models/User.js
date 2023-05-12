@@ -18,7 +18,7 @@ class UserClass {
       throw new Error('error in creating user wishlist', error);
     }
   }
-  async resetPassword(currentPassword, newPassword) {
+  async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
 
@@ -32,7 +32,7 @@ class UserClass {
       this.password = hash;
       await this.save();
 
-      return 'Password reset successfully';
+      return 'Password changed successfully';
     } catch (error) {
       throw error;
     }
