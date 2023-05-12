@@ -10,6 +10,11 @@ const signup = async (req, res, next) => {
       logger.info(info);
     });
     await user.save();
+    let userWishlist = await user.createWishlist();
+    logger.info({
+      user,
+      userWishlist,
+    });
     res.status(201).json({ message: `user ${user._id} created` });
   } catch (error) {
     console.log(error);
@@ -54,8 +59,25 @@ const verfiyEmail = async (req, res, next) => {
   }
 };
 
+const resetPassword = async (req, res) => {
+  const { currentPassword, newPassword } = req.body;
+
+  try {
+    const user = await User.findById(req.userId);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    await user.resetPassword(currentPassword, newPassword);
+    res.status(200).json({ message: 'Password reset successfully' });
+  } catch (error) {
+    res.status(500).json({ message: 'Error resetting password' });
+  }
+};
+
 module.exports = {
   signup,
   login,
   verfiyEmail,
+  resetPassword,
 };

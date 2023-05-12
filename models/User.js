@@ -6,9 +6,38 @@ const { sendEmail } = require('../configs/nodemailer');
 const envVars = require('../configs/env');
 const logger = require('../middlewares/logger');
 const path = require('path');
+const Wishlist = require('./Wishlist');
 
 class UserClass {
-  // utiliy function to check user entered password match the real password
+  async createWishlist() {
+    try {
+      let wishlist = new Wishlist({ userId: this._id, products: [] });
+      let userWishlist = await wishlist.save();
+      return userWishlist;
+    } catch (error) {
+      throw new Error('error in creating user wishlist', error);
+    }
+  }
+  async resetPassword(currentPassword, newPassword) {
+    try {
+      const isMatch = await this.comparePasswordAsync(currentPassword);
+
+      if (!isMatch) {
+        throw new Error('Incorrect current password');
+      }
+
+      const salt = await bcrypt.genSalt(envVars.slatRounds);
+      const hash = await bcrypt.hash(newPassword, salt);
+
+      this.password = hash;
+      await this.save();
+
+      return 'Password reset successfully';
+    } catch (error) {
+      throw error;
+    }
+  }
+
   comparePassword(password, callback) {
     let user = this;
     bcrypt.compare(password, user.password, (err, isMatch) => {
@@ -18,8 +47,6 @@ class UserClass {
       callback(null, isMatch);
     });
   }
-
-  // send email to user email to check ownership
 
   sendVerifyEmail(cb) {
     const verifyUrl =
@@ -41,8 +68,6 @@ class UserClass {
       }
     );
   }
-
-  // create user token on login success
 
   createToken() {
     return jwt.sign({ userId: this._id }, envVars.jwtSecret);
