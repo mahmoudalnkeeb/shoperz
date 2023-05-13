@@ -9,7 +9,6 @@ async (req, res, next) => {
 
 */
 
-const Category = require('../models/Category');
 const Product = require('../models/Product');
 
 const getProducts = async (req, res, next) => {
