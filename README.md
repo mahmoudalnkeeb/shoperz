@@ -13,4 +13,6 @@
 ### TODO
 
 - [x] use ES6 to create schema using mongoose schema.loadClass()
-- [ ] add wishlist schema
+- [x] add wishlist schema
+- [ ] refactor reset password
+- [ ] finish user cart
