@@ -11,3 +11,5 @@
 {"cause":"user.comparPassword is not a function","level":"error","name":"InternalError","status":500,"type":"internal_error"}
 {"level":"info","message":"connected to shoperz database"}
 {"level":"info","message":"mail service running"}
+{"level":"info","message":"connected to shoperz database"}
+{"level":"info","message":"mail service running"}
