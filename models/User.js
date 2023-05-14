@@ -1,29 +1,16 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const ejs = require('ejs');
-const { sendEmail } = require('../configs/nodemailer');
 const envVars = require('../configs/env');
-const logger = require('../middlewares/logger');
 const path = require('path');
-const Wishlist = require('./Wishlist');
 const { renderTemplate } = require('../utils/utils');
-
+const { sendEmail } = require('../configs/nodemailer');
 const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs'));
 const RESET_TEMPLATE = path.resolve(
   path.join(process.cwd(), './views/resetPassword.ejs')
 );
 
 class UserClass {
-  async createWishlist() {
-    try {
-      let wishlist = new Wishlist({ userId: this._id, products: [] });
-      let userWishlist = await wishlist.save();
-      return userWishlist;
-    } catch (error) {
-      throw new Error('error in creating user wishlist', error);
-    }
-  }
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
@@ -44,18 +31,32 @@ class UserClass {
     }
   }
 
-  comparePassword(password, callback) {
-    let user = this;
-    bcrypt.compare(password, user.password, (err, isMatch) => {
-      if (err) {
-        return callback(err);
-      }
-      callback(null, isMatch);
-    });
+  async resetPassword(newPassword) {
+    try {
+      this.password = this.hashPass(newPassword);
+      await this.save();
+      console.log(this.password);
+      return 'Password changed successfully';
+    } catch (error) {
+      throw new Error('Error while changing password', error);
+    }
+  }
+
+  comparePassword(password) {
+    try {
+      let user = this;
+      return bcrypt.compareSync(password, user.password);
+    } catch (error) {
+      throw new Error('error in comparing user password', error);
+    }
   }
 
   createToken() {
-    return jwt.sign({ userId: this._id }, envVars.jwtSecret);
+    try {
+      return jwt.sign({ userId: this._id }, envVars.jwtSecret);
+    } catch (error) {
+      throw new Error('error in signing new token', error);
+    }
   }
 
   async sendVerifyEmail() {
@@ -79,8 +80,7 @@ class UserClass {
       };
       return await sendEmail(mailOptions);
     } catch (error) {
-      console.log(error);
-      throw error;
+      throw new Error('error sending verify email', error);
     }
   }
 
@@ -89,6 +89,7 @@ class UserClass {
       let { fullname, email } = this;
       let resetToken = require('crypto').randomBytes(4).toString('hex');
       this.resetToken = resetToken;
+      await this.save();
       const html = await renderTemplate(RESET_TEMPLATE, {
         resetToken,
         name: fullname,
@@ -101,11 +102,29 @@ class UserClass {
       };
       return await sendEmail(mailOptions);
     } catch (error) {
-      throw error;
+      throw new Error('error sending reset email', error);
     }
   }
 
+  // utility hash function
+  hashPass(password) {
+    try {
+      let salt = bcrypt.genSaltSync(envVars.slatRounds);
+      let hash = bcrypt.hashSync(password, salt);
+      return hash;
+    } catch (error) {
+      throw new Error('error hashing the password', error);
+    }
+  }
   // statics
+  // utility static method for user hashing password
+  static hashPassword(password) {
+    try {
+      return this.hashPassword(password);
+    } catch (error) {
+      throw new Error('error hashing the password', error);
+    }
+  }
 
   static async getUserByEmail(email) {
     try {
@@ -114,7 +133,7 @@ class UserClass {
       let user = await this.findOne({ email });
       return user;
     } catch (error) {
-      throw new Error('error getting user by email', error);
+      throw new Error('Error getting user by email', error);
     }
   }
 }
@@ -163,28 +182,6 @@ const userSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
-userSchema.pre('save', function (next) {
-  const user = this;
-
-  if (!user.isModified('password')) {
-    return next();
-  }
-
-  bcrypt.genSalt(envVars.slatRounds, (err, salt) => {
-    if (err) {
-      return next(err);
-    }
-
-    bcrypt.hash(user.password, salt, (err, hash) => {
-      if (err) {
-        return next(err);
-      }
-      user.password = hash;
-      next();
-    });
-  });
-});
 
 userSchema.loadClass(UserClass);
 

@@ -10,6 +10,7 @@ const {
   verfiyEmail,
   changePassword,
   resetPasswordRequest,
+  resetPassword,
 } = require('../controllers/auth.controller');
 const reqValidator = require('../middlewares/validator');
 const authMiddleware = require('../middlewares/authentication');
@@ -26,6 +27,7 @@ authRouter.put(
   authMiddleware,
   changePassword
 );
-authRouter.post('/resetpassrequest', resetPasswordRequest);
+authRouter.post('/resetpassword', resetPasswordRequest);
+authRouter.post('/resetpassword/:resetToken', resetPassword);
 
 module.exports = authRouter;

@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const chalk = require('chalk');
 const authRouter = require('./routes/auth.router');
-const errHandler = require('./middlewares/errorhandler');
+const { errHandler, NotFoundError } = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
 const uploadRouter = require('./routes/upload.router');
 const categoryRouter = require('./routes/category.router');
@@ -28,7 +28,8 @@ shoperz.use('/upload', uploadRouter);
 shoperz.use('/categories', categoryRouter);
 shoperz.use('/products', productRouter);
 
-// ERROR HANDLER
+// ERROR HANDLING
+shoperz.use('*', (req, res, next) => next(new NotFoundError('this path not found')));
 shoperz.use(errHandler);
 
 // START SERVER ON PORT

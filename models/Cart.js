@@ -34,6 +34,15 @@ class CartClass {
     }
     return total;
   }
+
+  // statics
+  //create user cart
+
+  static async createUserCart(userId) {
+    let cart = new this({ userId });
+    let userCart = await cart.save();
+    return userCart;
+  }
 }
 
 class CartItemClass {
