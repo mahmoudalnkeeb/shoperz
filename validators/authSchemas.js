@@ -41,6 +41,7 @@ const verfiyEmailSchema = {
   body: {},
   query: {
     token: joi.string().required(),
+    uid:joi.string().required(),
   },
   params: {},
 };

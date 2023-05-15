@@ -11,6 +11,7 @@ const {
   changePassword,
   resetPasswordRequest,
   resetPassword,
+  sendVerifyEmail,
 } = require('../controllers/auth.controller');
 const reqValidator = require('../middlewares/validator');
 const authMiddleware = require('../middlewares/authentication');
@@ -21,6 +22,7 @@ authRouter.get('/', (req, res) => res.send('test auth'));
 authRouter.post('/signup', reqValidator(signupSchema), signup);
 authRouter.post('/login', reqValidator(loginSchema), login);
 authRouter.get('/verify-email', reqValidator(verfiyEmailSchema), verfiyEmail);
+authRouter.get('/send-verify-email', authMiddleware, sendVerifyEmail);
 authRouter.put(
   '/change-password',
   reqValidator(changePasswordSchema),

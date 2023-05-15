@@ -16,11 +16,17 @@ async function authMiddleware(req, res, next) {
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
     }
-
-    req.userId = user._id;
-    next();
+    let isEqual = user.userToken.token == token;
+    let isExpired = user.userToken.tokenEXP <= new Date(Date.now());
+    if (isEqual && !isExpired) {
+      req.userId = user._id;
+      next();
+    } else
+      return res
+        .status(401)
+        .json({ message: 'Authentication failed: Invalid Or expired token ' });
   } catch (error) {
-    res.status(401).json({ message: 'Authentication failed: Invalid token' });
+    return res.status(401).json({ message: 'Authentication failed: Invalid token' });
   }
 }
 
