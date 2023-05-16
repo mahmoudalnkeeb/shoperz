@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "shoperz ecommerce single vendor (api)",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "SET NODE_ENV=production&&node index.js",
     "dev": "SET NODE_ENV=development&&nodemon index.js",
