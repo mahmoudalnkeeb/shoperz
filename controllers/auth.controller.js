@@ -8,6 +8,8 @@ const { hashPassword } = require('../utils/utils');
 const signup = async (req, res, next) => {
   try {
     const { fullname, email, password, phone } = req.body;
+    let isExists = await User.getUserByEmail(email);
+    if (isExists) return res.status(400).json({ message: 'invalid data' });
     let newUser = new User({
       fullname,
       email,
@@ -136,4 +138,5 @@ module.exports = {
   resetPasswordRequest,
   resetPassword,
   sendVerifyEmail,
+  validateResetToken,
 };

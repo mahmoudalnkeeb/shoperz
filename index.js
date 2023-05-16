@@ -8,6 +8,7 @@ const connectDB = require('./configs/db');
 const uploadRouter = require('./routes/upload.router');
 const categoryRouter = require('./routes/category.router');
 const productRouter = require('./routes/product.router');
+const cartRouter = require('./routes/cart.router');
 require('dotenv').config();
 const shoperz = express();
 const corsOptions = {
@@ -27,6 +28,7 @@ shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);
 shoperz.use('/categories', categoryRouter);
 shoperz.use('/products', productRouter);
+shoperz.use('/cart', cartRouter);
 
 // ERROR HANDLING
 shoperz.use('*', (req, res, next) => next(new NotFoundError('this path not found')));

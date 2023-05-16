@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { NotFoundError } = require('../middlewares/errorhandler');
 
 class CartClass {
   async addItem(productId, quantity) {
@@ -9,7 +10,9 @@ class CartClass {
       if (existingItemIndex !== -1) {
         throw new Error('Product already exists in the cart');
       }
-      await this.updateOne({ $push: { items: { productId, quantity } } });
+      this.items.push({ productId, quantity });
+      this.save();
+      return this;
     } catch (error) {
       throw error;
     }
@@ -20,21 +23,44 @@ class CartClass {
   }
 
   async updateItemQuantity(productId, quantity) {
-    await this.updateOne(
-      { 'items.productId': productId },
-      { $set: { 'items.$.quantity': quantity } }
-    );
+    try {
+      const itemIndex = this.items.findIndex(
+        (item) => item.productId.toString() === productId.toString()
+      );
+
+      if (itemIndex !== -1) {
+        this.items[itemIndex].quantity = quantity;
+      } else throw new NotFoundError('cart item not found');
+
+      await this.save();
+
+      return this;
+    } catch (error) {
+      // Handle the error appropriately
+      console.error('Error updating item quantity:', error);
+      throw error;
+    }
   }
 
   async getCartTotal() {
-    await this.populate('items.productId').execPopulate();
+    await this.populate('items.productId');
     let total = 0;
     for (const item of this.items) {
-      total += await item.getSubtotal();
+      total += item.productId.price * item.quantity;
     }
     return total;
   }
 
+  async getCartDiscountedTotal() {
+    await this.populate('items.productId');
+    let discountedTotal = 0;
+    for (const item of this.items) {
+      let discountedPrice =
+        item.productId.price * ((100 - item.productId.discount) / 100);
+      discountedTotal += discountedPrice * item.quantity;
+    }
+    return +discountedTotal.toFixed(2);
+  }
   // statics
   //create user cart
 
@@ -45,33 +71,6 @@ class CartClass {
   }
 }
 
-class CartItemClass {
-  async getSubtotal() {
-    await this.populate('productId').execPopulate();
-    return this.quantity * this.productId.price;
-  }
-}
-
-const cartItemSchema = new mongoose.Schema(
-  {
-    productId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Product',
-      required: true,
-    },
-    quantity: {
-      type: Number,
-      required: true,
-      min: 1,
-    },
-  },
-  { timestamps: true }
-);
-
-cartItemSchema.loadClass(CartItemClass);
-
-const CartItem = mongoose.model('CartItem', cartItemSchema);
-
 const cartSchema = new mongoose.Schema(
   {
     userId: {
@@ -80,7 +79,20 @@ const cartSchema = new mongoose.Schema(
       required: true,
     },
     items: {
-      type: [CartItem.schema],
+      type: [
+        {
+          productId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Product',
+            required: true,
+          },
+          quantity: {
+            type: Number,
+            required: true,
+            min: 1,
+          },
+        },
+      ],
       default: [],
     },
   },
@@ -91,4 +103,4 @@ cartSchema.loadClass(CartClass);
 
 const Cart = mongoose.model('Cart', cartSchema);
 
-module.exports = { Cart, CartItem };
+module.exports = { Cart };

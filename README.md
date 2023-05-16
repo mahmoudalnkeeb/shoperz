@@ -15,4 +15,5 @@
 - [x] use ES6 to create schema using mongoose schema.loadClass()
 - [x] add wishlist schema
 - [x] refactor reset password
-- [ ] finish user cart
+- [x] finish user cart
+- [ ] finish orders
