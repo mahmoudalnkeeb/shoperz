@@ -20,4 +20,4 @@
 
 ### DOCS
 
-[Button with space](https://documenter.getpostman.com/view/25478517/2s93kxcRaQ){: .btn .btn-purple .mr-2 }
+[Docs](https://documenter.getpostman.com/view/25478517/2s93kxcRaQ)
