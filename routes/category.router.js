@@ -6,6 +6,7 @@ const {
   deleteCategory,
   createCategories,
 } = require('../controllers/category.controller');
+const authMiddleware = require('../middlewares/authentication');
 const authorize = require('../middlewares/authorization');
 
 const categoryRouter = require('express').Router();
