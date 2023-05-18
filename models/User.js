@@ -176,7 +176,6 @@ const userSchema = new mongoose.Schema(
     passwordReset: {
       token: {
         type: String,
-        unique: true,
       },
       tokenExpirationDate: {
         type: Date,
