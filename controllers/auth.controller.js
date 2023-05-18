@@ -8,8 +8,10 @@ const { hashPassword } = require('../utils/utils');
 const signup = async (req, res, next) => {
   try {
     const { fullname, email, password, phone } = req.body;
-    let isExists = await User.getUserByEmail(email);
-    if (isExists) return res.status(400).json({ message: 'invalid data' });
+    let isEmailExists = await User.getUserByEmail(email);
+    let isPhoneExists = await User.find({ phone });
+    if (isEmailExists || isPhoneExists)
+      return res.status(400).json({ message: 'invalid user data' });
     let newUser = new User({
       fullname,
       email,
