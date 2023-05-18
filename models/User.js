@@ -59,7 +59,7 @@ class UserClass {
     try {
       let { fullname, email } = this;
       if (this.emailVerify.isVerified) throw new Error('already verified');
-      let verifyCode = require('crypto').randomBytes(4).toString('hex');
+      let verifyCode = require('crypto').randomBytes(3).toString('hex');
       let verifyUrl = this.verifyUrl(verifyCode);
       this.emailVerify.code = verifyCode;
       this.emailVerify.codeExpirationDate = new Date(Date.now() + 24 * 60 * 60 * 1000);
@@ -84,7 +84,7 @@ class UserClass {
   async sendResetEmail() {
     try {
       let { fullname, email } = this;
-      let resetToken = require('crypto').randomBytes(4).toString('hex');
+      let resetToken = require('crypto').randomBytes(3).toString('hex');
       this.passwordReset.token = resetToken;
       await this.save();
       const html = await renderTemplate(RESET_TEMPLATE, {
@@ -162,7 +162,6 @@ const userSchema = new mongoose.Schema(
     emailVerify: {
       code: {
         type: String,
-        unique: true,
       },
       isVerified: {
         type: Boolean,
@@ -176,7 +175,6 @@ const userSchema = new mongoose.Schema(
     passwordReset: {
       token: {
         type: String,
-        unique: true,
       },
       tokenExpirationDate: {
         type: Date,

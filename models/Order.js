@@ -27,8 +27,14 @@ class OrderClass {
 
 const orderSchema = new mongoose.Schema(
   {
-    user_id: {
+    userId: {
       type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true,
+    },
+    addressId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Address',
       required: true,
     },
     status: {
@@ -36,7 +42,12 @@ const orderSchema = new mongoose.Schema(
       enum: ['pending', 'completed', 'cancelled'],
       required: true,
     },
-    total_price: {
+    totalPrice: {
+      type: Number,
+      required: true,
+      min: 0,
+    },
+    discountedTotal: {
       type: Number,
       required: true,
       min: 0,
