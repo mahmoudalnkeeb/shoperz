@@ -1,15 +1,16 @@
-const chalk = require('chalk');
+const Responser = require('../utils/responser');
 const logger = require('./logger');
 
 const errHandler = (error, req, res, next) => {
   if (error) {
-    console.error(chalk.red(`message:${error.message}\ncause:${error.cause}`));
     logger.error(error);
-    res.status(error.status || 500).send({
-      status: error.status || 500,
-      message: error.message || 'internal error',
-      type: error.type || 'internal',
-    });
+    let responser = new Responser(
+      err.code || 500,
+      error.message || 'internal server error',
+      null,
+      error.type
+    );
+    responser.respond(res);
   }
 };
 

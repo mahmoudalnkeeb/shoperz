@@ -3,6 +3,7 @@ const logger = require('../middlewares/logger');
 const { Cart } = require('../models/Cart');
 const User = require('../models/User');
 const Wishlist = require('../models/Wishlist');
+const Responser = require('../utils/responser');
 const { hashPassword } = require('../utils/utils');
 
 const signup = async (req, res, next) => {
@@ -10,8 +11,10 @@ const signup = async (req, res, next) => {
     const { fullname, email, password, phone } = req.body;
     let isEmailExists = await User.getUserByEmail(email);
     let isPhoneExists = await User.find({ phone });
-    if (isEmailExists || isPhoneExists)
-      return res.status(400).json({ message: 'invalid user data' });
+    if (isEmailExists || isPhoneExists) {
+      let responser = new Responser(403, 'invalid user data');
+      return responser.respond(res);
+    }
     let newUser = new User({
       fullname,
       email,
@@ -19,6 +22,9 @@ const signup = async (req, res, next) => {
       phone,
     });
     let user = await newUser.save();
+    user.userToken.token = user.createToken();
+    user.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
+    await user.save();
     let userWishlist = await Wishlist.createUserWishlist(user._id);
     let userCart = await Cart.createUserCart(user._id);
     let emailDetails = await user.sendVerifyEmail();
@@ -28,7 +34,8 @@ const signup = async (req, res, next) => {
       userCart,
       emailDetails,
     });
-    res.status(201).json({ message: `user ${user._id} created` });
+    let responser = new Responser(201, 'Signup Success', { token: user.userToken.token });
+    return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
   }
@@ -38,16 +45,20 @@ const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     const user = await User.findOne({ email: email });
-    if (!user) return res.status(401).json({ message: 'Wrong email or password!' });
+    if (!user) {
+      let responser = new Responser(401, 'Wrong email or password!');
+      return responser.respond(res);
+    }
     let isMatch = user.comparePassword(password);
-    if (!isMatch) return res.status(401).json({ message: 'Wrong email or password!' });
+    if (!isMatch) {
+      let responser = new Responser(401, 'Wrong email or password!');
+      return responser.respond(res);
+    }
     user.userToken.token = user.createToken();
     user.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
     await user.save();
-    res.status(200).json({
-      message: 'logged in successfully',
-      token: user.userToken.token,
-    });
+    let responser = new Responser(200, 'Login Success', { token: user.userToken.token });
+    return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
   }
@@ -57,12 +68,19 @@ const verfiyEmail = async (req, res, next) => {
   try {
     const { token, uid } = req.query;
     const user = await User.findById(uid);
-    if (!user) return next(new NotFoundError('User not found'));
+    if (!user) {
+      let responser = new Responser(403, 'Invalid Verify Token');
+      return responser.respond(res);
+    }
     let isValidToken = user.validateVerifyCode(token);
-    if (!isValidToken) return res.status(403).json({ message: 'invalid token' });
+    if (!isValidToken) {
+      let responser = new Responser(403, 'Invalid Verify Token');
+      return responser.respond(res);
+    }
     user.emailVerify.isVerified = true;
     await user.save();
-    res.status(200).send('email verified you can close this page now');
+    let responser = new Responser(200, 'email verified you can close this page now');
+    return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
   }
@@ -71,34 +89,29 @@ const verfiyEmail = async (req, res, next) => {
 const sendVerifyEmail = async (req, res, next) => {
   try {
     let user = await User.findById(req.userId);
-    if (!user) return next(new NotFoundError('User not found'));
+    if (!user) {
+      let responser = new Responser(401, 'Authentication failed: Invalid token');
+      return responser.respond(res);
+    }
     await user.sendVerifyEmail();
-    res.status(200).json({ message: 'Verify code sent to your email' });
+    let responser = new Responser(200, 'Verify code sent to your email');
+    return responser.respond(res);
   } catch (error) {
-    if (error.message == 'already verified')
-      return res.status(403).json({ message: error.message });
+    if (error.message == 'already verified') return res.status(403).json({ message: error.message });
     else next(new InternalError('Internal error', error.message));
-  }
-};
-const changePassword = async (req, res, next) => {
-  const { currentPassword, newPassword } = req.body;
-
-  try {
-    const user = await User.findById(req.userId);
-    if (!user) return next(new NotFoundError('User not found'));
-    await user.changePassword(currentPassword, newPassword);
-    res.status(200).json({ message: 'Password changed successfully' });
-  } catch (error) {
-    next(new InternalError('Internal error', error.message));
   }
 };
 
 const resetPasswordRequest = async (req, res, next) => {
   try {
     let user = await User.getUserByEmail(req.body.email);
-    if (!user) return res.status(404).json({ message: 'User not found' });
+    if (!user) {
+      let responser = new Responser(403, 'Invalid email');
+      return responser.respond(res);
+    }
     await user.sendResetEmail();
-    res.status(200).json({ message: 'reset code sent to your email' });
+    let responser = new Responser(200, 'Check your email for reset token it will expire in 24h');
+    return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
   }
@@ -109,11 +122,18 @@ const resetPassword = async (req, res, next) => {
     let { resetToken } = req.params;
     let { email, newPassword } = req.body;
     let user = await User.getUserByEmail(email);
-    if (!user) return res.status(404).json({ message: 'User not found' });
-    if (user.passwordReset.token != resetToken)
-      return res.status(403).json({ message: 'invalid token' });
+    if (!user) {
+      let responser = new Responser(403, 'Invalid email');
+      return responser.respond(res);
+    }
+    let isValid = user.validateResetToken(resetToken);
+    if (!isValid) {
+      let responser = new Responser(403, 'Invalid Token');
+      return responser.respond(res);
+    }
     let reset = await user.resetPassword(newPassword);
-    res.status(200).json({ message: reset });
+    let responser = new Responser(403, reset);
+    return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
   }
@@ -123,10 +143,17 @@ const validateResetToken = async (req, res, next) => {
   try {
     let { email, resetToken } = req.body;
     let user = await User.getUserByEmail(email);
-    if (!user) return res.status(404).json({ message: 'User not found' });
+    if (!user) {
+      let responser = new Responser(403, 'Invalid email');
+      return responser.respond(res);
+    }
     let isValid = user.validateResetToken(resetToken);
-    if (isValid) return res.status(403).json({ message: 'invalid token' });
-    res.status(200).json({ message: 'valid token', isValid });
+    if (!isValid) {
+      let responser = new Responser(403, 'Invalid Token');
+      return responser.respond(res);
+    }
+    let responser = new Responser(200, 'Validation Success', { isValid });
+    return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
   }
@@ -136,7 +163,6 @@ module.exports = {
   signup,
   login,
   verfiyEmail,
-  changePassword,
   resetPasswordRequest,
   resetPassword,
   sendVerifyEmail,

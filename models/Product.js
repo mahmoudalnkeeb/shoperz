@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
-class ProductClass {}
+class ProductClass {
+  async getDiscountedPrice() {
+    return (this.price * ((100 - this.discount) / 100)).toFixed(2);
+  }
+}
 
 const productSchema = new mongoose.Schema(
   {
@@ -21,6 +25,10 @@ const productSchema = new mongoose.Schema(
       type: [String],
       required: true,
     },
+    thumbnail: {
+      type: String,
+      required: true,
+    },
     category_id: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
@@ -31,9 +39,12 @@ const productSchema = new mongoose.Schema(
     },
     brand: {
       type: String,
+      required: true,
     },
     colors: {
       type: [String],
+      required: true,
+      default: [],
     },
     specifications: {
       type: mongoose.Schema.Types.Mixed,
@@ -48,15 +59,18 @@ const productSchema = new mongoose.Schema(
       required: true,
       min: 0,
       max: 100,
+      default: 0,
+    },
+    rating: {
+      type: Number,
+      min: 0,
+      max: 5,
+      required: true,
+      default: 0,
     },
   },
   { timestamps: true }
 );
-productSchema.virtual('discountedPrice').get(function () {
-  const discountPercentage = this.discount / 100;
-  const discountedPrice = this.price - this.price * discountPercentage;
-  return discountedPrice;
-});
 
 productSchema.loadClass(ProductClass);
 const Product = mongoose.model('Product', productSchema);

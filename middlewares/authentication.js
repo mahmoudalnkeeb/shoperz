@@ -1,32 +1,33 @@
 const jwt = require('jsonwebtoken');
 const envVars = require('../configs/env');
 const User = require('../models/User');
+const Responser = require('../utils/responser');
 
 async function authMiddleware(req, res, next) {
   try {
     const token = req.headers.authorization;
     if (!token) {
-      return res
-        .status(401)
-        .json({ message: 'Authentication failed: No token provided' });
+      let responser = new Responser(401, 'Authentication failed: No token provided');
+      return responser.respond(res);
     }
-
     const decodedToken = jwt.verify(token, envVars.jwtSecret);
     const user = await User.findById(decodedToken.userId);
     if (!user) {
-      return res.status(404).json({ message: 'User not found' });
+      let responser = new Responser(401, 'User Not Found:Invalid Token');
+      return responser.respond(res);
     }
     let isEqual = user.userToken.token == token;
     let isExpired = user.userToken.tokenEXP <= new Date(Date.now());
     if (isEqual && !isExpired) {
       req.userId = user._id;
       next();
-    } else
-      return res
-        .status(401)
-        .json({ message: 'Authentication failed: Invalid Or expired token ' });
+    } else {
+      let responser = new Responser(401, 'Authentication failed: Invalid Or expired token ');
+      return responser.respond(res);
+    }
   } catch (error) {
-    return res.status(401).json({ message: 'Authentication failed: Invalid token' });
+    let responser = new Responser(401, 'Authentication failed: Invalid token');
+    return responser.respond(res);
   }
 }
 

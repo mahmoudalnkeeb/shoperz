@@ -19,6 +19,8 @@ const getCategoryById = async (req, res, next) => {
   }
 };
 
+// dashboard
+
 const createCategory = async (req, res, next) => {
   try {
     const category = new Category(req.body);

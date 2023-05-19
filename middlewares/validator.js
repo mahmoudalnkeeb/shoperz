@@ -1,4 +1,5 @@
 const Joi = require('joi');
+const Responser = require('../utils/responser');
 
 const reqValidator = (schema) => {
   return (req, res, next) => {
@@ -11,7 +12,7 @@ const reqValidator = (schema) => {
     if (Object.keys(schema.body).length !== 0) {
       const { error } = Joi.object(schema.body).validate(body);
       if (error) {
-        errors.push({ field: 'body', error: error.details[0].message });
+        errors.push({ field: 'body', error: error.details });
       }
     }
 
@@ -19,7 +20,7 @@ const reqValidator = (schema) => {
     if (Object.keys(schema.query).length !== 0) {
       const { error } = Joi.object(schema.query).validate(query);
       if (error) {
-        errors.push({ field: 'query', error: error.details[0].message });
+        errors.push({ field: 'query', error: error.details });
       }
     }
 
@@ -27,25 +28,17 @@ const reqValidator = (schema) => {
     if (Object.keys(schema.params).length !== 0) {
       const { error } = Joi.object(schema.params).validate(params);
       if (error) {
-        errors.push({ field: 'params', error: error.details[0].message });
+        errors.push({ field: 'params', error: error.details });
       }
     }
 
     if (errors.length > 0) {
-      const validationError = makeValidationError(errors);
-      return res.status(validationError.code).json(validationError);
+      let responser = new Responser(403, 'invalid request data', null, errors);
+      return responser.respond(res);
     } else {
       next();
     }
   };
 };
-
-function makeValidationError(errors) {
-  return {
-    errors,
-    message: 'Validation error',
-    code: 403,
-  };
-}
 
 module.exports = reqValidator;

@@ -8,7 +8,6 @@ const {
   signup,
   login,
   verfiyEmail,
-  changePassword,
   resetPasswordRequest,
   resetPassword,
   sendVerifyEmail,
@@ -19,17 +18,12 @@ const authMiddleware = require('../middlewares/authentication');
 
 const authRouter = require('express').Router();
 
-authRouter.get('/', (req, res) => res.send('test auth'));
 authRouter.post('/signup', reqValidator(signupSchema), signup);
 authRouter.post('/login', reqValidator(loginSchema), login);
+
+// email access required endpoints
 authRouter.get('/verify-email', reqValidator(verfiyEmailSchema), verfiyEmail);
 authRouter.get('/send-verify-email', authMiddleware, sendVerifyEmail);
-authRouter.put(
-  '/change-password',
-  reqValidator(changePasswordSchema),
-  authMiddleware,
-  changePassword
-);
 authRouter.post('/resetpassword', resetPasswordRequest);
 authRouter.post('/resetpassword/:resetToken', resetPassword);
 authRouter.post('/validateresettoken', validateResetToken);

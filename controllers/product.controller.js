@@ -1,4 +1,5 @@
 const Product = require('../models/Product');
+const Responser = require('../utils/responser');
 
 const getProducts = async (req, res, next) => {
   try {
@@ -8,7 +9,12 @@ const getProducts = async (req, res, next) => {
       limit: limit,
       sort: { [sort]: order == 'asc' ? 1 : -1 },
     }).lean();
-    res.status(200).json(products);
+    let responser = new Responser(200, 'Success', {
+      products,
+      count: products.length,
+      nextLastId: products[products.length - 1]._id,
+    });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }
@@ -17,17 +23,21 @@ const getProductById = async (req, res, next) => {
   try {
     const id = req.params.id;
     const product = await Product.findById(id);
-    res.status(200).json(product);
+    let responser = new Responser(200, 'Success', { product });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }
 };
 
+// dashboard
+
 const createProduct = async (req, res, next) => {
   try {
     const product = new Product(req.body);
     let newProduct = await product.save();
-    res.status(201).json(newProduct);
+    let responser = new Responser(201, 'created successfully', { newProduct });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }
@@ -36,7 +46,8 @@ const createProduct = async (req, res, next) => {
 const createProducts = async (req, res, next) => {
   try {
     const products = await Product.create(req.body.products);
-    res.status(201).json(products);
+    let responser = new Responser(201, 'created successfully', { products });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }
@@ -49,7 +60,8 @@ const updateProduct = async (req, res, next) => {
       new: true,
     });
     await product.save();
-    res.status(200).json(product);
+    let responser = new Responser(201, 'updated successfully', { product: product._id });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }
@@ -59,7 +71,8 @@ const deleteProduct = async (req, res, next) => {
   try {
     const id = req.params.id;
     const product = await Product.findByIdAndDelete(id);
-    res.status(200).json(product);
+    let responser = new Responser(200, 'deleted successfully', { product: product._id });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }

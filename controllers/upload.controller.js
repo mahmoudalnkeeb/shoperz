@@ -1,4 +1,5 @@
 const uploadFile = require('../utils/firebaseStorage');
+const Responser = require('../utils/responser');
 
 const uploadProductImages = async (req, res, next) => {
   try {
@@ -7,7 +8,8 @@ const uploadProductImages = async (req, res, next) => {
       let url = await uploadFile(req.files[file], 'products');
       urls.push(url);
     }
-    res.status(200).json(urls);
+    let responser = new Responser(201, 'uploaded successfully', { urls });
+    return responser.respond(res);
   } catch (error) {
     next(error);
   }
