@@ -45,6 +45,7 @@ const removeFromCart = async (req, res, next) => {
     next(new InternalError('Internal Error while removing item from cart'), error);
   }
 };
+
 const updateItemQuantity = async (req, res, next) => {
   try {
     let { productId, quantity } = req.params;

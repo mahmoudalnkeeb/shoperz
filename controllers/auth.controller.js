@@ -10,9 +10,13 @@ const signup = async (req, res, next) => {
   try {
     const { fullname, email, password, phone } = req.body;
     let isEmailExists = await User.getUserByEmail(email);
-    let isPhoneExists = await User.find({ phone });
+    let isPhoneExists = await User.findOne({ phone });
+    console.log({
+      isEmailExists,
+      isPhoneExists,
+    });
     if (isEmailExists || isPhoneExists) {
-      let responser = new Responser(403, 'invalid user data');
+      let responser = new Responser(403, 'Email or Phone not available');
       return responser.respond(res);
     }
     let newUser = new User({
