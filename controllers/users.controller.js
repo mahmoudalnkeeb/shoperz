@@ -1,4 +1,4 @@
-const { NotFoundError } = require('../middlewares/errorhandler');
+const { InternalError } = require('../middlewares/errorhandler');
 const User = require('../models/User');
 const Responser = require('../utils/responser');
 
