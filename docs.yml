@@ -1,0 +1,92 @@
+openapi: 3.0.0
+info:
+  title: API Documentation
+  version: '1.0'
+paths:
+  /auth/signup:
+    post:
+      summary: User Signup
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                fullname:
+                  type: string
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+                  minLength: 8
+                phone:
+                  type: string
+      responses:
+        '200':
+          description: Signup successful
+        '400':
+          description: Invalid request data
+  /auth/login:
+    post:
+      summary: User Login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Login successful
+        '400':
+          description: Invalid request data
+  /auth/verify-email:
+    get:
+      summary: Verify Email
+      parameters:
+        - in: query
+          name: token
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: uid
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Email verification successful
+        '400':
+          description: Invalid request data
+  /users/change-password:
+    post:
+      summary: Change Password
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                currentPassword:
+                  type: string
+                  minLength: 8
+                newPassword:
+                  type: string
+                  minLength: 8
+                newPasswordRepeat:
+                  type: string
+      responses:
+        '200':
+          description: Password changed successfully
+        '400':
+          description: Invalid request data
