@@ -7,7 +7,7 @@ class Responser {
   }
 
   respond(res) {
-    res.status(this.code).json({ message: this.message, data: this.data });
+    res.status(this.code).json({ message: this.message, data: this.data, error: this.error });
   }
 }
 
