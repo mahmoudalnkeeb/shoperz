@@ -32,7 +32,8 @@ shoperz.use(express.urlencoded({ extended: true }));
 shoperz.use(express.json());
 shoperz.use(cors(corsOptions));
 shoperz.use(helmet());
-shoperz.use(morgan('dev', { stream: rfsStream }));
+if (process.env.NODE_ENV == 'development') shoperz.use(morgan('dev', { stream: rfsStream }));
+else shoperz.use(morgan('common'));
 // ROUTES
 shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);
