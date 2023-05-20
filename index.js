@@ -21,19 +21,19 @@ const corsOptions = {
 
 connectDB();
 
-// requests logs stream rotating
-const rfsStream = rfs.createStream('./logs/requests.log', {
-  size: '10M',
-  interval: '1d',
-  compress: 'gzip',
-});
 // MIDDLEWARES
 shoperz.use(express.urlencoded({ extended: true }));
 shoperz.use(express.json());
 shoperz.use(cors(corsOptions));
 shoperz.use(helmet());
-if (process.env.NODE_ENV == 'development') shoperz.use(morgan('dev', { stream: rfsStream }));
-else shoperz.use(morgan('common'));
+if (process.env.NODE_ENV == 'development') {
+  const rfsStream = rfs.createStream('./logs/requests.log', {
+    size: '10M',
+    interval: '1d',
+    compress: 'gzip',
+  });
+  shoperz.use(morgan('dev', { stream: rfsStream }));
+} else shoperz.use(morgan('common'));
 // ROUTES
 shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);
