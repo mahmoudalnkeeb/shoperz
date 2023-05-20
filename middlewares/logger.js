@@ -18,14 +18,17 @@ const logger = createLogger({
     prettyPrint(),
     colorize()
   ),
-  transports: [
-    fileRotateTransport,
-    new transports.File({
-      level: 'error',
-      filename: 'logs/error.log',
-    }),
-    new transports.Console(),
-  ],
+  transports:
+    process.env.NODE_ENV == 'development'
+      ? [
+          fileRotateTransport,
+          new transports.File({
+            level: 'error',
+            filename: 'logs/error.log',
+          }),
+          new transports.Console(),
+        ]
+      : [new transports.Console()],
 });
 
 module.exports = logger;
