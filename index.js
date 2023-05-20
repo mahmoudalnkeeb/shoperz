@@ -1,6 +1,9 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
+const morgan = require('morgan');
+const rfs = require('rotating-file-stream');
+const fs = require('fs');
 const authRouter = require('./routes/auth.router');
 const { errHandler, NotFoundError } = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
@@ -18,11 +21,18 @@ const corsOptions = {
 
 connectDB();
 
+// requests logs stream rotating
+const rfsStream = rfs.createStream('./logs/requests.log', {
+  size: '10M',
+  interval: '1d',
+  compress: 'gzip',
+});
 // MIDDLEWARES
-shoperz.use(helmet());
 shoperz.use(express.urlencoded({ extended: true }));
 shoperz.use(express.json());
 shoperz.use(cors(corsOptions));
+shoperz.use(helmet());
+shoperz.use(morgan('dev', { stream: rfsStream }));
 // ROUTES
 shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);

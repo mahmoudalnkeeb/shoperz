@@ -8,7 +8,7 @@ const changePassword = async (req, res, next) => {
   try {
     const user = await User.findById(req.userId);
     if (!user) {
-      let responser = new Responser(401, 'Authentication failed: Invalid token');
+      let responser = new Responser(401, 'Authentication failed: Invalid token' ,  null, 'authentication_error');
       return responser.respond(res);
     }
     await user.changePassword(currentPassword, newPassword);

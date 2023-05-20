@@ -10,30 +10,30 @@ const reqValidator = (schema) => {
 
     // Validate body
     if (Object.keys(schema.body).length !== 0) {
-      const { error } = Joi.object(schema.body).validate(body);
+      const { error } = Joi.object(schema.body).validate(body, { abortEarly: false });
       if (error) {
-        errors.push({ field: 'body', error: error.details });
+        errors.push(error.details.length == 1 ? error.details[0] : error.details);
       }
     }
 
     // Validate query
     if (Object.keys(schema.query).length !== 0) {
-      const { error } = Joi.object(schema.query).validate(query);
+      const { error } = Joi.object(schema.query).validate(query, { abortEarly: false });
       if (error) {
-        errors.push({ field: 'query', error: error.details });
+        errors.push(error.details.length == 1 ? error.details[0] : error.details);
       }
     }
 
     // Validate params
     if (Object.keys(schema.params).length !== 0) {
-      const { error } = Joi.object(schema.params).validate(params);
+      const { error } = Joi.object(schema.params).validate(params, { abortEarly: false });
       if (error) {
-        errors.push({ field: 'params', error: error.details });
+        errors.push(error.details.length == 1 ? error.details[0] : error.details);
       }
     }
 
     if (errors.length > 0) {
-      let responser = new Responser(403, 'invalid request data', null, errors);
+      let responser = new Responser(403, 'invalid request data', null, errors.flat());
       return responser.respond(res);
     } else {
       next();

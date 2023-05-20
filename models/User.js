@@ -69,7 +69,7 @@ class UserClass {
         name: fullname,
       });
       let mailOptions = {
-        from: 'shoperz team',
+        from: envVars.mailUser,
         to: email,
         subject: 'Shoperz verify your email',
         html: html,
@@ -92,7 +92,7 @@ class UserClass {
         name: fullname,
       });
       let mailOptions = {
-        from: 'shoperz team',
+        from: envVars.mailUser,
         to: email,
         subject: 'Shoperz reset password',
         html: html,
