@@ -1,6 +1,6 @@
 {
-  message: 'connected to shoperz database',
-  level: 'info',
-  label: 'custom logger',
-  timestamp: 'May-20-2023 23:14:16'
+    message: 'connected to shoperz database',
+    level: 'info',
+    label: 'custom logger',
+    timestamp: 'May-20-2023 23:14:16'
 }

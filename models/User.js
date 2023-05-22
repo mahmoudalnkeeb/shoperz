@@ -6,11 +6,16 @@ const path = require('path');
 const { renderTemplate, hashPassword } = require('../utils/utils');
 const { sendEmail } = require('../configs/nodemailer');
 const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs'));
-const RESET_TEMPLATE = path.resolve(
-  path.join(process.cwd(), './views/resetPassword.ejs')
-);
+const RESET_TEMPLATE = path.resolve(path.join(process.cwd(), './views/resetPassword.ejs'));
 
 class UserClass {
+  async refershToken() {
+    this.userToken.token = jwt.sign({ userId: this._id }, envVars.jwtSecret);
+    this.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
+    await this.save();
+    return this.userToken.token;
+  }
+
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
@@ -44,14 +49,6 @@ class UserClass {
       return bcrypt.compareSync(password, user.password);
     } catch (error) {
       throw new Error('error in comparing user password', error);
-    }
-  }
-
-  createToken() {
-    try {
-      return jwt.sign({ userId: this._id }, envVars.jwtSecret);
-    } catch (error) {
-      throw new Error('error in signing new token', error);
     }
   }
 

@@ -11,10 +11,6 @@ const signup = async (req, res, next) => {
     const { fullname, email, password, phone } = req.body;
     let isEmailExists = await User.getUserByEmail(email);
     let isPhoneExists = await User.findOne({ phone });
-    console.log({
-      isEmailExists,
-      isPhoneExists,
-    });
     if (isEmailExists || isPhoneExists) {
       let responser = new Responser(403, 'Email or Phone not available', null, 'validation_error');
       return responser.respond(res);
@@ -26,9 +22,7 @@ const signup = async (req, res, next) => {
       phone,
     });
     let user = await newUser.save();
-    user.userToken.token = user.createToken();
-    user.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
-    await user.save();
+    let token = await user.refershToken();
     let userWishlist = await Wishlist.createUserWishlist(user._id);
     let userCart = await Cart.createUserCart(user._id);
     let emailDetails = await user.sendVerifyEmail();
@@ -38,7 +32,7 @@ const signup = async (req, res, next) => {
       userCart,
       emailDetails,
     });
-    let responser = new Responser(201, 'Signup Success', { token: user.userToken.token });
+    let responser = new Responser(201, 'Signup Success', { token });
     return responser.respond(res);
   } catch (error) {
     logger.error(error);

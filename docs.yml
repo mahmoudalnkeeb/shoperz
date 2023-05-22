@@ -76,7 +76,7 @@ paths:
         '400':
           description: Invalid request data
   /users/change-password:
-    post:
+    put:
       summary: Change Password
       requestBody:
         required: true
