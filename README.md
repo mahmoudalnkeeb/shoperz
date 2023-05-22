@@ -20,4 +20,4 @@
 
 ### DOCS
 
-[Docs](https://documenter.getpostman.com/view/25478517/2s93kxcRaQ)
+[Docs](https://app.swaggerhub.com/apis/7odadocoding/shoperz-api/1.0.3)
