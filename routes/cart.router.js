@@ -1,4 +1,9 @@
-const { getUserCart, addToCart, removeFromCart, updateItemQuantity } = require('../controllers/cart.controller');
+const {
+  getUserCart,
+  addToCart,
+  removeFromCart,
+  updateItemQuantity,
+} = require('../controllers/cart.controller');
 const authMiddleware = require('../middlewares/authentication');
 const cartRouter = require('express').Router();
 

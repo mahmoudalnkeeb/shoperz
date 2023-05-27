@@ -1,24 +1,47 @@
 const mongoose = require('mongoose');
-const OrderProduct = require('./OrderProduct');
-
 class OrderClass {
-  async addProductsFromCart(cart) {
+  static async createOrder(addressId, paymentMethod , cart) {
     try {
-      const orderProducts = cart.items.map((item) => ({
-        order_id: this._id,
-        product_id: item.productId,
-        quantity: item.quantity,
-        price: item.price,
-      }));
-
-      await OrderProduct.insertMany(orderProducts);
-
-      if (this.status !== 'pending') {
-        this.status = 'pending';
-        await this.save();
+      let userId = cart.userId;
+      let products = cart.items;
+      let totalPrice = cart.getCartTotal();
+      let discountedTotal = cart.getCartDiscountedTotal();
+      let payment;
+      if (paymentMethod == 'cash_on_delivery') {
+        payment = {
+          method: paymentMethod,
+          status: 'cash_on_delivery',
+        };
+        let order = new this({
+          userId,
+          addressId,
+          products,
+          totalPrice,
+          discountedTotal,
+          payment,
+        });
+        return await order.save();
       }
+      // wait for payment
+      /*
+        let paymentProcess = pay(discountedTotal)
+        payment = {
+          method: paymentMethod,
+          status: paymentProcess.status
+          transaction_id: paymentProcess.transaction_id
+        };
+      */
+      // ----
 
-      return this;
+      let order = new this({
+        userId,
+        addressId,
+        products,
+        totalPrice,
+        discountedTotal,
+        payment,
+      });
+      return await order.save();
     } catch (error) {
       throw error;
     }
@@ -37,10 +60,27 @@ const orderSchema = new mongoose.Schema(
       ref: 'Address',
       required: true,
     },
+    products: {
+      type: [
+        {
+          product_id: {
+            type: mongoose.Schema.Types.ObjectId,
+            required: true,
+          },
+          quantity: {
+            type: Number,
+            required: true,
+            min: 1,
+          },
+        },
+      ],
+      required: true,
+    },
     status: {
       type: String,
-      enum: ['pending', 'completed', 'cancelled'],
+      enum: ['pending', 'awaiting_fulfillment', 'awaiting_shipment', 'shipped', 'completed', 'cancelled'],
       required: true,
+      default: 'pending',
     },
     totalPrice: {
       type: Number,
@@ -57,13 +97,15 @@ const orderSchema = new mongoose.Schema(
         method: {
           type: String,
           enum: ['credit_card', 'paypal', 'cash_on_delivery'],
+          default: 'cash_on_delivery',
         },
         transaction_id: {
           type: String,
         },
         status: {
           type: String,
-          enum: ['pending', 'success', 'failed'],
+          enum: ['pending', 'cash_on_delivery', 'success', 'failed'],
+          default: 'pendeing',
         },
       },
     },

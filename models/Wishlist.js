@@ -2,18 +2,18 @@ const mongoose = require('mongoose');
 
 class WishlistClass {
   // statics
-  static async addToWishlist(wishlistId, productId) {
+  static async addToWishlist(userId, productId) {
     try {
-      return await this.findByIdAndUpdate(wishlistId, { $push: { products: productId } });
+      return await this.findOneAndUpdate({ userId }, { $push: { products: productId } }, { new: true });
     } catch (error) {
       console.error('Error adding product to wishlist:', error);
       throw error;
     }
   }
 
-  static async removeFromWishlist(wishlistId, productId) {
+  static async removeFromWishlist(userId, productId) {
     try {
-      return await this.findByIdAndUpdate(wishlistId, { $pull: { products: productId } });
+      return await this.findOneAndUpdate({ userId }, { $pull: { products: productId } }, { new: true });
     } catch (error) {
       console.error('Error removing product from wishlist:', error);
       throw error;

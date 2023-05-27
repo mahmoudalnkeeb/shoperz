@@ -16,6 +16,7 @@
 - [x] add wishlist schema
 - [x] refactor reset password
 - [x] finish user cart
+- [ ] **VALIDATION**
 - [ ] finish orders
 
 ### DOCS

@@ -1,6 +1,22 @@
 const { InternalError } = require('../middlewares/errorhandler');
+const Order = require('../models/Order');
 const User = require('../models/User');
 const Responser = require('../utils/responser');
+
+// user profile
+const userInfo = async (req, res, next) => {
+  try {
+    let userId = req.userId;
+    let user = await User.findById(userId).select('fullname phone email');
+    let userOrders = await Order.find({ userId }).populate('products.productId');
+    let responser = new Responser(200, 'user info fetched', { user , userOrders });
+    return responser.respond(res);
+  } catch (error) {
+    next(new InternalError('Internal error', error.message));
+  }
+};
+
+// user settings
 
 const changePassword = async (req, res, next) => {
   const { currentPassword, newPassword } = req.body;
@@ -25,4 +41,4 @@ const changePassword = async (req, res, next) => {
   }
 };
 
-module.exports = { changePassword };
+module.exports = { changePassword , userInfo };

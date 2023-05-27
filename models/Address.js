@@ -6,13 +6,16 @@ class AddressClass {
       this.additionalLandmarks ? this.additionalLandmarks : 'N/A'
     } , ${this.street} , ${this.postalCode}`;
   }
+  static async resetDefault() {
+    await this.updateMany({ defult: true }, { defult: false });
+  }
 }
 
 const mongoose = require('mongoose');
 
 const addressSchema = new mongoose.Schema(
   {
-    user: {
+    userId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
       required: true,
