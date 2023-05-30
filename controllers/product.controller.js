@@ -4,6 +4,7 @@ const Responser = require('../utils/responser');
 const getProducts = async (req, res, next) => {
   try {
     const { limit, lastId, sort, order } = req.query;
+    console.log({ limit, lastId, sort, order });
     const products = await Product.find(lastId ? { _id: { $gt: lastId } } : {}, null, {
       limit: limit,
       sort: { [sort]: order == 'asc' ? 1 : -1 },
@@ -12,6 +13,90 @@ const getProducts = async (req, res, next) => {
       products,
       count: products.length,
       nextLastId: products[products.length - 1]._id,
+    });
+    return responser.respond(res);
+  } catch (error) {
+    next(error);
+  }
+};
+
+const getFeatured = async (req, res, next) => {};
+const getTopSellers = async (req, res, next) => {};
+
+// @desc get top rated products , can search with products related by specific category
+// @route /products/top-rated
+// @access Public
+// @params { limit: number , page : number ,relatedByCategory: ObjectId }
+
+const getTopRated = async (req, res, next) => {
+  try {
+    //
+    const { limit = 15, page = 1, relatedByCategory } = req.query;
+    const skip = +page * +limit;
+    const query = Product.find();
+    if (!relatedByCategory) {
+      query.where('rating').gte(4.0);
+      query.limit(limit);
+      query.skip(skip);
+    } else {
+      query.where('rating').gte(4.0);
+      query.limit(limit);
+      query.skip(skip);
+      query.where('category_id', relatedByCategory);
+    }
+    const topRatedProducts = await query;
+    const msg =
+      topRatedProducts?.length >= 1
+        ? 'The data was successfully obtained .'
+        : "There's no data here for now .";
+    const responser = new Responser(200, msg, {
+      products: topRatedProducts,
+      paginition: {
+        length: topRatedProducts?.length,
+        page,
+      },
+    });
+    return responser.respond(res);
+  } catch (error) {
+    //
+    next(error);
+  }
+};
+
+// @desc get big offered products , can search with products related by specific category
+// @route /products/mega-offers
+// @access Public
+// @params { limit: number , page : number ,relatedByCategory: ObjectId }
+
+const getMegaOffers = async (req, res, next) => {
+  try {
+    const { page = 1, limit = 3, relatedByCategory } = req.query;
+    const skip = +page * +limit;
+
+    const query = Product.find();
+    if (!relatedByCategory) {
+      query.where('discount').gte(25);
+      query.where('rating').gte(3.0);
+      query.skip(skip);
+      query.limit(limit);
+    } else {
+      query.where('discount').gte(25);
+      query.where('rating').gte(3.0);
+      query.skip(skip);
+      query.limit(limit);
+      query.where('category_id', relatedByCategory);
+    }
+    const megaOfferProducts = await query;
+    const msg =
+      megaOfferProducts?.length >= 1
+        ? 'The data was successfully obtained .'
+        : "There's no data here for now .";
+    const responser = new Responser(200, msg, {
+      products: megaOfferProducts,
+      paginition: {
+        length: megaOfferProducts?.length,
+        page,
+      },
     });
     return responser.respond(res);
   } catch (error) {
@@ -28,7 +113,6 @@ const getProductById = async (req, res, next) => {
     next(error);
   }
 };
-
 // dashboard
 
 const createProduct = async (req, res, next) => {
@@ -83,4 +167,8 @@ module.exports = {
   createProducts,
   updateProduct,
   deleteProduct,
+  getFeatured,
+  getTopRated,
+  getMegaOffers,
+  getTopSellers,
 };

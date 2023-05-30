@@ -10,7 +10,7 @@ const connectDB = () => {
       dbName: envVars.dbName,
     })
     .then((res) => {
-      logger.info(`connected to ${res.connections[0].name} database`);
+      logger.info(`connected to ${res.connections[0].name} database successfully ..`);
     })
     .catch((err) => {
       logger.error('Failed to connect', err);
