@@ -1,4 +1,5 @@
 const Category = require('../models/Category');
+const slugify = require('slugify');
 
 const getAllCategories = async (req, res, next) => {
   try {
@@ -23,7 +24,12 @@ const getCategoryById = async (req, res, next) => {
 
 const createCategory = async (req, res, next) => {
   try {
-    const category = new Category(req.body);
+    const { name, description } = req.body;
+    const category = new Category({
+      name,
+      description,
+      slug: slugify(name),
+    });
     const newCategory = await category.save();
     res.status(200).json(newCategory);
   } catch (error) {

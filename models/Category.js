@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 class CategoryClass {
   static async getIdByName(name) {
     try {
@@ -16,10 +15,16 @@ const categorySchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
+      uniqe: [true, 'category name must be uniqe'],
     },
     description: {
       type: String,
       required: true,
+    },
+    slug: {
+      type: String,
+      required: true,
+      lowercase: true,
     },
   },
   { timestamps: true }
