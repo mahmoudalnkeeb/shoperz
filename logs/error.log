@@ -3170,3 +3170,1619 @@
   label: 'custom logger',
   timestamp: 'May-30-2023 16:13:50'
 }
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:36:44'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:36:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:36:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:26'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:44'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:09'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:45'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:14'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:45'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:03'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:11'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:41:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:41:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:45:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:45:45'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:45:45'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:46:28'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'createUserCart')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:46:28'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:52:25'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:52:25'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:53:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'createUserCart')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:53:05'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:22:59'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'createUserCart')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:22:59'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:25:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'CartClass is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:25:03'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:26:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'CartClass')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:26:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:17:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:17:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:12'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:30'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:29:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:29:58'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:30:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:30:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:30:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:11'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:30'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:32:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:34:12'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:34:47'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:35:28'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:36:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:38:34'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:38:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:37'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:40:40'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:40:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:40:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:41:19'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:41:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:53'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:44:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:45:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:45:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:46:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:51:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:51:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:51:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:59:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:59:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:59:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:00:37'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:01:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:01:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:01:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:02:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:02:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:02:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:03:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:03:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:03:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:04:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:05:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:05:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:05:58'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:06:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:06:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:07:22'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:08:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:09:34'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:33:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:33:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:33:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:35:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:58:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:59:52'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:03:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:03:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:03:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:04:09'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:19:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:19:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:20:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:20:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:20:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:23:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:27:14'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:28:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:29:01'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:31:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:31:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:31:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:30'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:34:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:34:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:34:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:35:10'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:37:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:38:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:42:22'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:42:56'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:09:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:09:01'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:08'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:58'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:11:33'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:11:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:11:56'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:32'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:47'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:47'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:57'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:14'
+}
+{
+  stringValue: '"search"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'search',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:21'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:14:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:14:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:15:35'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:19:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Cart.createUserCart is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:19:17'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:22:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Cart.createUserCart is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:22:35'
+}

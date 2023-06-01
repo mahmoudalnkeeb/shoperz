@@ -103,11 +103,38 @@ const getMegaOffers = async (req, res, next) => {
     next(error);
   }
 };
+
+// @desc search inside the products
+// @route /products/search/
+// @access Public
+// query { q : string }
+
 const getProductById = async (req, res, next) => {
   try {
     const id = req.params.id;
     const product = await Product.findById(id);
     let responser = new Responser(200, 'Success', { product });
+    return responser.respond(res);
+  } catch (error) {
+    next(error);
+  }
+};
+
+const searchInProducts = async (req, res, next) => {
+  try {
+    const { q } = req.query;
+    const regexQuery = new RegExp(`^${q}`, 'i', 'g');
+    const products = await Product.find({ name: { $regex: regexQuery } }).select('_id name thumbnail');
+
+    const msg =
+      products?.length >= 1 ? 'The data was successfully obtained .' : "There's no data here for now .";
+    const responser = new Responser(200, msg, {
+      products,
+      paginition: {
+        length: products?.length,
+      },
+    });
+
     return responser.respond(res);
   } catch (error) {
     next(error);
@@ -171,4 +198,5 @@ module.exports = {
   getTopRated,
   getMegaOffers,
   getTopSellers,
+  searchInProducts,
 };

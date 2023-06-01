@@ -1,6 +1,6 @@
 const { InternalError, NotFoundError } = require('../middlewares/errorhandler');
 const logger = require('../middlewares/logger');
-const { Cart } = require('../models/Cart');
+const Cart = require('../models/Cart');
 const User = require('../models/User');
 const Wishlist = require('../models/Wishlist');
 const Responser = require('../utils/responser');

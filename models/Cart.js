@@ -24,9 +24,7 @@ class CartClass {
 
   async updateItemQuantity(productId, quantity) {
     try {
-      const itemIndex = this.items.findIndex(
-        (item) => item.productId.toString() === productId.toString()
-      );
+      const itemIndex = this.items.findIndex((item) => item.productId.toString() === productId.toString());
 
       if (itemIndex !== -1) {
         this.items[itemIndex].quantity = quantity;
@@ -55,8 +53,7 @@ class CartClass {
     await this.populate('items.productId');
     let discountedTotal = 0;
     for (const item of this.items) {
-      let discountedPrice =
-        item.productId.price * ((100 - item.productId.discount) / 100);
+      let discountedPrice = item.productId.price * ((100 - item.productId.discount) / 100);
       discountedTotal += discountedPrice * item.quantity;
     }
     return +discountedTotal.toFixed(2);
@@ -103,4 +100,4 @@ cartSchema.loadClass(CartClass);
 
 const Cart = mongoose.model('Cart', cartSchema);
 
-module.exports = { Cart };
+module.exports = Cart;

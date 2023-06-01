@@ -12,6 +12,8 @@ const categoryRouter = require('./routes/category.router');
 const productRouter = require('./routes/product.router');
 const cartRouter = require('./routes/cart.router');
 const userRouter = require('./routes/user.router');
+const wishlistRouter = require('./routes/wishlist.router');
+const addressRouter = require('./routes/address.router');
 require('dotenv').config();
 const shoperz = express();
 const corsOptions = {
@@ -41,14 +43,16 @@ shoperz.use('/categories', categoryRouter);
 shoperz.use('/products', productRouter);
 shoperz.use('/cart', cartRouter);
 shoperz.use('/users', userRouter);
+shoperz.use('/wishlist', wishlistRouter);
+shoperz.use('/address', addressRouter);
 
 // ERROR HANDLING
 shoperz.use('*', (req, res, next) => next(new NotFoundError('this path not found')));
 shoperz.use(errHandler);
 
 // START SERVER ON PORT
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 shoperz.listen(PORT, () => {
-  console.log('API RUNNING');
+  console.log(`API NOW IS RUNNING ON PORT ==> ${PORT} `);
 });
