@@ -104,8 +104,8 @@ const getMegaOffers = async (req, res, next) => {
   }
 };
 
-// @desc search inside the products
-// @route /products/search/
+// @desc search inside the products and return list of matched product
+// @route /products/search
 // @access Public
 // query { q : string }
 
@@ -119,7 +119,6 @@ const getProductById = async (req, res, next) => {
     next(error);
   }
 };
-
 const searchInProducts = async (req, res, next) => {
   try {
     const { q } = req.query;
