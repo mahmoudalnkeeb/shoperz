@@ -1,0 +1,4788 @@
+{
+  level: 'error',
+  message: 'Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at connectDB (D:\\my-work\\shoperz-api\\configs\\db.js:7:6)\n' +
+    '    at Object.<anonymous> (D:\\my-work\\shoperz-api\\index.js:22:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1117:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:958:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  label: 'custom logger',
+  timestamp: 'May-25-2023 21:42:43'
+}
+{
+  level: 'error',
+  message: 'Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at connectDB (D:\\my-work\\shoperz-api\\configs\\db.js:7:6)\n' +
+    '    at Object.<anonymous> (D:\\my-work\\shoperz-api\\index.js:22:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1117:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:958:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 10:40:30'
+}
+{
+  level: 'error',
+  message: 'Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at connectDB (D:\\my-work\\shoperz-api\\configs\\db.js:7:6)\n' +
+    '    at Object.<anonymous> (D:\\my-work\\shoperz-api\\index.js:22:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1117:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:958:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 10:40:55'
+}
+{
+  level: 'error',
+  message: 'Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at connectDB (D:\\my-work\\shoperz-api\\configs\\db.js:7:6)\n' +
+    '    at Object.<anonymous> (D:\\my-work\\shoperz-api\\index.js:22:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1117:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:958:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:04:31'
+}
+{
+  level: 'error',
+  message: 'Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at connectDB (D:\\my-work\\shoperz-api\\configs\\db.js:7:6)\n' +
+    '    at Object.<anonymous> (D:\\my-work\\shoperz-api\\index.js:22:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1117:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:958:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:05:04'
+}
+{
+  level: 'error',
+  message: 'Failed to connect The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at _createMongoClient (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:805:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:742:29)\n' +
+    '    at Mongoose.connect (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\index.js:406:15)\n' +
+    '    at connectDB (D:\\my-work\\shoperz-api\\configs\\db.js:7:6)\n' +
+    '    at Object.<anonymous> (D:\\my-work\\shoperz-api\\index.js:22:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1117:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:958:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:07:55'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 425147147,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:10:58'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 425757068,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
+    '    at listOnTimeout (node:internal/timers:538:9)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:21:08'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 426058074,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:26:10'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 426356885,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:31:08'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 426562936,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
+    '    at listOnTimeout (node:internal/timers:538:9)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:34:34'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 426713257,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
+    '    at listOnTimeout (node:internal/timers:538:9)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:37:04'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 426764349,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:37:56'
+}
+{
+  message: 'Failed to connect connect ECONNREFUSED ::1:27017',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 426810772,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:370:20)
+            at Socket.<anonymous> (D:\my-work\shoperz-api\node_modules\mongodb\lib\cmap\connect.js:293:22)
+            at Object.onceWrapper (node:events:628:26)
+            at Socket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n' +
+    '    at _handleConnectionErrors (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
+    '    at listOnTimeout (node:internal/timers:538:9)\n' +
+    '    at process.processTimers (node:internal/timers:512:7)',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:38:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:04'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:16'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:31'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:42:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:19'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:26'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:32'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:37'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:38'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:52'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:43:52'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:44:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:44:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:44:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:44:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:47'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:45:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:47:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 11:47:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:42:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:42:40'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:42:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:42:43'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:45:09'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:45:09'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 12:58:24'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:00:09'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:02:23'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:02:49'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:02:59'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:04:01'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:04:52'
+}
+{
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `stock` is required.',
+        type: 'required',
+        path: 'stock',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    brand: ValidatorError: Path `brand` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `brand` is required.',
+        type: 'required',
+        path: 'brand',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'brand',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    sku: ValidatorError: Path `sku` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `sku` is required.',
+        type: 'required',
+        path: 'sku',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'sku',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    category_id: ValidatorError: Path `category_id` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `category_id` is required.',
+        type: 'required',
+        path: 'category_id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'category_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `thumbnail` is required.',
+        type: 'required',
+        path: 'thumbnail',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `price` is required.',
+        type: 'required',
+        path: 'price',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Product validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:06:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:09:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:16:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:16:30'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:16:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:16:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:17:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:17:18'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:17:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:17:50'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:19:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:19:32'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:19:34'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:19:34'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:20:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:20:00'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:20:26'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:20:28'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:21:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:21:44'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:21:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:21:46'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:22:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:22:21'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:22:37'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:22:37'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:26:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:26:32'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:26:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:26:39'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:26:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:26:42'
+}
+{
+  stringValue: '"top-rated"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'top-rated',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:30:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:30:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:32:03'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:33:19'
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:33:40',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:34:06',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:34:08',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:34:15',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:36:01'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:36:40'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:36:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:36:58'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:53:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:54:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:55:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:55:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 13:57:30'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:08:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:09:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:09:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:09:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:10:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:10:11'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:10:18'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:10:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:10:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:11:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 14:11:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:20:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:20:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:23:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:23:25'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:23:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:23:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:24:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:24:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:46:22'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:46:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:46:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:47:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:47:47'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:47:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:47:58'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:48:26'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:50:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:50:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:50:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:50:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:50:53'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:51:28'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:51:40'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:51:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:52:03'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:52:14'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:52:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:52:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:52:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:52:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 15:53:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:06:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:06:40'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:06:41'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:08:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:08:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:09:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:10:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:11:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:11:28'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:11:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:11:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:12:10'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:12:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:12:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:13:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:13:19'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:13:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:13:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-30-2023 16:13:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:36:44'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:36:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:36:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:26'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:44'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:37:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:09'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:45'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:38:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:02'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:14'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:45'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:39:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:03'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:11'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:40:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:41:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:41:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:45:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:45:45'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:45:45'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:46:28'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'createUserCart')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:46:28'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:52:25'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:52:25'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:53:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'createUserCart')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 14:53:05'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:22:59'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'createUserCart')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:22:59'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:25:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'CartClass is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:25:03'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:26:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'CartClass')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'May-31-2023 17:26:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:17:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:17:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:12'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:18:30'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:29:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:29:58'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:30:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:30:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:30:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:11'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:31:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:30'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:46'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 13:32:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:32:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:34:12'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:34:47'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:35:28'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:36:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:38:34'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:38:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:16'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:39:37'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:40:40'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:40:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:40:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:41:19'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:41:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:05'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:53'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:43:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:44:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:45:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:45:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:46:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:47:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:51:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:51:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:51:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:59:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:59:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 14:59:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:00:37'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:01:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:01:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:01:54'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:02:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:02:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:02:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:03:15'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:03:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:03:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:04:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:05:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:05:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:05:58'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:06:35'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:06:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:07:22'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:08:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:09:34'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:29'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:10:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:17'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:21'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:24'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:11:43'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:33:07'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:33:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:33:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:35:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:58:51'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 15:59:52'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:03:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:03:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:03:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:04:09'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:19:36'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:19:48'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:20:06'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:20:18'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:20:38'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:23:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:27:14'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:28:41'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:29:01'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:31:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:31:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:31:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:04'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:27'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:33:30'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:34:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:34:25'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:34:42'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:35:10'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:37:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:38:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:42:22'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 16:42:56'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:09:00'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:09:01'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:08'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:08'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:50'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:57'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:10:58'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:11:33'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:11:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:11:56'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:32'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:47'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:47'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:56'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:12:57'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:13'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:14'
+}
+{
+  stringValue: '"search"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'search',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\my-work\shoperz-api\node_modules\bson\lib\bson.cjs:2024:23)
+      at castObjectId (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1614:15)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._findOne (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2470:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28),
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:20'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:21'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:32'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:13:33'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:14:31'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:14:55'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 17:15:35'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:19:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Cart.createUserCart is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:19:17'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:22:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Cart.createUserCart is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 21:22:35'
+}

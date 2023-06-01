@@ -51,8 +51,8 @@ shoperz.use('*', (req, res, next) => next(new NotFoundError('this path not found
 shoperz.use(errHandler);
 
 // START SERVER ON PORT
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 shoperz.listen(PORT, () => {
-  console.log('API RUNNING');
+  console.log(`API NOW IS RUNNING ON PORT ==> ${PORT} `);
 });
