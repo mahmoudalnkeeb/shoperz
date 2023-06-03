@@ -53,7 +53,7 @@ const login = async (req, res, next) => {
       let responser = new Responser(401, 'Wrong email or password!', null, 'validation_error');
       return responser.respond(res);
     }
-    user.userToken.token = user.createToken();
+    user.userToken.token = user.refershToken();
     user.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
     await user.save();
     let responser = new Responser(200, 'Login Success', { token: user.userToken.token });
