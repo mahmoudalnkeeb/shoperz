@@ -2086,3 +2086,9 @@
   label: 'custom logger',
   timestamp: 'Jun-01-2023 21:28:45'
 }
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-01-2023 22:03:51'
+}

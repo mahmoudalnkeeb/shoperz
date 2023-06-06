@@ -1,0 +1,278 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:17:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:18:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:18:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:19:35'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:29:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:32:49'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:34:04'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:36:34'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:36:34'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:37:31'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:42:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:44:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:45:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:49:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:50:28'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:51:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:52:28'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:54:03'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:54:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:55:59'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:12:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:13:39'
+}
+{
+  message: 'mail service ready',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:14:16'
+}
+{
+  message: {
+    user_id: new ObjectId("647f3f37d1aa56dd937585d7"),
+    userWishlist: {
+      userId: new ObjectId("647f3f37d1aa56dd937585d7"),
+      products: [],
+      _id: new ObjectId("647f3f37d1aa56dd937585d9"),
+      createdAt: 2023-06-06T14:14:15.932Z,
+      updatedAt: 2023-06-06T14:14:15.932Z,
+      __v: 0
+    },
+    userCart: {
+      userId: new ObjectId("647f3f37d1aa56dd937585d7"),
+      _id: new ObjectId("647f3f37d1aa56dd937585db"),
+      items: [],
+      createdAt: 2023-06-06T14:14:15.936Z,
+      updatedAt: 2023-06-06T14:14:15.936Z,
+      __v: 0
+    },
+    emailDetails: {
+      accepted: [ '0f8f14464f@mymaily.lol' ],
+      rejected: [],
+      ehlo: [
+        'SIZE 35882577',
+        '8BITMIME',
+        'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',
+        'ENHANCEDSTATUSCODES',
+        'PIPELINING',
+        'CHUNKING',
+        'SMTPUTF8'
+      ],
+      envelopeTime: 749,
+      messageTime: 1842,
+      messageSize: 1518,
+      response: '250 2.0.0 OK  1686060905 m9-20020a7bce09000000b003f7e6d7f71esm5037880wmc.36 - gsmtp',
+      envelope: {
+        from: 'shoperzshop1@gmail.com',
+        to: [ '0f8f14464f@mymaily.lol' ]
+      },
+      messageId: '<3d548f21-4699-6ad6-f302-4ce8c2d70967@gmail.com>'
+    }
+  },
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:14:19'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:14:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Error , The _id key in not provided ',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:14:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:17:15'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:17:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Error , The _id key is not provided , expected ObjectId but got :  undefined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:17:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:17:53'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:18:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Error , The _id key is not provided , expected ObjectId but got :  647f3f37d1aa56dd937585d7',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:18:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:19:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:20:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:20:38'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:20:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:21:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:22:21'
+}

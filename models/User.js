@@ -9,13 +9,6 @@ const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './views/verifyEma
 const RESET_TEMPLATE = path.resolve(path.join(process.cwd(), './views/resetPassword.ejs'));
 
 class UserClass {
-  async refershToken() {
-    this.userToken.token = jwt.sign({ userId: this._id }, envVars.jwtSecret);
-    this.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
-    await this.save();
-    return this.userToken.token;
-  }
-
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
@@ -40,15 +33,6 @@ class UserClass {
       return 'Password changed successfully';
     } catch (error) {
       throw new Error('Error while changing password', error);
-    }
-  }
-
-  comparePassword(password) {
-    try {
-      let user = this;
-      return bcrypt.compareSync(password, user.password);
-    } catch (error) {
-      throw new Error('error in comparing user password', error);
     }
   }
 
@@ -111,6 +95,33 @@ class UserClass {
     let isExpired = this.passwordReset.codeExpirationDate <= new Date(Date.now());
     if (isEqual && !isExpired) return true;
     return false;
+  }
+
+  comparePassword(password) {
+    try {
+      let user = this;
+      return bcrypt.compareSync(password, user.password);
+    } catch (error) {
+      throw new Error('error in comparing user password', error);
+    }
+  }
+
+  createNewToken(user_id) {
+    const secret = envVars.jwtSecret;
+    const payload = {
+      userId: this._id || user_id,
+    };
+    if (!secret) {
+      console.error('ERROR !! , Secret key is not exist in env variables ');
+      return process.exit(1);
+    }
+    if (!this._id && !user_id) {
+      throw Error(
+        `Error , The _id key is not provided , expected ObjectId but got :  ${this._id || user_id}`
+      );
+    }
+    const token = jwt.sign(payload, secret);
+    return token;
   }
 
   // utility create verify url

@@ -1,0 +1,237 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:22:01'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:23:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:23:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:26:02'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:26:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:26:02'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:39:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:39:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:55:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:56:29'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'User.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:56:29'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:57:39'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:57:52'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:57:52'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:58:10'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:58:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:58:14'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:07'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:35'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:37'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:37'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:00:49'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:00:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:00:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:02:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:02:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:02:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:03:05'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:03:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:03:06'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:13:45'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:13:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:13:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:14:28'
+}

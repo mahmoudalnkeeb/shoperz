@@ -37,6 +37,9 @@ if (process.env.NODE_ENV == 'development') {
   shoperz.use(morgan('dev', { stream: rfsStream }));
 } else shoperz.use(morgan('common'));
 // ROUTES
+shoperz.get('/', (req, res) => {
+  res.send({ message: 'Welcome back to Shoperz e-commerce API We wish you a happy day .ن' });
+});
 shoperz.use('/auth', authRouter);
 shoperz.use('/upload', uploadRouter);
 shoperz.use('/categories', categoryRouter);
