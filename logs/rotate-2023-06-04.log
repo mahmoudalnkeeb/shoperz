@@ -1,0 +1,159 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 10:52:09'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 10:55:50'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 10:55:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:28:59'
+}
+{
+  message: 'mail service ready',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:32:27'
+}
+{
+  message: {
+    user_id: new ObjectId("647c926a97f49823c2744690"),
+    userWishlist: {
+      userId: new ObjectId("647c926a97f49823c2744690"),
+      products: [],
+      _id: new ObjectId("647c926a97f49823c2744693"),
+      createdAt: 2023-06-04T13:32:26.937Z,
+      updatedAt: 2023-06-04T13:32:26.937Z,
+      __v: 0
+    },
+    userCart: {
+      userId: new ObjectId("647c926a97f49823c2744690"),
+      _id: new ObjectId("647c926a97f49823c2744695"),
+      items: [],
+      createdAt: 2023-06-04T13:32:26.946Z,
+      updatedAt: 2023-06-04T13:32:26.946Z,
+      __v: 0
+    },
+    emailDetails: {
+      accepted: [ '341ac6d9fe@mymaily.lol' ],
+      rejected: [],
+      ehlo: [
+        'SIZE 35882577',
+        '8BITMIME',
+        'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',
+        'ENHANCEDSTATUSCODES',
+        'PIPELINING',
+        'CHUNKING',
+        'SMTPUTF8'
+      ],
+      envelopeTime: 645,
+      messageTime: 1522,
+      messageSize: 1518,
+      response: '250 2.0.0 OK  1685885593 m17-20020a5d4a11000000b003048477729asm7073879wrq.81 - gsmtp',
+      envelope: {
+        from: 'shoperzshop1@gmail.com',
+        to: [ '341ac6d9fe@mymaily.lol' ]
+      },
+      messageId: '<68458df8-b7a0-835c-5938-8aa1a7e92ad2@gmail.com>'
+    }
+  },
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:32:30'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:34:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:34:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:34:54'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:35:28'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:36:03'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:38:49'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:48:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:55:33'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 16:04:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 16:26:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 16:32:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 16:41:36'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 16:44:11'
+}

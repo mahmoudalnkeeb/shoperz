@@ -4786,3 +4786,267 @@
   label: 'custom logger',
   timestamp: 'Jun-01-2023 21:22:35'
 }
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:23:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:23:00'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:26:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:26:02'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:39:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 16:39:12'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:56:29'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'User.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:56:29'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:57:52'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:57:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:58:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:58:14'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:16'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:37'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 17:59:37'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:00:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:00:56'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:02:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:02:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:03:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:03:06'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-03-2023 18:13:58'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 10:55:50'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 10:55:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:34:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:34:21'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:35:28'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-04-2023 15:38:49'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:18:55'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:36:34'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'user.createToken is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 15:36:34'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:14:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Error , The _id key in not provided ',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:14:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:17:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Error , The _id key is not provided , expected ObjectId but got :  undefined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:17:21'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:18:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Error , The _id key is not provided , expected ObjectId but got :  647f3f37d1aa56dd937585d7',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:18:00'
+}

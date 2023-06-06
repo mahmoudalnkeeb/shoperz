@@ -16,6 +16,23 @@ class UserClass {
     return this.userToken.token;
   }
 
+  createNewToken(user_id) {
+    const secret = envVars.jwtSecret;
+    const payload = {
+      userId: this._id || user_id,
+    };
+    if (!secret) {
+      console.error('ERROR !! , Secret key is not exist in env variables ');
+      return process.exit(1);
+    }
+    if (!this._id && !user_id) {
+      throw Error(
+        `Error , The _id key is not provided , expected ObjectId but got :  ${this._id || user_id}`
+      );
+    }
+    const token = jwt.sign(payload, secret);
+    return token;
+  }
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);

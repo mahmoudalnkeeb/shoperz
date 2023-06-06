@@ -9,10 +9,15 @@ const { hashPassword } = require('../utils/utils');
 const signup = async (req, res, next) => {
   try {
     const { fullname, email, password, phone } = req.body;
-    let isEmailExists = await User.getUserByEmail(email);
+    let isEmailExists = await User.findOne({ email });
     let isPhoneExists = await User.findOne({ phone });
     if (isEmailExists || isPhoneExists) {
-      let responser = new Responser(403, 'Email or Phone not available', null, 'validation_error');
+      let responser = new Responser(
+        400,
+        'Worng Email or Phone please use anther email or phone ',
+        null,
+        'Error , wrong email or phone'
+      );
       return responser.respond(res);
     }
     let newUser = new User({
@@ -22,7 +27,10 @@ const signup = async (req, res, next) => {
       phone,
     });
     let user = await newUser.save();
-    let token = await user.refershToken();
+    let token = user.createNewToken(user._id);
+    let tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
+    user.userToken.token = token;
+    user.userToken.tokenEXP = tokenEXP;
     let userWishlist = await Wishlist.createUserWishlist(user._id);
     let userCart = await Cart.createUserCart(user._id);
     let emailDetails = await user.sendVerifyEmail();
@@ -32,7 +40,11 @@ const signup = async (req, res, next) => {
       userCart,
       emailDetails,
     });
-    let responser = new Responser(201, 'Signup Success', { token });
+    let responser = new Responser(
+      201,
+      'A new account has been successfully registered for you at Shopers, please check your email to activate it',
+      { token }
+    );
     return responser.respond(res);
   } catch (error) {
     logger.error(error);
@@ -45,18 +57,27 @@ const login = async (req, res, next) => {
     const { email, password } = req.body;
     const user = await User.findOne({ email: email });
     if (!user) {
-      let responser = new Responser(401, 'Wrong email or password!', null, 'validation_error');
+      let responser = new Responser(404, 'Wrong email or password!', null, 'Error , This user is not exists');
       return responser.respond(res);
     }
-    let isMatch = user.comparePassword(password);
-    if (!isMatch) {
-      let responser = new Responser(401, 'Wrong email or password!', null, 'validation_error');
+    let isMatchedPassword = user.comparePassword(password);
+    if (!isMatchedPassword) {
+      let responser = new Responser(
+        401,
+        'Wrong email or password!',
+        null,
+        'Error , Unauthorized user informations'
+      );
       return responser.respond(res);
     }
-    user.userToken.token = user.createToken();
-    user.userToken.tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
+    let token = user.createNewToken();
+    let tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
+    user.userToken.token = token;
+    user.userToken.tokenEXP = tokenEXP;
     await user.save();
-    let responser = new Responser(200, 'Login Success', { token: user.userToken.token });
+    let responser = new Responser(200, 'You have been successfully logged in to your account at shoperz', {
+      token,
+    });
     return responser.respond(res);
   } catch (error) {
     logger.error(error);
