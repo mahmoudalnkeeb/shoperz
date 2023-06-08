@@ -70,10 +70,12 @@ const login = async (req, res, next) => {
       );
       return responser.respond(res);
     }
+
     let token = user.createNewToken();
     let tokenEXP = new Date(Date.now() + 24 * 60 * 60 * 1000);
     user.userToken.token = token;
     user.userToken.tokenEXP = tokenEXP;
+
     await user.save();
     let responser = new Responser(200, 'You have been successfully logged in to your account at shoperz', {
       token,
