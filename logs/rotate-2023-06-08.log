@@ -1,0 +1,1385 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:34:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:41:25'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:13'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:22'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:25'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:31'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:33'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:37'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:39'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:51:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:52:47'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:58:34'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:05:22'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:41:50'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:43:22'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:29'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:54'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:54'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:50:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:18:38'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:08'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:08'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:57'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:33:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:33:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:33:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:35:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:35:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:35:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:36:09'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:36:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:36:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:37:52'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:09'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:47'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:40:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:40:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:40:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:41:29'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:41:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:23'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:24'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:49'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:04'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:46:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:46:35'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:47:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:47:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:47:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:48:38'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:48:50'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:48:57'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:48:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:49:25'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:51:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:51:39'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:51:48'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:51:48'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:52:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:52:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:52:02'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:52:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:55:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:55:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:55:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:55:48'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:56:22'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:56:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:57:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:57:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:57:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:57:45'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:58:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:59:03'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:59:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 12:02:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 12:03:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 12:04:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:34:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:38:11'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:38:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:42:38'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:44:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:44:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:46:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 13:59:37'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:03:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:04:06'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:06:52'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:21:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:22:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:24:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:24:28'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:24:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:25:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:25:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:26:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:26:59'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:27:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:31:01'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:31:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:31:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:31:45'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:32:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:33:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:33:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:34:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:34:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:09'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:49'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:36:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:37:01'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:41:28'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:41:34'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:53:46'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:55:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:00:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:01:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:04:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:06:05'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:34:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:35:22'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:35:42'
+}
+{
+  message: 'mail service ready',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:43:49'
+}
+{
+  message: {
+    user_id: new ObjectId("6481db15ee0e07bfe68b349c"),
+    userWishlist: {
+      userId: new ObjectId("6481db15ee0e07bfe68b349c"),
+      products: [],
+      _id: new ObjectId("6481db15ee0e07bfe68b349e"),
+      createdAt: 2023-06-08T13:43:49.190Z,
+      updatedAt: 2023-06-08T13:43:49.190Z,
+      __v: 0
+    },
+    userCart: {
+      userId: new ObjectId("6481db15ee0e07bfe68b349c"),
+      _id: new ObjectId("6481db15ee0e07bfe68b34a0"),
+      items: [],
+      createdAt: 2023-06-08T13:43:49.195Z,
+      updatedAt: 2023-06-08T13:43:49.195Z,
+      __v: 0
+    },
+    emailDetails: {
+      accepted: [ '33eaf642e5@mymaily.lol' ],
+      rejected: [],
+      ehlo: [
+        'SIZE 35882577',
+        '8BITMIME',
+        'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',
+        'ENHANCEDSTATUSCODES',
+        'PIPELINING',
+        'CHUNKING',
+        'SMTPUTF8'
+      ],
+      envelopeTime: 1986,
+      messageTime: 1176,
+      messageSize: 1519,
+      response: '250 2.0.0 OK  1686231881 dy28-20020a05640231fc00b0050bc6c04a66sm572559edb.40 - gsmtp',
+      envelope: {
+        from: 'shoperzshop1@gmail.com',
+        to: [ '33eaf642e5@mymaily.lol' ]
+      },
+      messageId: '<d03227a1-c720-f476-87b2-5a176d215a80@gmail.com>'
+    }
+  },
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:43:53'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 16:08:05'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 16:27:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 16:27:36'
+}
