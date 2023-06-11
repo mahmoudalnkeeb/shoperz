@@ -45,10 +45,9 @@ class CartClass {
     // cuz this promise above returns null inside productId
     const cleanProducts = products.items.filter((prod) => prod.productId !== null);
     //
-    const totalPrice = cleanProducts.reduce((prev, curr) => prev + curr.productId.price, 0);
+    const totalPrice = cleanProducts.reduce((prev, curr) =>  prev + (curr.productId.price * curr.quantity), 0);
     const totalQuantity = cleanProducts.reduce((prev, curr) => prev + curr.quantity, 0);
-    const total = totalPrice + totalQuantity;
-    return total;
+    return totalPrice;
   }
 
   async getCartDiscountedTotal() {
