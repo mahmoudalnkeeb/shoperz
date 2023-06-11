@@ -6517,3 +6517,19 @@
   label: 'custom logger',
   timestamp: 'Jun-11-2023 12:10:01'
 }
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 15:27:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 15:29:54'
+}

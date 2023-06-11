@@ -75,12 +75,12 @@ const getMegaOffers = async (req, res, next) => {
 
     const query = Product.find();
     if (!relatedByCategory) {
-      query.where('discount').gte(25);
+      query.where('discount').gte(10);
       query.where('rating').gte(3.0);
       query.skip(skip);
       query.limit(limit);
     } else {
-      query.where('discount').gte(25);
+      query.where('discount').gte(10);
       query.where('rating').gte(3.0);
       query.skip(skip);
       query.limit(limit);
