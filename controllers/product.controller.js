@@ -17,7 +17,9 @@ const getProducts = async (req, res, next) => {
     //sorting products
     Product.sorting(req.query, productQuery);
 
-    const productsList = await productQuery.lean();
+    const productsList = await productQuery
+      .select('_id, category_id , name , rating , price , thumbnail , description,sku')
+      .lean();
 
     const actualProductsLength = +Product.docCount(productQuery);
     const responser = new Responser(200, 'The list of products has been successfully brought', {

@@ -6137,3 +6137,7 @@
 [0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 21.453 ms - 7171[0m
 [0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 9.106 ms - 7171[0m
 [0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 22.456 ms - 7171[0m
+[0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 16.737 ms - 7171[0m
+[0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 26.053 ms - 910[0m
+[0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 23.062 ms - 1320[0m
+[0mGET /products?sort=price,name&limit=10&price[gte]=200&discount[gte]=4.0 [32m200[0m 21.203 ms - 2128[0m
