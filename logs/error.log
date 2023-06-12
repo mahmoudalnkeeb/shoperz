@@ -6533,3 +6533,222 @@
   label: 'custom logger',
   timestamp: 'Jun-11-2023 15:29:54'
 }
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:54:09'
+}
+{
+  originalStack: 'Error\n' +
+    '    at model.Query.exec (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4336:28)\n' +
+    '    at Query.then (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4465:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:02'
+}
+{
+  originalStack: 'Error\n' +
+    '    at model.Query.exec (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4336:28)\n' +
+    '    at Query.then (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4465:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:12'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:18:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:33'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:37'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:55'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:29'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:34'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:49'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:54'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:12:20'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:48'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:15:10'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:17:20'
+}
+{
+  stringValue: '"{$gte : 3.0}"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: '{$gte : 3.0}',
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:45:48'
+}
+{
+  stringValue: '"NaN"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: NaN,
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:46:57'
+}
+{
+  stringValue: '"NaN"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: NaN,
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:47:02'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:08'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:31'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:55'
+}

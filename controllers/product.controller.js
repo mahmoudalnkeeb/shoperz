@@ -3,18 +3,47 @@ const Responser = require('../utils/responser');
 
 const getProducts = async (req, res, next) => {
   try {
-    const { limit, lastId, sort, order } = req.query;
-    console.log({ limit, lastId, sort, order });
-    const products = await Product.find(lastId ? { _id: { $gt: lastId } } : {}, null, {
-      limit: limit,
-      sort: { [sort]: order == 'asc' ? 1 : -1 },
-    }).lean();
-    let responser = new Responser(200, 'Success', {
-      products,
-      count: products.length,
-      nextLastId: products[products.length - 1]._id,
+    const { sort, limit = 10, page = 1 } = req.query;
+
+    // setup query in the products model
+    let productQuery = Product.find();
+
+    // Paginition
+    Product.pagination(req.query, productQuery);
+
+    //Filtertion
+    Product.filtration(req.query, productQuery);
+
+    //sorting products
+    Product.sorting(req.query, productQuery);
+
+    const productsList = await productQuery.lean();
+
+    const actualProductsLength = +Product.docCount(productQuery);
+    const responser = new Responser(200, 'The list of products has been successfully brought', {
+      products: productsList,
+      paginition: {
+        limit,
+        currentPage: page,
+        remainingPages: Math.ceil(actualProductsLength / +limit),
+        length: productsList?.length,
+      },
     });
     return responser.respond(res);
+    //
+    //
+    // const { limit, lastId, sort, order } = req.query;
+    // console.log({ limit, lastId, sort, order });
+    // const products = await Product.find(lastId ? { _id: { $gt: lastId } } : {}, null, {
+    //   limit: limit,
+    //   sort: { [sort]: order == 'asc' ? 1 : -1 },
+    // }).lean();
+    // let responser = new Responser(200, 'Success', {
+    //   products,
+    //   count: products.length,
+    //   nextLastId: products[products.length - 1]._id,
+    // });
+    // return responser.respond(res);
   } catch (error) {
     next(error);
   }
