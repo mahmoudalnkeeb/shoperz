@@ -19,6 +19,7 @@ const getProducts = async (req, res, next) => {
 
     const productsList = await productQuery
       .select('_id, category_id , name , rating , price , thumbnail , description,sku')
+      .populate({ path: 'category_id', select: 'namme , _id' })
       .lean();
 
     const actualProductsLength = +Product.docCount(productQuery);

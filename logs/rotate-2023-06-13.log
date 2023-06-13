@@ -1,0 +1,198 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:08:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:11:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:13:09'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:13:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:05'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:06',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:09',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:10',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:51'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:15:04',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:20:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:23:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:23:33'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:24:39'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:25:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:31:47'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:32:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:33:53'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:34:33'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:36:47'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:37:02'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:52:33'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:52:35',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:46'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:47',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:48',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:50',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:56:30'
+}
