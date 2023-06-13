@@ -18,8 +18,8 @@ const getProducts = async (req, res, next) => {
     Product.sorting(req.query, productQuery);
 
     const productsList = await productQuery
-      .select('_id, category_id , name , rating , price , thumbnail , description,sku')
-      .populate({ path: 'category_id', select: 'namme , _id' })
+      .select(' _id , category_id , name , rating , price , thumbnail , description , sku ')
+      .populate({ path: 'category_id', select: 'name' })
       .lean();
 
     const actualProductsLength = +Product.docCount(productQuery);
@@ -143,9 +143,13 @@ const getMegaOffers = async (req, res, next) => {
 
 const getProductById = async (req, res, next) => {
   try {
-    const id = req.params.id;
-    const product = await Product.findById(id);
-    let responser = new Responser(200, 'Success', { product });
+    const { id } = req.params;
+    const product = await Product.findById(id).populate({ path: 'category_id', select: 'name' });
+    if (Boolean(product)) {
+      let responser = new Responser(200, 'Product details was fetched successfully .', { product });
+      return responser.respond(res);
+    }
+    let responser = new Responser(404, 'Product details is not exist .', { product: [] });
     return responser.respond(res);
   } catch (error) {
     next(error);

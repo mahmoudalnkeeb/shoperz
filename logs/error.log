@@ -7067,3 +7067,67 @@
   timestamp: 'Jun-13-2023 10:53:50',
   [Symbol(errorLabels)]: Set(0) {}
 }
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:16:01'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:19:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:21:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:22:58'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:25:32'
+}
