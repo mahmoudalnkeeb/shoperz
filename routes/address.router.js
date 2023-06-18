@@ -14,6 +14,7 @@ const addressRouter = require('express').Router();
  * @route GET /address
  * @middleware authMiddleware - Middleware function for authentication
  * @handler getUserAddresses - Handler function for retrieving user addresses
+ * @access Public
  */
 addressRouter.get('/', authMiddleware, getUserAddresses);
 
@@ -23,6 +24,7 @@ addressRouter.get('/', authMiddleware, getUserAddresses);
  * @route POST /address
  * @middleware authMiddleware - Middleware function for authentication
  * @handler createUserAddress - Handler function for creating a user address
+ * @access Private
  */
 addressRouter.post('/', authMiddleware, createUserAddress);
 
@@ -32,8 +34,11 @@ addressRouter.post('/', authMiddleware, createUserAddress);
  * @route PUT /address
  * @middleware authMiddleware - Middleware function for authentication
  * @handler updateUserAddress - Handler function for updating a user address
+ * @params /addressId
+ * @body { modified address data }
+ * @access Private
  */
-addressRouter.put('/', authMiddleware, updateUserAddress);
+addressRouter.put('/:addressId', authMiddleware, updateUserAddress);
 
 /**
  * Remove a user address
@@ -41,8 +46,10 @@ addressRouter.put('/', authMiddleware, updateUserAddress);
  * @route DELETE /address
  * @middleware authMiddleware - Middleware function for authentication
  * @handler removeUserAddress - Handler function for removing a user address
+ * @params /addressId
+ * @body {none}
+ * @access Private
  */
-addressRouter.delete('/', authMiddleware, removeUserAddress);
-
+addressRouter.delete('/:addressId', authMiddleware, removeUserAddress);
 
 module.exports = addressRouter;

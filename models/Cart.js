@@ -41,18 +41,22 @@ class CartClass {
   }
 
   async getCartTotal() {
-    await this.populate('items.productId');
-    let total = 0;
-    for (const item of this.items) {
-      total += item.productId.price * item.quantity;
-    }
-    return total;
+    let products = await this.populate('items.productId');
+    // cuz this promise above returns null inside productId
+    const cleanProducts = products.items.filter((prod) => prod.productId !== null);
+    //
+    const totalPrice = cleanProducts.reduce((prev, curr) =>  prev + (curr.productId.price * curr.quantity), 0);
+    const totalQuantity = cleanProducts.reduce((prev, curr) => prev + curr.quantity, 0);
+    return totalPrice;
   }
 
   async getCartDiscountedTotal() {
-    await this.populate('items.productId');
+    let products = await this.populate('items.productId');
+    // cuz this promise above returns null inside productId
+    const cleanProducts = products.items.filter((prod) => prod.productId !== null);
+    //
     let discountedTotal = 0;
-    for (const item of this.items) {
+    for (const item of cleanProducts) {
       let discountedPrice = item.productId.price * ((100 - item.productId.discount) / 100);
       discountedTotal += discountedPrice * item.quantity;
     }

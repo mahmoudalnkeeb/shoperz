@@ -9,6 +9,19 @@ class AddressClass {
   static async resetDefault() {
     await this.updateMany({ defult: true }, { defult: false });
   }
+  static async selectAndUpdateAddress(userId, addressId, modifiedAddress) {
+    let oldAddress = await Address.find({ userId }).findOne({ _id: addressId });
+    let updatedAddress = await Address.find({ userId })
+      .findOne({ _id: addressId })
+      .updateOne(oldAddress, modifiedAddress);
+
+    return updatedAddress;
+  }
+  static async selectAndDeleteAddress(userId, addressId) {
+    let deletedAddress = await Address.find({ userId }).findOneAndDelete({ _id: addressId });
+    console.log(deletedAddress);
+    return deletedAddress;
+  }
 }
 
 const addressSchema = new mongoose.Schema(

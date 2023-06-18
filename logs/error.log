@@ -5050,3 +5050,2084 @@
   label: 'custom logger',
   timestamp: 'Jun-06-2023 16:18:00'
 }
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-06-2023 16:25:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:08:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:10:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:12:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:15:09'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:15:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:22:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:22:40'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:22:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:22:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:22:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:35:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:46'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:50'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:53'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:55'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:37:58'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:13'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:54'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:38:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:39:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:39:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:40:53'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 16:41:04'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:34:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:38:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:43:46'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:43:49'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:44:24'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:44:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:44:33'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-07-2023 17:44:36'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:13'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:22'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:25'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:31'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:33'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:37'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:39'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:45:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:51:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 09:52:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:41:50'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:43:22'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:18'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:54'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:47:54'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 10:50:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:18:38'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:08'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:08'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:57'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:29:58'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:33:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:33:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:35:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:35:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:36:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:36:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:09'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:38:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:39:20'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:40:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:40:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:42:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:23'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:24'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:43:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:45:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:46:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:46:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:47:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:47:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:48:57'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:48:58'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:51:48'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:51:48'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:52:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:52:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:55:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:55:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:57:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 11:57:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 12:03:08'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:21:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:24:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:25:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:31:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:31:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:33:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:34:07'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:35:49'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:36:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 14:55:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:00:41'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:01:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:02:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:04:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-08-2023 15:06:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress.selectAndUpdateAddress is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-10-2023 22:07:21'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.selectAndUpdateAddress is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-10-2023 22:08:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.selectAndUpdateAddress is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-10-2023 22:08:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: "Cannot read properties of undefined (reading 'toString')",
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-10-2023 22:13:22'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'updatedAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:21:43'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress.save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:31:42'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.selectAndUpdateAddress(...).save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:32:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'updatedAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:14'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'updatedAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Model.find() no longer accepts a callback',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:36:55'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Model.find() no longer accepts a callback',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:35'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'JSON.Stringify is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:56:58'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:11:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:12:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:13:46'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:27:40'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:28:27'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:29:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:37:24'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:39:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:40:23'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '"modifiedAddress": {\r\n    "default" : false\r\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:58:59'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:10:01'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 15:27:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 15:29:54'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:54:09'
+}
+{
+  originalStack: 'Error\n' +
+    '    at model.Query.exec (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4336:28)\n' +
+    '    at Query.then (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4465:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:02'
+}
+{
+  originalStack: 'Error\n' +
+    '    at model.Query.exec (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4336:28)\n' +
+    '    at Query.then (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4465:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:12'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:18:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:33'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:37'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:55'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:29'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:34'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:49'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:54'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:12:20'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:48'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:15:10'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:17:20'
+}
+{
+  stringValue: '"{$gte : 3.0}"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: '{$gte : 3.0}',
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:45:48'
+}
+{
+  stringValue: '"NaN"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: NaN,
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:46:57'
+}
+{
+  stringValue: '"NaN"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: NaN,
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:47:02'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:08'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:31'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:55'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:04:21'
+}
+{
+  errors: {
+    slug: ValidatorError: Path `slug` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `slug` is required.',
+        type: 'required',
+        path: 'slug',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'slug',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:29:14'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:31:22'
+}
+{
+  errors: {
+    image: ValidatorError: Path `image` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `image` is required.',
+        type: 'required',
+        path: 'image',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'image',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:34:29'
+}
+{
+  errors: {
+    image: ValidatorError: Path `image` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `image` is required.',
+        type: 'required',
+        path: 'image',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'image',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:45:23'
+}
+{
+  errors: {
+    image: ValidatorError: Path `image` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `image` is required.',
+        type: 'required',
+        path: 'image',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'image',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:45:44'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:13:23'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:06',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:09',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:14:10',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:15:04',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:37:02'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:52:35',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:47',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:48',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: 'Shoes' },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 10:53:50',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:16:01'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:19:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:21:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:22:58'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:25:32'
+}

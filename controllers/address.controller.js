@@ -1,5 +1,6 @@
 const Address = require('../models/Address');
 const Responser = require('../utils/responser');
+const { InternalError } = require('../middlewares/errorhandler');
 
 const getUserAddresses = async (req, res, next) => {
   try {
@@ -30,20 +31,25 @@ const createUserAddress = async (req, res, next) => {
 // TODO: check that address belongs to user first then make the change
 const updateUserAddress = async (req, res, next) => {
   try {
-    const responser = new Responser(200, 'user addresses fetched');
+    const { addressId } = req.params;
+    const modifiedAddress = req.body;
+    const updatedAddress = Address.selectAndUpdateAddress(req.userId, addressId, modifiedAddress);
+    const responser = new Responser(200, 'updated user address ', updatedAddress);
     responser.respond(res);
   } catch (error) {
-    next(new InternalError('Internal Error while getting cart items'), error);
+    next(new InternalError('Internal error', error.message));
   }
 };
 
 const removeUserAddress = async (req, res, next) => {
   try {
-    const responser = new Responser(200, 'user addresses fetched');
+    const { addressId } = req.params;
+    const deletedAddress = Address.selectAndDeleteAddress(req.userId, addressId);
+    const responser = new Responser(200, 'user address deleted', deletedAddress);
     responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal Error while getting cart items'), error);
   }
 };
 
-module.exports = { getUserAddresses, createUserAddress,updateUserAddress, removeUserAddress };
+module.exports = { getUserAddresses, createUserAddress, updateUserAddress, removeUserAddress };

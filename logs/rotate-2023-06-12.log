@@ -1,0 +1,1218 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 10:34:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:37:46'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:39:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:46:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:47:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:53:37'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:54:09'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:54:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:55:38'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:56:03'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:56:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:56:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 12:58:24'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:01:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:06:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:10:35'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:13:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:13:58'
+}
+{
+  originalStack: 'Error\n' +
+    '    at model.Query.exec (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4336:28)\n' +
+    '    at Query.then (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4465:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:02'
+}
+{
+  originalStack: 'Error\n' +
+    '    at model.Query.exec (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4336:28)\n' +
+    '    at Query.then (D:\\my-work\\shoperz-api\\node_modules\\mongoose\\lib\\query.js:4465:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:14:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:15:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:18:23'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:18:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:19:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:19:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:20:05'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:20:34'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:20:39'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:22:43'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:32'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:33'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:23:37'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:24:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:24:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:25:36'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:25:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:50'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:27:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:28:11'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:28:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:28:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:29:11'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:29:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:29:46'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:31:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:32:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:27'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:29'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:33:34'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 13:34:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:47'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:49'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:11:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:12:19'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:12:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:12:43'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:45'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:48'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:14:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:15:10'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:15:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:15:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:15:49'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:17:17'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:17:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:17:43'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:18:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:19:03'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:19:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:21:25'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:25:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:26:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:27:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:29:09'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:29:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:31:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:32:06'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:32:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:41:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:42:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:43:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:43:49'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:44:02'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:45:16'
+}
+{
+  stringValue: '"{$gte : 3.0}"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: '{$gte : 3.0}',
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'string',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:45:48'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:46:52'
+}
+{
+  stringValue: '"NaN"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: NaN,
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:46:57'
+}
+{
+  stringValue: '"NaN"',
+  messageFormat: undefined,
+  kind: 'Number',
+  value: NaN,
+  path: 'discount',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaNumber.castForQuery (D:\my-work\shoperz-api\node_modules\mongoose\lib\schema\number.js:430:14)
+      at cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4816:12)
+      at Query._castConditions (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2182:10)
+      at model.Query._find (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:2208:8)
+      at model.Query.exec (D:\my-work\shoperz-api\node_modules\mongoose\lib\query.js:4346:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  model: Model { Product },
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:47:02'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:47:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:48:04'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:50:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:51:01'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:51:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:06'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:25'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:26'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:55:31'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:51'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:52'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:56:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:57:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:57:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:58:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:58:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:59:24'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 14:59:33'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:02:02'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:03:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:03:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:22:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:22:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:25:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:29:49'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:30:04'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:31:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:32:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:33:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:33:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:34:38'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:36:28'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:36:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:37:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:39:39'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:41:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:41:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:41:59'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:42:06'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:42:29'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:43:25'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:43:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 15:43:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 16:52:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 16:53:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 16:53:48'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 16:54:49'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:03:53'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:04:19'
+}
+{
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:04:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:05:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:06:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:07:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:08:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:09:26'
+}
+{
+  errors: {
+    slug: ValidatorError: Path `slug` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `slug` is required.',
+        type: 'required',
+        path: 'slug',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'slug',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:29:14'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:29:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:31:10'
+}
+{
+  errors: {
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:31:22'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:34:13'
+}
+{
+  errors: {
+    image: ValidatorError: Path `image` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `image` is required.',
+        type: 'required',
+        path: 'image',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'image',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    description: ValidatorError: Path `description` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `description` is required.',
+        type: 'required',
+        path: 'description',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'description',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:34:29'
+}
+{
+  errors: {
+    image: ValidatorError: Path `image` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `image` is required.',
+        type: 'required',
+        path: 'image',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'image',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:45:23'
+}
+{
+  errors: {
+    image: ValidatorError: Path `image` is required.
+        at validate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaType.doValidate (D:\my-work\shoperz-api\node_modules\mongoose\lib\schematype.js:1331:7)
+        at D:\my-work\shoperz-api\node_modules\mongoose\lib\document.js:2893:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `image` is required.',
+        type: 'required',
+        path: 'image',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'image',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Category validation failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:45:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:46:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:48:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:52:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-12-2023 17:55:24'
+}

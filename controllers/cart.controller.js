@@ -1,5 +1,6 @@
 const { InternalError } = require('../middlewares/errorhandler');
 const Cart = require('../models/Cart');
+const Product = require('../models/Product');
 const Responser = require('../utils/responser');
 
 const getUserCart = async (req, res, next) => {
@@ -25,6 +26,9 @@ const addToCart = async (req, res, next) => {
       await userCart.save();
     }
     let cart = await userCart.addItem(productId, quantity);
+    let productTarget = await Product.findByIdAndUpdate(productId, { isInCart: true });
+    productTarget.save();
+
     const responser = new Responser(201, 'item add successfully to cart', {
       cart,
       cartTotal: await cart.getCartTotal(),
@@ -32,19 +36,19 @@ const addToCart = async (req, res, next) => {
     });
     return responser.respond(res);
   } catch (error) {
-    console.log(error);
     next(new InternalError('Internal Error while adding item to cart'), error);
   }
 };
 
 const removeFromCart = async (req, res, next) => {
   try {
+    const { productId } = req.params;
     let userCart = await Cart.findOne({ userId: req.userId });
     await userCart.removeItem(productId);
+    await Product.findByIdAndUpdate(productId, { isInCart: false });
     const responser = new Responser(200, 'product deleted successfully');
     responser.respond(res);
   } catch (error) {
-    console.log(error);
     next(new InternalError('Internal Error while removing item from cart'), error);
   }
 };

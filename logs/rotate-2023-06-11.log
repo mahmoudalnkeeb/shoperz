@@ -1,0 +1,889 @@
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:12:46'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:15:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:15:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:17:31'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:20:24'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'updatedAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:21:43'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:22:34'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:23:53'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:25:57'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:27:04'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:27:09'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:27:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:27:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:28:02'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:28:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:29:06'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:29:14'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:29:45'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:30:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:30:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:31:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:31:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:31:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress.save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:31:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:32:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.selectAndUpdateAddress(...).save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:32:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:32:45'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:11'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'updatedAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:14'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:25'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'updatedAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:33:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:36:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Model.find() no longer accepts a callback',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:36:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:52:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:52:24'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:52:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:53:11'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:16'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Model.find() no longer accepts a callback',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:19'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'Address.save is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:35'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:55:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:56:50'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:56:58'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'JSON.Stringify is not a function',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:56:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:57:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:57:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:58:09'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 10:58:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:06:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:06:46'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:11:12'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:11:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:11:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:12:01'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:12:05'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:13:15'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:13:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:13:46'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:13:46'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:27:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:27:34'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:27:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:28:23'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:28:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:29:54'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:29:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:37:22'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:37:24'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:39:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:39:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:40:20'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: 'userAddress is not defined',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:40:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:40:51'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:41:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:41:41'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:42:13'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:42:57'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:44:29'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:46:27'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:46:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:47:33'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:49:42'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:49:48'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:50:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:50:18'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:51:56'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:52:57'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:53:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:54:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:54:37'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:54:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:55:03'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:55:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:56:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:57:13'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '"modifiedAddress": {\r\n    "default" : false\r\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 11:58:59'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:00:25'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:02:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:03:01'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:08:23'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:08:35'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:08:52'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:10:01'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:10:40'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:11:16'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:11:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:12:21'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:13:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:14:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:16:07'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:17:00'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:17:44'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:17:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:19:03'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:20:08'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:22:11'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 12:23:30'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 13:06:32'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:15:33'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:17:52'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:17:55'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:18:58'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:20:26'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:21:10'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:25:47'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 14:28:39'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 15:27:23'
+}
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 15:29:54'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 16:26:20'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 17:18:38'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 17:18:48'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 17:20:14'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-11-2023 17:24:48'
+}
