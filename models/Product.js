@@ -98,10 +98,7 @@ const productSchema = new mongoose.Schema(
       required: true,
       default: 0,
     },
-    isInCart: {
-      type: Boolean,
-      default: false,
-    },
+
   },
   { timestamps: true }
 );
