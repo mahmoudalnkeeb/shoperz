@@ -344,3 +344,21 @@
   label: 'custom logger',
   timestamp: 'Jun-13-2023 11:41:18'
 }
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:43:17'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 11:57:28'
+}
+{
+  message: 'connected to shoperz database successfully ..',
+  level: 'info',
+  label: 'custom logger',
+  timestamp: 'Jun-13-2023 14:47:58'
+}

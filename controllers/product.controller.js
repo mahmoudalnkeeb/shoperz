@@ -22,13 +22,14 @@ const getProducts = async (req, res, next) => {
       .populate({ path: 'category_id', select: 'name' })
       .lean();
 
-    const actualProductsLength = +Product.docCount(productQuery);
+    const actualProductsLength = await Product.docCount();
     const responser = new Responser(200, 'The list of products has been successfully brought', {
       products: productsList,
       paginition: {
         limit,
         currentPage: page,
         remainingPages: Math.ceil(actualProductsLength / +limit),
+        actualProductsLength,
         length: productsList?.length,
       },
     });

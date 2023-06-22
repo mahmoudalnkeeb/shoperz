@@ -6,6 +6,10 @@ const Responser = require('../utils/responser');
 const getUserCart = async (req, res, next) => {
   try {
     let userCart = await Cart.findOne({ userId: req.userId });
+    if(!userCart){
+      userCart = new Cart({ userId :req.userId });
+      await userCart.save()
+    }
     const responser = new Responser(200, 'user cart fetched', {
       userCart,
       cartTotal: await userCart.getCartTotal(),
@@ -26,16 +30,15 @@ const addToCart = async (req, res, next) => {
       await userCart.save();
     }
     let cart = await userCart.addItem(productId, quantity);
-    let productTarget = await Product.findByIdAndUpdate(productId, { isInCart: true });
-    productTarget.save();
-
+    console.log(cart)
     const responser = new Responser(201, 'item add successfully to cart', {
-      cart,
+      cart :cart.items.map(cart => ({ _id : cart.productId._id })),
       cartTotal: await cart.getCartTotal(),
       discountedTotal: await cart.getCartDiscountedTotal(),
     });
     return responser.respond(res);
   } catch (error) {
+    console.log(error)
     next(new InternalError('Internal Error while adding item to cart'), error);
   }
 };
