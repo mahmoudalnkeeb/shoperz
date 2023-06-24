@@ -91,6 +91,12 @@ const productSchema = new mongoose.Schema(
       max: 100,
       default: 0,
     },
+    deliveryCost : {
+      type : [String , Number],
+      enum : ['free' , Number],
+      required: true,
+      default : 'free'
+    },
     rating: {
       type: Number,
       min: 0,
