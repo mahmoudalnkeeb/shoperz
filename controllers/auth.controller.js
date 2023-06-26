@@ -142,7 +142,7 @@ const resetPasswordRequest = async (req, res, next) => {
     await user.sendResetEmail();
     let responser = new Responser(200, 'Check your email for reset token it will expire in 24h');
     return responser.respond(res);
-  } catch (error) {
+  } catch (error) { 
     logger.error(error);
     next(new InternalError('Internal error', error.message));
   }

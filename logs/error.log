@@ -7325,3 +7325,453 @@
   label: 'custom logger',
   timestamp: 'Jun-22-2023 22:36:52'
 }
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 15:15:10'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 15:15:13'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 16:04:43'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:48:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:48:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:50:51'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:52:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:52:18'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:52:56'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:53:44'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:53:45'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:53:46'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:59:09'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:59:12'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:59:13'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 18:59:59'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 19:00:20'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 19:01:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 19:01:37'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 19:06:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 19:06:26'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-24-2023 19:46:28'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-25-2023 17:51:47'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:11:40'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:11:43'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:11:59'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:12:00'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:22:59'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:23:02'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:24:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:24:05'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 11:46:15'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 12:07:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 12:07:32'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 12:07:33'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:38:49'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:39:19'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:39:33'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:39:52'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:40:17'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:40:36'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:41:03'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:41:34'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:42:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:42:58'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:43:24'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:44:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:47:30'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:48:06'
+}
+{
+  name: 'InternalError',
+  status: 500,
+  type: 'internal_error',
+  cause: undefined,
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jun-26-2023 13:48:19'
+}
