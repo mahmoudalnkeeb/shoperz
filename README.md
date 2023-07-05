@@ -16,6 +16,9 @@
 - [x] add wishlist schema
 - [x] refactor reset password
 - [x] finish user cart
+- [ ] add fetching products by filter
+- [ ] add payment getaway
+- [ ] add order endpoint 
 - [ ] **VALIDATION**
 - [ ] finish orders
 
