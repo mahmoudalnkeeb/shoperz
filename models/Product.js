@@ -4,34 +4,14 @@ class ProductClass {
   async getDiscountedPrice() {
     return (this.price * ((100 - this.discount) / 100)).toFixed(2);
   }
-  static async docCount(productQuery) {
-    let actualProductsLength = await Product.find({}).countDocuments();
-    return actualProductsLength;
-  }
-  static async pagination({ limit, page }, productQuery) {
-    productQuery.limit(limit).skip(page * +limit);
-  }
-  static async filtration(query, productQuery) {
-    // const query = Object.entries(query);
-    const excludedField = ['sort', 'limit', 'page'];
-    const stringQuery = {};
-    Object.entries(query).forEach(([key, value], idx) => {
-      if (excludedField.at(idx) !== key) {
-        const newValue = JSON.stringify(value).replace(/(gte|lte|lt|gt|equal)/g, (match) => `$${match}`);
-        stringQuery[key] = JSON.parse(newValue);
-      }
-    });
-    productQuery.find({ ...stringQuery });
-  }
-  static async sorting({ sort }, productQuery) {
-    if (sort) {
-      if (sort.includes(',')) {
-        productQuery.sort(sort.split(',').join(' '));
-      }
-      productQuery.sort(sort);
-    } else {
-      productQuery.sort('-createdAt');
-    }
+  static async getProducts(query = {}, limit, page, sort) {
+    return await this.find(query)
+      .limit(limit)
+      .skip((page - 1) * limit)
+      .sort(sort ? (sort.includes(',') ? sort.split(',').join(' ') : JSON.parse(sort)) : '-createdAt')
+      .select(' _id category_id name rating price thumbnail description  sku createdAt')
+      .populate({ path: 'category_id', select: 'name' })
+      .lean();
   }
 }
 
@@ -91,11 +71,10 @@ const productSchema = new mongoose.Schema(
       max: 100,
       default: 0,
     },
-    deliveryCost : {
-      type : [String , Number],
-      enum : ['free' , Number],
+    deliveryCost: {
+      type: Number,
       required: true,
-      default : 'free'
+      default: 0,
     },
     rating: {
       type: Number,
@@ -104,7 +83,6 @@ const productSchema = new mongoose.Schema(
       required: true,
       default: 0,
     },
-
   },
   { timestamps: true }
 );

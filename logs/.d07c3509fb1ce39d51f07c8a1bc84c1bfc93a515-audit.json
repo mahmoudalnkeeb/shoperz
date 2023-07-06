@@ -6,30 +6,9 @@
     "auditLog": "logs\\.d07c3509fb1ce39d51f07c8a1bc84c1bfc93a515-audit.json",
     "files": [
         {
-            "date": 1684613670680,
-            "name": "logs\\rotate-2023-05-20.log",
-            "hash": "6447fc2523d2faf0a55214576e379101a9a1ee2e019908f0c5c6cd06be0e8dce"
-        },
-        {
-<<<<<<< HEAD
-            "date": 1685043763012,
-            "name": "logs\\rotate-2023-05-25.log",
-            "hash": "e6ede2dbc1020484458cdc7d407e2d6bfb63bdb0c0a5293ab4b95c696f228bb6"
-        },
-        {
-            "date": 1685435427490,
-            "name": "logs\\rotate-2023-05-30.log",
-            "hash": "1b6d70cc1126e1c0d79c11aa03b68dac1c7d1912eead382f17861db093a88831"
-=======
-            "date": 1685173657808,
-            "name": "logs\\rotate-2023-05-27.log",
-            "hash": "3cbe3b08a78e8de545da18a7b338477ab4467a1733d226b624876eb2a74041c9"
-        },
-        {
-            "date": 1685476576079,
-            "name": "logs\\rotate-2023-05-30.log",
-            "hash": "6e85ede6c70c57f43bfa39dc06e01c21047629b459b62c6ae03c8099f82a47b1"
->>>>>>> bd95993bf05aeacb95d8a2caf461457a4fd5da75
+            "date": 1688675525562,
+            "name": "logs\\rotate-2023-07-06.log",
+            "hash": "bce7972a6045b65a030f4bc36b8b5bb67d6611b8792d355b241086054f5fe80d"
         }
     ],
     "hashType": "sha256"

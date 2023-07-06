@@ -4,50 +4,19 @@ const Responser = require('../utils/responser');
 const getProducts = async (req, res, next) => {
   try {
     const { sort, limit = 10, page = 1 } = req.query;
-
-    // setup query in the products model
-    let productQuery = Product.find();
-
-    // Paginition
-    Product.pagination(req.query, productQuery);
-
-    //Filtertion
-    Product.filtration(req.query, productQuery);
-
-    //sorting products
-    Product.sorting(req.query, productQuery);
-
-    const productsList = await productQuery
-      .select(' _id , category_id , name , rating , price , thumbnail , description , sku ')
-      .populate({ path: 'category_id', select: 'name' })
-      .lean();
-
-    const actualProductsLength = await Product.docCount();
+    let products = await Product.getProducts({}, limit, page, sort);
+    let actualProductsLength = await Product.find().countDocuments();
     const responser = new Responser(200, 'The list of products has been successfully brought', {
-      products: productsList,
+      products,
       paginition: {
         limit,
         currentPage: page,
         remainingPages: Math.ceil(actualProductsLength / +limit),
         actualProductsLength,
-        length: productsList?.length,
+        length: products?.length,
       },
     });
     return responser.respond(res);
-    //
-    //
-    // const { limit, lastId, sort, order } = req.query;
-    // console.log({ limit, lastId, sort, order });
-    // const products = await Product.find(lastId ? { _id: { $gt: lastId } } : {}, null, {
-    //   limit: limit,
-    //   sort: { [sort]: order == 'asc' ? 1 : -1 },
-    // }).lean();
-    // let responser = new Responser(200, 'Success', {
-    //   products,
-    //   count: products.length,
-    //   nextLastId: products[products.length - 1]._id,
-    // });
-    // return responser.respond(res);
   } catch (error) {
     next(error);
   }
@@ -91,7 +60,6 @@ const getTopRated = async (req, res, next) => {
     });
     return responser.respond(res);
   } catch (error) {
-    //
     next(error);
   }
 };
@@ -146,7 +114,7 @@ const getProductById = async (req, res, next) => {
   try {
     const { id } = req.params;
     const product = await Product.findById(id).populate({ path: 'category_id', select: 'name' });
-    if (Boolean(product)) {
+    if (product) {
       let responser = new Responser(200, 'Product details was fetched successfully .', { product });
       return responser.respond(res);
     }
@@ -158,10 +126,9 @@ const getProductById = async (req, res, next) => {
 };
 const searchInProducts = async (req, res, next) => {
   try {
-    const { q } = req.query;
-    const regexQuery = new RegExp(`^${q}`, 'i', 'g');
-    const products = await Product.find({ name: { $regex: regexQuery } }).select('_id name thumbnail');
-
+    const { q, limit, sort, page } = req.query;
+    const regexQuery = new RegExp(`.*${q}.*`, 'i');
+    const products = await Product.getProducts({ name: { $regex: regexQuery } }, limit, page, sort);
     const msg =
       products?.length >= 1 ? 'The data was successfully obtained .' : "There's no data here for now .";
     const responser = new Responser(200, msg, {
