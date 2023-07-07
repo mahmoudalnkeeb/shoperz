@@ -1,11 +1,11 @@
 const Product = require('../models/Product');
+const { filterQuery, parseFilters } = require('../utils/filtering');
 const Responser = require('../utils/responser');
 
 const getProducts = async (req, res, next) => {
   try {
     const { sort, limit = 10, page = 1 } = req.query;
-    let products = await Product.getProducts({}, limit, page, sort);
-    let actualProductsLength = await Product.find().countDocuments();
+    let { products, actualProductsLength } = await Product.getProducts({}, limit, page, sort);
     const responser = new Responser(200, 'The list of products has been successfully brought', {
       products,
       paginition: {
@@ -126,14 +126,21 @@ const getProductById = async (req, res, next) => {
 };
 const searchInProducts = async (req, res, next) => {
   try {
-    const { q, limit, sort, page } = req.query;
-    const regexQuery = new RegExp(`.*${q}.*`, 'i');
-    const products = await Product.getProducts({ name: { $regex: regexQuery } }, limit, page, sort);
+    const { q, limit, sort, page, pmin, pmax, colors, category, rating, freeDelivery, brands } = req.query;
+
+    let query = filterQuery('$and', { q, pmin, pmax, colors, category, rating, freeDelivery, brands });
+    const { products, actualProductsLength } = await Product.getProducts(query, limit, page, sort);
+    let filters = parseFilters(products);
     const msg =
       products?.length >= 1 ? 'The data was successfully obtained .' : "There's no data here for now .";
     const responser = new Responser(200, msg, {
       products,
+      filters,
       paginition: {
+        limit,
+        currentPage: page,
+        remainingPages: Math.ceil(actualProductsLength / +limit),
+        actualProductsLength,
         length: products?.length,
       },
     });

@@ -5,13 +5,16 @@ class ProductClass {
     return (this.price * ((100 - this.discount) / 100)).toFixed(2);
   }
   static async getProducts(query = {}, limit, page, sort) {
-    return await this.find(query)
-      .limit(limit)
-      .skip((page - 1) * limit)
-      .sort(sort ? (sort.includes(',') ? sort.split(',').join(' ') : JSON.parse(sort)) : '-createdAt')
-      .select(' _id category_id name rating price thumbnail description  sku createdAt')
-      .populate({ path: 'category_id', select: 'name' })
-      .lean();
+    return {
+      products: await this.find(query)
+        .limit(limit)
+        .skip((page - 1) * limit)
+        .sort(sort ? (sort.includes(',') ? sort.split(',').join(' ') : JSON.parse(sort)) : '-createdAt')
+        .select(' _id category_id name colors brand rating price thumbnail description sku createdAt')
+        .populate({ path: 'category_id', select: 'name' })
+        .lean(),
+      actualProductsLength: await this.find(query).countDocuments(),
+    };
   }
 }
 

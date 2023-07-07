@@ -9,6 +9,11 @@
             "date": 1688675525562,
             "name": "logs\\rotate-2023-07-06.log",
             "hash": "bce7972a6045b65a030f4bc36b8b5bb67d6611b8792d355b241086054f5fe80d"
+        },
+        {
+            "date": 1688756444317,
+            "name": "logs\\rotate-2023-07-07.log",
+            "hash": "1380ed0a41a0644dee4c3cf4ac0395490d1052b7a75c98b72775b7460bb7967e"
         }
     ],
     "hashType": "sha256"
