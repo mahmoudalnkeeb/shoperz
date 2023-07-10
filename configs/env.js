@@ -5,6 +5,7 @@ let envVars = {
   jwtSecret: process.env.JWT_SECRET,
   slatRounds: +process.env.SALT_ROUNDS,
   apiUrl: process.env.API_URL,
+  stripeSecretKey: process.env.STRIPE_SECRET_KEY,
 };
 
 if (environment == 'development') {

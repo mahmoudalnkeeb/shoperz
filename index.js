@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const rfs = require('rotating-file-stream');
-const fs = require('fs');
+const colors = require('./utils/colors');
 const authRouter = require('./routes/auth.router');
 const { errHandler, NotFoundError } = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
@@ -20,8 +20,6 @@ const corsOptions = {
   origin: process.env.origin || '*',
   credentials: true,
 };
-
-connectDB();
 
 // MIDDLEWARES
 shoperz.use(express.urlencoded({ extended: true }));
@@ -56,6 +54,10 @@ shoperz.use(errHandler);
 // START SERVER ON PORT
 const PORT = process.env.PORT || 5000;
 
-shoperz.listen(PORT, () => {
-  console.log(`API NOW IS RUNNING ON PORT ==> ${PORT} `);
-});
+function startServer() {
+  shoperz.listen(PORT, () => {
+    console.log(colors.info(`API NOW IS RUNNING ON PORT ==> ${PORT}`));
+  });
+}
+
+connectDB(startServer);

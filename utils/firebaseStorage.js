@@ -1,15 +1,9 @@
 require('dotenv').config();
-const {
-  ref,
-  getDownloadURL,
-  getStorage,
-  uploadBytesResumable,
-} = require('firebase/storage');
+const { ref, getDownloadURL, getStorage, uploadBytesResumable } = require('firebase/storage');
 const { app, firebaseConfig } = require('../configs/firebase.config');
 
-const storage = getStorage(app, `gs://${firebaseConfig.storageBucket}`);
-
 async function uploadFile(file, folder) {
+  let storage = getStorage(app, `gs://${firebaseConfig.storageBucket}`);
   let storageRef = ref(storage, `${folder}/${file.originalname}`);
   let metadata = {
     contentType: file.mimetype,

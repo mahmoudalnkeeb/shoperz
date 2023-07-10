@@ -1,6 +1,0 @@
-{
-  message: 'connected to shoperz database successfully ..',
-  level: 'info',
-  label: 'custom logger',
-  timestamp: 'Jul-06-2023 22:32:06'
-}
