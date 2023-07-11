@@ -4,23 +4,41 @@ const Responser = require('../utils/responser');
 
 const getProducts = async (req, res, next) => {
   try {
-    const { q, filters, limit, sort, page, pmin, pmax, colors, category, rating, freeDelivery, brands } =
-      req.query;
+    const {
+      q,
+      parts,
+      limit = 10,
+      sort,
+      page,
+      pmin,
+      pmax,
+      colors,
+      category,
+      rating,
+      freeDelivery,
+      brands,
+    } = req.query;
     let query = filterQuery('$and', { q, pmin, pmax, colors, category, rating, freeDelivery, brands });
     const { products, actualProductsLength } = await Product.getProducts(query, limit, page, sort);
     const msg =
       products?.length >= 1 ? 'The data was successfully obtained .' : "There's no data here for now .";
-    const responser = new Responser(200, msg, {
-      products,
-      filters: filters ? parseFilters(products) : null,
-      paginition: {
-        limit,
-        currentPage: page,
-        remainingPages: Math.ceil(actualProductsLength / +limit),
-        actualProductsLength,
-        length: products?.length,
-      },
-    });
+    const responser = new Responser(
+      200,
+      msg,
+      Object.assign(
+        { products },
+        parts?.includes('filters') && { filters: parseFilters(products) },
+        parts?.includes('pagination') && {
+          pagination: {
+            limit,
+            currentPage: page,
+            remainingPages: Math.ceil(actualProductsLength / +limit),
+            actualProductsLength,
+            length: products?.length,
+          },
+        }
+      )
+    );
 
     return responser.respond(res);
   } catch (error) {

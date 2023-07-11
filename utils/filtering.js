@@ -11,7 +11,6 @@ function parseFilters(products) {
     categories.push(product.category_id);
   }
   let pricesRange = getPricesRange(prices);
-  console.log(pricesRange);
   // get filtered colors
   let filteredColors = filterArray(colors.flat());
   // get filtered brands
@@ -35,36 +34,25 @@ function parseFilters(products) {
 
 function filterQuery(
   logic,
-  {
-    q = null,
-    pmin = 0,
-    pmax = 99999999999,
-    colors = null,
-    category = null,
-    rating = 0,
-    freeDelivery,
-    brands = null,
-  }
+  { q = null, pmin = 0, pmax = null, colors = null, category = null, rating = 0, freeDelivery, brands = null }
 ) {
-  const regexQuery = new RegExp(`${q}`, 'i');
-  let colorsArr = colors ? colors.split(',') : colors;
-  let brandsArr = brands ? brands.split(',') : brands;
+  const filters = [
+    q && { name: { $regex: new RegExp(q, 'i') } },
+    colors && { color: { $in: colors.split(',') } },
+    category && { category_id: category },
+    freeDelivery && { deliveryCost: 0 },
+    brands && { brand: { $in: brands.split(',') } },
+    rating && { rating: { $gte: rating } },
+    { price: { $gte: pmin } },
+    pmax && { price: { $lte: pmax } },
+  ].filter(Boolean);
+
   return {
-    [logic]: [
-      q ? { name: { $regex: regexQuery } } : {},
-      colors ? { color: { $in: colorsArr } } : {},
-      category ? { category_id: category } : {},
-      freeDelivery ? { deliveryCost: 0 } : {},
-      brands ? { brand: { $in: brandsArr } } : {},
-      rating ? { rating: { $gte: rating } } : {},
-      { price: { $gte: pmin } },
-      { price: { $lte: pmax } },
-    ],
+    [logic]: filters,
   };
 }
 
 function getPricesRange(prices) {
-  console.log(prices);
   return {
     max: Math.max(...prices),
     min: Math.min(...prices),
