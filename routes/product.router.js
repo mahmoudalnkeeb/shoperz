@@ -9,7 +9,6 @@ const {
   getTopRated,
   getMegaOffers,
   getTopSellers,
-  searchInProducts,
 } = require('../controllers/product.controller');
 const authMiddleware = require('../middlewares/authentication');
 const authorize = require('../middlewares/authorization');
@@ -21,7 +20,6 @@ productRouter.get('/featured', getFeatured);
 productRouter.get('/top-rated', getTopRated);
 productRouter.get('/mega-offers', getMegaOffers);
 productRouter.get('/top-sellers', getTopSellers);
-productRouter.get('/search', searchInProducts);
 productRouter.get('/:id', getProductById);
 // dashboard
 productRouter.post('/', authMiddleware, authorize('ADMIN'), createProduct);

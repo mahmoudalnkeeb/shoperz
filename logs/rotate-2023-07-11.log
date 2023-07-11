@@ -1,0 +1,8 @@
+{
+  name: 'NotFoundError',
+  status: 404,
+  type: 'not_found',
+  level: 'error',
+  label: 'custom logger',
+  timestamp: 'Jul-11-2023 21:02:53'
+}

@@ -4,10 +4,15 @@ const Responser = require('../utils/responser');
 
 const getProducts = async (req, res, next) => {
   try {
-    const { sort, limit = 10, page = 1 } = req.query;
-    let { products, actualProductsLength } = await Product.getProducts({}, limit, page, sort);
-    const responser = new Responser(200, 'The list of products has been successfully brought', {
+    const { q, filters, limit, sort, page, pmin, pmax, colors, category, rating, freeDelivery, brands } =
+      req.query;
+    let query = filterQuery('$and', { q, pmin, pmax, colors, category, rating, freeDelivery, brands });
+    const { products, actualProductsLength } = await Product.getProducts(query, limit, page, sort);
+    const msg =
+      products?.length >= 1 ? 'The data was successfully obtained .' : "There's no data here for now .";
+    const responser = new Responser(200, msg, {
       products,
+      filters: filters ? parseFilters(products) : null,
       paginition: {
         limit,
         currentPage: page,
@@ -16,6 +21,7 @@ const getProducts = async (req, res, next) => {
         length: products?.length,
       },
     });
+
     return responser.respond(res);
   } catch (error) {
     next(error);
@@ -124,32 +130,6 @@ const getProductById = async (req, res, next) => {
     next(error);
   }
 };
-const searchInProducts = async (req, res, next) => {
-  try {
-    const { q, limit, sort, page, pmin, pmax, colors, category, rating, freeDelivery, brands } = req.query;
-
-    let query = filterQuery('$and', { q, pmin, pmax, colors, category, rating, freeDelivery, brands });
-    const { products, actualProductsLength } = await Product.getProducts(query, limit, page, sort);
-    let filters = parseFilters(products);
-    const msg =
-      products?.length >= 1 ? 'The data was successfully obtained .' : "There's no data here for now .";
-    const responser = new Responser(200, msg, {
-      products,
-      filters,
-      paginition: {
-        limit,
-        currentPage: page,
-        remainingPages: Math.ceil(actualProductsLength / +limit),
-        actualProductsLength,
-        length: products?.length,
-      },
-    });
-
-    return responser.respond(res);
-  } catch (error) {
-    next(error);
-  }
-};
 // dashboard
 
 const createProduct = async (req, res, next) => {
@@ -208,5 +188,4 @@ module.exports = {
   getTopRated,
   getMegaOffers,
   getTopSellers,
-  searchInProducts,
 };
