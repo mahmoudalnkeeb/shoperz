@@ -4,7 +4,7 @@ class ProductClass {
   async getDiscountedPrice() {
     return (this.price * ((100 - this.discount) / 100)).toFixed(2);
   }
-  static async getProducts(query = {}, limit = 10, page = 1) {
+  static async getProducts(query = {}, limit = 10, page = 1 , sort) {
     return {
       products: await this.find(query)
         .limit(limit)

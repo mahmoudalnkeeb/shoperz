@@ -1,2 +1,4 @@
 [0mGET /products [32m200[0m 726.895 ms - 11673[0m
 [0mGET /favicon.ico [31m500[0m 28.240 ms - 65[0m
+[0mGET /products [31m500[0m 17.637 ms - 58[0m
+[0mGET /favicon.ico [31m500[0m 5.227 ms - 65[0m
