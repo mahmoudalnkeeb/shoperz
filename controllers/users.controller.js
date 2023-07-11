@@ -9,7 +9,7 @@ const getUserInfo = async (req, res, next) => {
     let userId = req.userId;
     let user = await User.findById(userId).select('fullname phone email');
     let userOrders = await Order.find({ userId }).populate('products.productId');
-    let responser = new Responser(200, 'user info fetched', { user , userOrders });
+    let responser = new Responser(200, 'user info fetched', { user, userOrders });
     return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
@@ -41,4 +41,4 @@ const changePassword = async (req, res, next) => {
   }
 };
 
-module.exports = { changePassword , getUserInfo };
+module.exports = { changePassword, getUserInfo };

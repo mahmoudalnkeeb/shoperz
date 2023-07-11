@@ -1,52 +1,5 @@
 const mongoose = require('mongoose');
-class OrderClass {
-  static async createOrder(addressId, paymentMethod , cart) {
-    try {
-      let userId = cart.userId;
-      let products = cart.items;
-      let totalPrice = cart.getCartTotal();
-      let discountedTotal = cart.getCartDiscountedTotal();
-      let payment;
-      if (paymentMethod == 'cash_on_delivery') {
-        payment = {
-          method: paymentMethod,
-          status: 'cash_on_delivery',
-        };
-        let order = new this({
-          userId,
-          addressId,
-          products,
-          totalPrice,
-          discountedTotal,
-          payment,
-        });
-        return await order.save();
-      }
-      // wait for payment
-      /*
-        let paymentProcess = pay(discountedTotal)
-        payment = {
-          method: paymentMethod,
-          status: paymentProcess.status
-          transaction_id: paymentProcess.transaction_id
-        };
-      */
-      // ----
-
-      let order = new this({
-        userId,
-        addressId,
-        products,
-        totalPrice,
-        discountedTotal,
-        payment,
-      });
-      return await order.save();
-    } catch (error) {
-      throw error;
-    }
-  }
-}
+class OrderClass {}
 
 const orderSchema = new mongoose.Schema(
   {
@@ -87,6 +40,7 @@ const orderSchema = new mongoose.Schema(
       required: true,
       min: 0,
     },
+    // what should be passed in payment process
     discountedTotal: {
       type: Number,
       required: true,
