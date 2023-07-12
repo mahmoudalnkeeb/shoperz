@@ -1,47 +1,9 @@
-const { format, createLogger, transports } = require('winston');
-const { combine, timestamp, label, prettyPrint, colorize } = format;
-require('winston-daily-rotate-file');
+const colors = require('colors/safe');
 
-let logger;
-
-if (process.env.NODE_ENV == 'development') {
-  const fileRotateTransport = new transports.DailyRotateFile({
-    filename: 'logs/rotate-%DATE%.log',
-    datePattern: 'YYYY-MM-DD',
-    maxFiles: '14d',
-  });
-  logger = createLogger({
-    level: 'debug',
-    format: combine(
-      label({ label: 'custom logger' }),
-      timestamp({
-        format: 'MMM-DD-YYYY HH:mm:ss',
-      }),
-      prettyPrint(),
-      colorize()
-    ),
-    transports: [
-      fileRotateTransport,
-      new transports.File({
-        level: 'error',
-        filename: 'logs/error.log',
-      }),
-      new transports.Console(),
-    ],
-  });
-} else {
-  logger = createLogger({
-    level: 'debug',
-    format: combine(
-      label({ label: 'custom logger' }),
-      timestamp({
-        format: 'MMM-DD-YYYY HH:mm:ss',
-      }),
-      prettyPrint(),
-      colorize()
-    ),
-    transports: [new transports.Console()],
-  });
-}
+let logger = {
+  info: (message) => console.log(colors.cyan(message)),
+  error: (error) => console.log(colors.red(error.message)),
+  debug: (message) => console.log(colors.gray(message)),
+};
 
 module.exports = logger;

@@ -1,14 +1,31 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const envVars = require('../configs/env');
 const path = require('path');
+const nodemailer = require('nodemailer');
+const envVars = require('../configs/env');
 const { renderTemplate, hashPassword } = require('../utils/utils');
-const { sendEmail } = require('../configs/nodemailer');
+const MailingService = require('../classes/mailing/MailingService');
+const logger = require('../middlewares/logger');
 const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs'));
 const RESET_TEMPLATE = path.resolve(path.join(process.cwd(), './views/resetPassword.ejs'));
 
 class UserClass {
+  constructor() {
+    this.gmailService = new MailingService(
+      {
+        service: 'gmail',
+        host: envVars.mailHost,
+        port: envVars.mailPort,
+        auth: {
+          user: envVars.mailUser,
+          pass: envVars.mailPass,
+        },
+      },
+      nodemailer,
+      logger
+    );
+  }
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
@@ -55,7 +72,8 @@ class UserClass {
         subject: 'Shoperz verify your email',
         html: html,
       };
-      return await sendEmail(mailOptions);
+
+      return await this.gmailService.sendEmail(mailOptions);
     } catch (error) {
       if (error.message == 'already verified') throw error;
       throw new Error('error sending verify email', error);
@@ -78,7 +96,7 @@ class UserClass {
         subject: 'Shoperz reset password',
         html: html,
       };
-      return await sendEmail(mailOptions);
+      return await this.gmailService.sendEmail(mailOptions);
     } catch (error) {
       throw new Error('error sending reset email', error);
     }

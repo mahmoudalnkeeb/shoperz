@@ -5,10 +5,10 @@ const errHandler = (error, req, res, next) => {
   if (error) {
     logger.error(error);
     let responser = new Responser(
-      error.code || 500,
+      error.status || 500,
       error.message || 'internal server error',
       null,
-      error.type
+      error.type || 'internal server error'
     );
     responser.respond(res);
   }
@@ -32,4 +32,14 @@ class InternalError extends Error {
     this.cause = cause;
   }
 }
-module.exports = { errHandler, NotFoundError, InternalError };
+
+class ValidationError extends Error {
+  constructor(message, cause) {
+    super(message);
+    this.name = 'ValidationError';
+    this.status = 403;
+    this.type = 'validation_error';
+    this.cause = cause;
+  }
+}
+module.exports = { errHandler, NotFoundError, InternalError, ValidationError };

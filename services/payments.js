@@ -1,6 +1,6 @@
 const stripe = require('stripe');
 const { stripeSecretKey } = require('../configs/env');
-const StripeGateway = require('../gateways/StripeGateway');
+const StripeGateway = require('../classes/gateways/StripeGateway');
 
 // should return - transaction_id in case of success or error in case of payment failed
 

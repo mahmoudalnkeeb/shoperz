@@ -4,16 +4,10 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const rfs = require('rotating-file-stream');
 const colors = require('./utils/colors');
-const authRouter = require('./routes/auth.router');
 const { errHandler, NotFoundError } = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
-const uploadRouter = require('./routes/upload.router');
-const categoryRouter = require('./routes/category.router');
-const productRouter = require('./routes/product.router');
-const cartRouter = require('./routes/cart.router');
-const userRouter = require('./routes/user.router');
-const wishlistRouter = require('./routes/wishlist.router');
-const addressRouter = require('./routes/address.router');
+const { v1Router } = require('./routes/api.js');
+
 require('dotenv').config();
 const shoperz = express();
 const corsOptions = {
@@ -33,19 +27,14 @@ if (process.env.NODE_ENV == 'development') {
     compress: 'gzip',
   });
   shoperz.use(morgan('dev', { stream: rfsStream }));
+  shoperz.use(morgan('dev'));
 } else shoperz.use(morgan('common'));
 // ROUTES
+shoperz.use('/api/v1', v1Router);
+
 shoperz.get('/', (req, res) => {
   res.send({ message: 'Welcome back to Shoperz e-commerce API We wish you a happy day .ن' });
 });
-shoperz.use('/auth', authRouter);
-shoperz.use('/upload', uploadRouter);
-shoperz.use('/categories', categoryRouter);
-shoperz.use('/products', productRouter);
-shoperz.use('/cart', cartRouter);
-shoperz.use('/users', userRouter);
-shoperz.use('/wishlist', wishlistRouter);
-shoperz.use('/address', addressRouter);
 
 // ERROR HANDLING
 shoperz.use('*', (req, res, next) => next(new NotFoundError('this path not found')));
