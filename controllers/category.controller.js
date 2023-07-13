@@ -68,9 +68,12 @@ const updateCategory = async (req, res, next) => {
     const modifiedCategory = req.body;
     const isExists = await Category.findById(id);
     if (!Boolean(isExists)) {
-      const responser = new Responser(404, 'This category item is not exist in DB to update ! ', {
-        categories: category,
-      });
+      const responser = new Responser(
+        404,
+        'This category item is not exist in DB to update ! ',
+        null,
+        'not_found_error'
+      );
       return responser.respond(res);
     } else {
       const category = await Category.findByIdAndUpdate(id, modifiedCategory, {
