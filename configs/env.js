@@ -6,6 +6,7 @@ let envVars = {
   slatRounds: +process.env.SALT_ROUNDS,
   apiUrl: process.env.API_URL,
   stripeSecretKey: process.env.STRIPE_SECRET_KEY,
+  stripePublisableKey: process.env.STRIPE_PUBLISHABLE_KEY,
 };
 
 if (environment == 'development') {
