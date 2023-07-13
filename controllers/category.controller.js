@@ -58,15 +58,6 @@ const createCategories = async (req, res, next) => {
     let categoriesList = await Category.create(categories);
     const responser = new Responser(201, 'category was created successfully ', categoriesList);
     responser.respond(res);
-    // const isExists = await Category.findOne({ name: categories.name   });
-    // if (Boolean(isExists)) {
-    //   const responser = new Responser(400, "thers's a category item inside this array is already exist");
-    //   responser.respond(res);
-    // } else {
-    //   await Category.create(categories);
-    //   const responser = new Responser(201, 'category was created successfully ');
-    //   responser.respond(res);
-    // }
   } catch (error) {
     next(error);
   }

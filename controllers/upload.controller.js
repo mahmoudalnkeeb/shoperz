@@ -15,4 +15,13 @@ const uploadProductImages = async (req, res, next) => {
   }
 };
 
-module.exports = uploadProductImages;
+const uploadCategoryImage = async (req, res, next) => {
+  try {
+    let url = await uploadFile(req.file, 'categories');
+    let responser = new Responser(201, 'uploaded successfully', { url });
+    return responser.respond(res);
+  } catch (error) {
+    next(error);
+  }
+};
+module.exports = { uploadProductImages, uploadCategoryImage };
