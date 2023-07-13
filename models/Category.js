@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { default: slugify } = require('slugify');
 class CategoryClass {
   static async getIdByName(name) {
     try {
@@ -33,6 +34,16 @@ const categorySchema = new mongoose.Schema(
 );
 
 categorySchema.loadClass(CategoryClass);
+
+categorySchema.pre('save', function (next) {
+  if (!this.isModified('name')) {
+    return next();
+  }
+
+  this.slug = slugify(this.name);
+  next();
+});
+
 
 let Category = mongoose.model('Category', categorySchema);
 

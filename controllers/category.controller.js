@@ -41,7 +41,6 @@ const createCategory = async (req, res, next) => {
         name,
         description,
         image,
-        slug: slugify(name),
       });
       const newCategory = await category.save();
       const responser = new Responser(201, 'category was created successfully ', newCategory);
