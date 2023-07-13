@@ -1,0 +1,5 @@
+[0mGET /api/v1/payments/pk [32m200[0m 4.641 ms - 183[0m
+[0mGET /favicon.ico [33m404[0m 1.426 ms - 65[0m
+[0mPOST /api/v1/auth/signup [31m500[0m 2369.988 ms - 65[0m
+[0mPOST /api/v1/auth/signup [31m500[0m 185.586 ms - 65[0m
+[0mPOST /api/v1/auth/signup [32m201[0m 1541.254 ms - 305[0m

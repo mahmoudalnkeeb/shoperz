@@ -7,25 +7,23 @@ const envVars = require('../configs/env');
 const { renderTemplate, hashPassword } = require('../utils/utils');
 const MailingService = require('../classes/mailing/MailingService');
 const logger = require('../middlewares/logger');
-const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './views/verifyEmail.ejs'));
-const RESET_TEMPLATE = path.resolve(path.join(process.cwd(), './views/resetPassword.ejs'));
-
+const VERIFY_TEMPLATE = path.resolve(path.join(process.cwd(), './templates/verifyEmail.ejs'));
+const RESET_TEMPLATE = path.resolve(path.join(process.cwd(), './templates/resetPassword.ejs'));
+let gmailService = new MailingService(
+  {
+    service: 'gmail',
+    host: envVars.mailHost,
+    port: envVars.mailPort,
+    auth: {
+      user: envVars.mailUser,
+      pass: envVars.mailPass,
+    },
+  },
+  nodemailer,
+  logger
+);
 class UserClass {
-  constructor() {
-    this.gmailService = new MailingService(
-      {
-        service: 'gmail',
-        host: envVars.mailHost,
-        port: envVars.mailPort,
-        auth: {
-          user: envVars.mailUser,
-          pass: envVars.mailPass,
-        },
-      },
-      nodemailer,
-      logger
-    );
-  }
+
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
@@ -73,8 +71,9 @@ class UserClass {
         html: html,
       };
 
-      return await this.gmailService.sendEmail(mailOptions);
+      return await gmailService.sendEmail(mailOptions);
     } catch (error) {
+      console.log(error);
       if (error.message == 'already verified') throw error;
       throw new Error('error sending verify email', error);
     }
@@ -96,7 +95,7 @@ class UserClass {
         subject: 'Shoperz reset password',
         html: html,
       };
-      return await this.gmailService.sendEmail(mailOptions);
+      return await gmailService.sendEmail(mailOptions);
     } catch (error) {
       throw new Error('error sending reset email', error);
     }
@@ -144,8 +143,9 @@ class UserClass {
 
   // utility create verify url
   verifyUrl(verifyCode) {
-    const developmentUrl = `${envVars.apiUrl}:${process.env.PORT}/auth/verify-email`;
-    const productionUrl = `${envVars.apiUrl}/auth/verify-email`;
+    let v1BaseUrl = '/api/v1/auth'
+    const developmentUrl = `${envVars.apiUrl}:${process.env.PORT}${v1BaseUrl}/verify-email`;
+    const productionUrl = `${envVars.apiUrl}${v1BaseUrl}/verify-email`;
     return process.env.NODE_ENV == 'development'
       ? `${developmentUrl}?token=${verifyCode}&uid=${this._id}`
       : `${productionUrl}?token=${verifyCode}&uid=${this._id}`;
