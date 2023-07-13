@@ -16,11 +16,12 @@
 - [x] add wishlist schema
 - [x] refactor reset password
 - [x] finish user cart
-- [ ] **add fetching products by filter**
-- [ ] add payment getaway
-- [ ] add order endpoint 
-- [ ] VALIDATION
+- [x] add fetching products by filter
+- [x] add payment getaway
+- [x] add order endpoint
+- [ ] **Verify email before creating a user**
 - [ ] finish orders
+- [ ] VALIDATION
 
 ### DOCS
 
