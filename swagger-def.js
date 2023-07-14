@@ -29,7 +29,7 @@ const swaggerDefinition = {
 
 const swaggerSpec = swaggerJSDoc({
   swaggerDefinition,
-  apis: ['./routes/*.js'],
+  apis: ["src/**/*.js"],
 });
 
 module.exports = swaggerSpec
