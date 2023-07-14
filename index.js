@@ -18,6 +18,7 @@ const corsOptions = {
 };
 
 // MIDDLEWARES
+shoperz.use(express.static(__dirname + '/public'));
 shoperz.use(express.urlencoded({ extended: true }));
 shoperz.use(express.json());
 shoperz.use(cors(corsOptions));
