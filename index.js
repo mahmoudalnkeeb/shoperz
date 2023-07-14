@@ -33,8 +33,17 @@ if (process.env.NODE_ENV == 'development') {
 } else shoperz.use(morgan('common'));
 
 // swagger ui docs
-const CSS_URL = 'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css';
-shoperz.use('/api/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, { customCssUrl: CSS_URL }));
+shoperz.use(
+  '/api/v1/docs',
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerSpec, {
+    customCssUrl: 'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.1.0/swagger-ui.css',
+    customJs:[
+      "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.1.0/swagger-ui-bundle.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.1.0/swagger-ui-standalone-preset.js"
+    ]
+  })
+);
 // ROUTES
 shoperz.use('/api/v1', v1Router);
 
