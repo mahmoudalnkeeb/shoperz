@@ -13,30 +13,21 @@
     },
     {
       "src": "/api/v1/docs/swagger-ui.css",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/css"
-        }
-      ]
+      "headers": {
+        "Content-Type": "text/css"
+      }
     },
     {
       "src": "/api/v1/docs/swagger-ui-bundle.js",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/javascript"
-        }
-      ]
+      "headers": {
+        "Content-Type": "text/javascript"
+      }
     },
     {
       "src": "/api/v1/docs/swagger-ui-standalone-preset.js",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/javascript"
-        }
-      ]
+      "headers": {
+        "Content-Type": "text/javascript"
+      }
     }
   ]
 }
