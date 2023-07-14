@@ -10,11 +10,9 @@
     {
       "src": "/(.*)",
       "dest": "/"
-    }
-  ],
-  "headers": [
+    },
     {
-      "source": "/api/v1/docs/swagger-ui.css",
+      "src": "/api/v1/docs/swagger-ui.css",
       "headers": [
         {
           "key": "Content-Type",
@@ -23,7 +21,7 @@
       ]
     },
     {
-      "source": "/api/v1/docs/swagger-ui-bundle.js",
+      "src": "/api/v1/docs/swagger-ui-bundle.js",
       "headers": [
         {
           "key": "Content-Type",
@@ -32,7 +30,7 @@
       ]
     },
     {
-      "source": "/api/v1/docs/swagger-ui-standalone-preset.js",
+      "src": "/api/v1/docs/swagger-ui-standalone-preset.js",
       "headers": [
         {
           "key": "Content-Type",
