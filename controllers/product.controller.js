@@ -51,10 +51,6 @@ const getProducts = async (req, res, next) => {
 const getFeatured = async (req, res, next) => {};
 const getTopSellers = async (req, res, next) => {};
 
-// @desc get top rated products , can search with products related by specific category
-// @route /products/top-rated
-// @access Public
-// @params { limit: number , page : number ,relatedByCategory: ObjectId }
 
 const getTopRated = async (req, res, next) => {
   try {
@@ -90,10 +86,6 @@ const getTopRated = async (req, res, next) => {
   }
 };
 
-// @desc get big offered products , can search with products related by specific category
-// @route /products/mega-offers
-// @access Public
-// @params { limit: number , page : number ,relatedByCategory: ObjectId }
 
 const getMegaOffers = async (req, res, next) => {
   try {

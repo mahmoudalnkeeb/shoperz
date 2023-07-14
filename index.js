@@ -7,6 +7,8 @@ const colors = require('./utils/colors');
 const { errHandler, NotFoundError } = require('./middlewares/errorhandler');
 const connectDB = require('./configs/db');
 const { v1Router } = require('./routes/api.js');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swagger-def');
 
 require('dotenv').config();
 const shoperz = express();
@@ -29,12 +31,11 @@ if (process.env.NODE_ENV == 'development') {
   shoperz.use(morgan('dev', { stream: rfsStream }));
   shoperz.use(morgan('dev'));
 } else shoperz.use(morgan('common'));
+
+// swagger ui docs
+shoperz.use('/api/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 // ROUTES
 shoperz.use('/api/v1', v1Router);
-
-shoperz.get('/', (req, res) => {
-  res.send({ message: 'Welcome back to Shoperz e-commerce API We wish you a happy day .ن' });
-});
 
 // ERROR HANDLING
 shoperz.use('*', (req, res, next) => next(new NotFoundError('this path not found')));

@@ -12,7 +12,7 @@
 
 ### TODO
 
-- [x] use ES6 to create schema using mongoose schema.loadClass()
+- [x] use ES6 to create the schema using Mongoose schema.loadClass()
 - [x] add wishlist schema
 - [x] refactor reset password
 - [x] finish user cart
@@ -25,4 +25,4 @@
 
 ### DOCS
 
-[Docs](https://app.swaggerhub.com/apis/7odadocoding/shoperz-api/1.0.3)
+[Docs](https://shoperz-api.vercel.app/api/v1/docs)

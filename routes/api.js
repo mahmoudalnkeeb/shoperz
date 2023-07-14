@@ -9,6 +9,12 @@ const wishlistRouter = require('./wishlist.router');
 const addressRouter = require('./address.router');
 const paymentRouter = require('./payment,router');
 
+// root path v1
+v1Router.get('/', (req, res) =>
+  res.json({ message: 'Welcome back to Shoperz e-commerce API@V1 We wish you a happy day.' })
+);
+
+// api main routes
 v1Router.use('/auth', authRouter);
 v1Router.use('/upload', uploadRouter);
 v1Router.use('/categories', categoryRouter);
@@ -17,6 +23,6 @@ v1Router.use('/cart', cartRouter);
 v1Router.use('/users', userRouter);
 v1Router.use('/wishlist', wishlistRouter);
 v1Router.use('/address', addressRouter);
-v1Router.use('/payments' , paymentRouter)
+v1Router.use('/payments', paymentRouter);
 
 module.exports = { v1Router };
