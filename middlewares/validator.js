@@ -33,7 +33,10 @@ const reqValidator = (schema) => {
     }
 
     if (errors.length > 0) {
-      let responser = new Responser(403, 'invalid request data', null, errors.flat());
+      let responser = new Responser(403, 'invalid request data', null, {
+        type: 'validation_error',
+        errors: errors.flat(),
+      });
       return responser.respond(res);
     } else {
       next();

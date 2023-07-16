@@ -4,12 +4,10 @@ const logger = require('./logger');
 const errHandler = (error, req, res, next) => {
   if (error) {
     logger.error(error);
-    let responser = new Responser(
-      error.status || 500,
-      error.message || 'internal server error',
-      null,
-      error.type || 'internal server error'
-    );
+    let responser = new Responser(error.status || 500, error.message || 'internal server error', null, {
+      type: error.type || 'internal server error',
+      errors: [error.message] || [],
+    });
     responser.respond(res);
   }
 };
