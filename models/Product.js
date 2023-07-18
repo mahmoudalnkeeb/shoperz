@@ -4,7 +4,7 @@ class ProductClass {
   async getDiscountedPrice() {
     return (this.price * ((100 - this.discount) / 100)).toFixed(2);
   }
-  static async getProducts(query = {}, limit = 10, page = 1 , sort) {
+  static async getProducts(query = {}, limit = 10, page = 1, sort) {
     return {
       products: await this.find(query)
         .limit(limit)
@@ -34,11 +34,20 @@ const productSchema = new mongoose.Schema(
       min: 0,
     },
     images: {
-      type: [String],
+      type: [
+        {
+          url: String,
+          path: String,
+        },
+      ],
       required: true,
+      default: [],
     },
     thumbnail: {
-      type: String,
+      type: {
+        url: String,
+        path: String,
+      },
       required: true,
     },
     category_id: {
