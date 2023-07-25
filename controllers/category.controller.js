@@ -18,8 +18,8 @@ const getCategoryById = async (req, res, next) => {
   try {
     const { id } = req.params;
     const category = await Category.findById(id).select('_id , name , description , slug , image');
-    const responser = new Responser(200, 'The list of categories was successfully fetched', {
-      categories: category,
+    const responser = new Responser(200, 'The category was successfully fetched', {
+      category,
     });
     responser.respond(res);
   } catch (error) {
