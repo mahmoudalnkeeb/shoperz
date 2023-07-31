@@ -8,15 +8,9 @@ async function payWithStripe(amount, orderId) {
   let stripeGateway = new StripeGateway({ stripeSecretKey }, stripe);
   stripeGateway.initialize();
   let intent = await stripeGateway.createPaymentIntent(amount, 'payment for order ' + orderId);
-  console.log(intent);
+  return intent;
 }
 
-async function payWithStripeConfirm(paymentId, paymentMethodId) {
-  let stripeGateway = new StripeGateway({ stripeSecretKey }, stripe);
-  stripeGateway.initialize();
-  let intent = await stripeGateway.confirmPayment(paymentId, paymentMethodId);
-  console.log(intent);
-}
 /*
 
 Just for testing
@@ -26,6 +20,12 @@ async function createPayment(methodDetails) {
   let method = await stripeGateway.createPaymentMethod(methodDetails);
   console.log(method);
 }
+async function payWithStripeConfirm(paymentId, paymentMethodId) {
+  let stripeGateway = new StripeGateway({ stripeSecretKey }, stripe);
+  stripeGateway.initialize();
+  let intent = await stripeGateway.confirmPayment(paymentId, paymentMethodId);
+  console.log(intent);
+}
 */
 
 // [TODO: implement pay with paypal]
@@ -34,4 +34,4 @@ function payWithPaypal(amount, orderId) {}
 // delivery boy method
 function cashOnDelivery(amount, orderId) {}
 
-module.exports = { payWithStripe, payWithStripeConfirm };
+module.exports = { payWithStripe };

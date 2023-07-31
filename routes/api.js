@@ -7,7 +7,7 @@ const cartRouter = require('./cart.router');
 const userRouter = require('./user.router');
 const wishlistRouter = require('./wishlist.router');
 const addressRouter = require('./address.router');
-const paymentRouter = require('./payment,router');
+const paymentRouter = require('./payment.router');
 
 // root path v1
 v1Router.get('/', (req, res) =>

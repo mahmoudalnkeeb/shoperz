@@ -1,6 +1,12 @@
+const { response, request } = require('express');
 const User = require('../models/User');
 const Responser = require('../utils/responser');
 
+/**
+ *
+ * @param {'USER' |'ADMIN' | 'MODERATOR'} role
+ * @returns {(req:request , res:response , next) =>{}}
+ */
 const authorize = (role) => {
   return async (req, res, next) => {
     let user = await User.findById(req.userId);

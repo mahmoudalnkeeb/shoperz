@@ -23,7 +23,6 @@ let gmailService = new MailingService(
   logger
 );
 class UserClass {
-
   async changePassword(currentPassword, newPassword) {
     try {
       const isMatch = await this.comparePasswordAsync(currentPassword);
@@ -143,7 +142,7 @@ class UserClass {
 
   // utility create verify url
   verifyUrl(verifyCode) {
-    let v1BaseUrl = '/api/v1/auth'
+    let v1BaseUrl = '/api/v1/auth';
     const developmentUrl = `${envVars.apiUrl}:${process.env.PORT}${v1BaseUrl}/verify-email`;
     const productionUrl = `${envVars.apiUrl}${v1BaseUrl}/verify-email`;
     return process.env.NODE_ENV == 'development'
@@ -208,6 +207,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
+      enum: ['USER', 'ADMIN', 'MODERATOR'],
       required: true,
       default: 'USER',
     },

@@ -1,11 +1,11 @@
-const { default: Stripe } = require('stripe');
+const stripe = require('stripe');
 const PaymentGateway = require('./PaymentGateway');
 
 class StripeGateway extends PaymentGateway {
   /**
    *
    * @param {*} config
-   * @param {Stripe} stripe
+   * @param {stripe} stripe
    */
   constructor(config, stripe) {
     super(config);

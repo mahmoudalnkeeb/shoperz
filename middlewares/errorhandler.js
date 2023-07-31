@@ -40,4 +40,20 @@ class ValidationError extends Error {
     this.cause = cause;
   }
 }
-module.exports = { errHandler, NotFoundError, InternalError, ValidationError };
+class PaymentFailedError extends Error {
+  constructor(message, cause) {
+    super(message);
+    this.name = 'PaymentFailedError';
+    this.status = 402;
+    this.type = 'payment_failed';
+    this.cause = cause;
+  }
+}
+
+module.exports = {
+  errHandler,
+  NotFoundError,
+  InternalError,
+  ValidationError,
+  PaymentFailedError,
+};

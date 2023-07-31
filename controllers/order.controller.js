@@ -7,9 +7,9 @@ const createOrder = async (req, res, next) => {
   try {
     let userId = req.userId;
     // method = 'card' | 'pypl' | 'cod'
-    let { address, paymentMethodId, method } = req.body;
-    let orderConfirmation = await orderService(userId, address, paymentMethodId, method);
-    let responser = new Responser(201, 'order created successfully', orderConfirmation);
+    let { address, method } = req.body;
+    let order = await orderService(userId, address, method);
+    let responser = new Responser(201, 'order created successfully', order);
     responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error));
