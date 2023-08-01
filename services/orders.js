@@ -20,6 +20,7 @@ const orderService = async (userId, addressId, method) => {
       addressId,
       totalPrice: cartTotal,
       discountedTotal: cartTotalDiscounted,
+      products: userCart.items,
       status: method == 'cod' ? 'awaiting_fulfillment' : 'pending',
       payment: {
         method: methods[method],

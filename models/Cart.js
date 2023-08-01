@@ -44,9 +44,7 @@ class CartClass {
     let products = await this.populate('items.productId');
     // cuz this promise above returns null inside productId
     const cleanProducts = products.items.filter((prod) => prod.productId !== null);
-    //
-    const totalPrice = cleanProducts.reduce((prev, curr) =>  prev + (curr.productId.price * curr.quantity), 0);
-    const totalQuantity = cleanProducts.reduce((prev, curr) => prev + curr.quantity, 0);
+    const totalPrice = cleanProducts.reduce((prev, curr) => prev + curr.productId.price * curr.quantity, 0);
     return totalPrice;
   }
 
@@ -62,9 +60,13 @@ class CartClass {
     }
     return +discountedTotal.toFixed(2);
   }
-  // statics
-  //create user cart
 
+  async clearCartItems() {
+    this.items = [];
+    await this.save();
+  }
+
+  // statics
   static async createUserCart(userId) {
     let cart = new this({ userId });
     let userCart = await cart.save();
