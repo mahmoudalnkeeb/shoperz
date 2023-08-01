@@ -1,6 +1,9 @@
 const mongoose = require('mongoose');
 const { NotFoundError } = require('../middlewares/errorhandler');
 
+/**
+ * @type {Cart.constructor} CartClass
+ */
 class CartClass {
   async addItem(productId, quantity) {
     try {
@@ -11,7 +14,7 @@ class CartClass {
         throw new Error('Product already exists in the cart');
       }
       this.items.push({ productId, quantity });
-      this.save();
+      await this.save();
       return this;
     } catch (error) {
       throw error;
@@ -40,27 +43,6 @@ class CartClass {
     }
   }
 
-  async getCartTotal() {
-    let products = await this.populate('items.productId');
-    // cuz this promise above returns null inside productId
-    const cleanProducts = products.items.filter((prod) => prod.productId !== null);
-    const totalPrice = cleanProducts.reduce((prev, curr) => prev + curr.productId.price * curr.quantity, 0);
-    return totalPrice;
-  }
-
-  async getCartDiscountedTotal() {
-    let products = await this.populate('items.productId');
-    // cuz this promise above returns null inside productId
-    const cleanProducts = products.items.filter((prod) => prod.productId !== null);
-    //
-    let discountedTotal = 0;
-    for (const item of cleanProducts) {
-      let discountedPrice = item.productId.price * ((100 - item.productId.discount) / 100);
-      discountedTotal += discountedPrice * item.quantity;
-    }
-    return +discountedTotal.toFixed(2);
-  }
-
   async clearCartItems() {
     this.items = [];
     await this.save();
@@ -71,6 +53,22 @@ class CartClass {
     let cart = new this({ userId });
     let userCart = await cart.save();
     return userCart;
+  }
+
+  static async getCartTotal(items) {
+    return items
+      .reduce((total, item) => {
+        return total + item.quantity * item.productId.price;
+      }, 0)
+      .toFixed(2);
+  }
+
+  static async getCartDiscountedTotal(items) {
+    return items
+      .reduce((total, item) => {
+        return total + item.quantity * (item.productId.price * ((100 - item.productId.discount) / 100));
+      }, 0)
+      .toFixed(2);
   }
 }
 

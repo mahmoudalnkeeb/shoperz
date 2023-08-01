@@ -1,22 +1,25 @@
 const { InternalError } = require('../middlewares/errorhandler');
 const Cart = require('../models/Cart');
-const Product = require('../models/Product');
 const Responser = require('../utils/responser');
 
 const getUserCart = async (req, res, next) => {
   try {
-    let userCart = await Cart.findOne({ userId: req.userId });
+    let userCart = await Cart.findOne({ userId: req.userId }).populate(
+      'items.productId',
+      '_id name price discount thumbnail'
+    );
     if (!userCart) {
       userCart = new Cart({ userId: req.userId });
       await userCart.save();
     }
     const responser = new Responser(200, 'user cart fetched', {
       userCart,
-      cartTotal: await userCart.getCartTotal(),
-      discountedTotal: await userCart.getCartDiscountedTotal(),
+      cartTotal: await Cart.getCartTotal(userCart.items),
+      discountedTotal: await Cart.getCartDiscountedTotal(userCart.items),
     });
     responser.respond(res);
   } catch (error) {
+    console.log(error);
     next(new InternalError('Internal Error while getting cart items'), error);
   }
 };
@@ -38,16 +41,19 @@ const getCartById = async (req, res, next) => {
 const addToCart = async (req, res, next) => {
   try {
     let { productId, quantity } = req.body;
-    let userCart = await Cart.findOne({ userId: req.userId });
+    let userCart = await Cart.findOne({ userId: req.userId }).populate(
+      'items.productId',
+      '_id name price discount thumbnail'
+    );
     if (!userCart) {
       userCart = new Cart({ userId: req.userId });
       await userCart.save();
     }
     let cart = await userCart.addItem(productId, quantity);
     const responser = new Responser(201, 'item add successfully to cart', {
-      cart: cart.items.map((item) => ({ _id: item.productId._id, quantity: item.quantity })),
-      cartTotal: await cart.getCartTotal(),
-      discountedTotal: await cart.getCartDiscountedTotal(),
+      cart: cart.items,
+      cartTotal: await Cart.getCartTotal(userCart.items),
+      discountedTotal: await Cart.getCartDiscountedTotal(userCart.items),
     });
     return responser.respond(res);
   } catch (error) {

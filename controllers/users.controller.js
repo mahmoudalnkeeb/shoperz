@@ -1,3 +1,4 @@
+const ObjectId = require('mongoose').Types.ObjectId;
 const { InternalError } = require('../middlewares/errorhandler');
 const Address = require('../models/Address');
 const Order = require('../models/Order');
@@ -9,7 +10,7 @@ const getUserInfo = async (req, res, next) => {
   try {
     let userId = req.userId;
     let user = await User.findById(userId).select('fullname phone email');
-    let userOrders = await Order.find({ userId }).populate('products.productId');
+    let userOrders = await Order.find({ userId });
     let userAddresses = await Address.find({ userId });
     let responser = new Responser(200, 'user info fetched', { user, userOrders, userAddresses });
     return responser.respond(res);

@@ -20,7 +20,7 @@ const getOrderById = async (req, res) => {
   try {
     let { id } = req.params;
     let order = await Order.findById(id).lean();
-    let responser = new Responser(201, 'order fetched successfully', order);
+    let responser = new Responser(200, 'order fetched successfully', order);
     responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error));
@@ -29,10 +29,10 @@ const getOrderById = async (req, res) => {
 
 const getUserOrders = async (req, res) => {
   try {
-    let { limit, page } = req.query;
+    let { limit = 10, page = 1 } = req.query;
     let skip = (page - 1) * limit;
     let orders = await Order.find({ userId: req.userId }).skip(skip).limit(limit).lean();
-    let responser = new Responser(201, 'user orders fetched successfully', orders);
+    let responser = new Responser(200, 'user orders fetched successfully', orders);
     responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error));
@@ -41,10 +41,10 @@ const getUserOrders = async (req, res) => {
 
 const getOrders = async (req, res) => {
   try {
-    let { limit, page } = req.query;
+    let { limit = 10, page = 1 } = req.query;
     let skip = (page - 1) * limit;
     let orders = await Order.find().skip(skip).limit(limit).lean();
-    let responser = new Responser(201, 'orders fetched successfully', orders);
+    let responser = new Responser(200, 'orders fetched successfully', orders);
     responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error));

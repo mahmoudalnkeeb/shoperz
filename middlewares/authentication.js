@@ -19,7 +19,7 @@ async function authMiddleware(req, res, next) {
     let isEqual = user.userToken.token == token;
     let isExpired = user.userToken.tokenEXP <= new Date(Date.now());
     if (isEqual && !isExpired) {
-      req.userId = user._id;
+      req.userId = user._id.toString();
       next();
     } else {
       let responser = new Responser(401, 'Authentication failed: Invalid Or expired token ');
