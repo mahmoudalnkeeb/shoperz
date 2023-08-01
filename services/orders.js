@@ -1,7 +1,5 @@
-const { PaymentFailedError } = require('../middlewares/errorhandler');
 const Cart = require('../models/Cart');
 const Order = require('../models/Order');
-const { payWithStripe } = require('./payments');
 
 const orderService = async (userId, addressId, method) => {
   try {
@@ -30,7 +28,6 @@ const orderService = async (userId, addressId, method) => {
       },
     });
     await order.save();
-    await userCart.clearCartItems()
     return order;
   } catch (error) {
     console.log(error);
