@@ -26,7 +26,8 @@ const orderService = async (userId, addressId, method) => {
         status: method == 'cod' ? 'cash_on_delivery' : 'pending',
       },
     });
-    return order
+    await order.save();
+    return order;
   } catch (error) {
     throw error;
   }

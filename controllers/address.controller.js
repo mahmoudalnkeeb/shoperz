@@ -8,7 +8,7 @@ const getUserAddresses = async (req, res, next) => {
     const responser = new Responser(200, 'user addresses fetched', { userAddresses });
     responser.respond(res);
   } catch (error) {
-    next(new InternalError('Internal Error while getting cart items'), error);
+    next(new InternalError('Internal Error while getting addresses'), error);
   }
 };
 
@@ -24,7 +24,7 @@ const createUserAddress = async (req, res, next) => {
     const responser = new Responser(200, 'user addresses fetched', { userAddress });
     responser.respond(res);
   } catch (error) {
-    next(new InternalError('Internal Error while getting cart items'), error);
+    next(new InternalError('Internal Error while creating address'), error);
   }
 };
 
@@ -48,7 +48,7 @@ const removeUserAddress = async (req, res, next) => {
     const responser = new Responser(200, 'user address deleted', deletedAddress);
     responser.respond(res);
   } catch (error) {
-    next(new InternalError('Internal Error while getting cart items'), error);
+    next(new InternalError('Internal Error while removing address'), error);
   }
 };
 

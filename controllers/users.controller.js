@@ -1,4 +1,5 @@
 const { InternalError } = require('../middlewares/errorhandler');
+const Address = require('../models/Address');
 const Order = require('../models/Order');
 const User = require('../models/User');
 const Responser = require('../utils/responser');
@@ -9,7 +10,8 @@ const getUserInfo = async (req, res, next) => {
     let userId = req.userId;
     let user = await User.findById(userId).select('fullname phone email');
     let userOrders = await Order.find({ userId }).populate('products.productId');
-    let responser = new Responser(200, 'user info fetched', { user, userOrders });
+    let userAddresses = await Address.find({ userId });
+    let responser = new Responser(200, 'user info fetched', { user, userOrders, userAddresses });
     return responser.respond(res);
   } catch (error) {
     next(new InternalError('Internal error', error.message));
