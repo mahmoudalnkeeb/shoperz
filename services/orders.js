@@ -30,6 +30,7 @@ const orderService = async (userId, addressId, method) => {
       },
     });
     await order.save();
+    await userCart.clearCartItems()
     return order;
   } catch (error) {
     console.log(error);
