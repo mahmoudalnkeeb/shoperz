@@ -8,6 +8,7 @@ const userRouter = require('./user.router');
 const wishlistRouter = require('./wishlist.router');
 const addressRouter = require('./address.router');
 const paymentRouter = require('./payment.router');
+const orderRouter = require('./order.router');
 
 // root path v1
 v1Router.get('/', (req, res) =>
@@ -24,5 +25,6 @@ v1Router.use('/users', userRouter);
 v1Router.use('/wishlist', wishlistRouter);
 v1Router.use('/address', addressRouter);
 v1Router.use('/payments', paymentRouter);
+v1Router.use('/orders', orderRouter);
 
 module.exports = { v1Router };
