@@ -29,5 +29,18 @@ const createIntent = async (req, res, next) => {
     next(error);
   }
 };
-module.exports = { createIntent };
 */
+
+const { stripePublisableKey } = require('../configs/env');
+const Responser = require('../utils/responser');
+
+const getPublisherKey = (req, res, next) => {
+  try {
+    const responser = new Responser(200, 'publishable key sent', { pk: stripePublisableKey });
+    responser.respond(res);
+  } catch (error) {
+    next(error);
+  }
+};
+
+module.exports = { getPublisherKey };
