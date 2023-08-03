@@ -1,10 +1,13 @@
-const { PaymentFailedError } = require('../middlewares/errorhandler');
+const mongoose = require('mongoose');
+const { PaymentFailedError, ValidationError } = require('../middlewares/errorhandler');
 const Cart = require('../models/Cart');
 const Order = require('../models/Order');
 const { payWithStripe } = require('./payments');
 
 const orderService = async (userId, addressId, method) => {
   try {
+    if (!mongoose.isValidObjectId(addressId))
+      throw new ValidationError('address id is not valid', 'invalid_addressId');
     let methods = {
       card: 'credit_card',
       pypl: 'paypal',
@@ -35,7 +38,6 @@ const orderService = async (userId, addressId, method) => {
     await order.save();
     if (method == 'card') {
       let intent = await payWithStripe(cartTotalDiscounted, order._id);
-      console.log(intent);
       if (intent.cancellation_reason) {
         order.status = 'cancelled';
         order.payment.status = 'failed';
