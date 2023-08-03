@@ -7,7 +7,7 @@ const StripeGateway = require('../classes/gateways/StripeGateway');
 async function payWithStripe(amount, orderId) {
   let stripeGateway = new StripeGateway({ stripeSecretKey }, stripe);
   stripeGateway.initialize();
-  let intent = await stripeGateway.createPaymentIntent(amount, 'payment for order ' + orderId);
+  let intent = await stripeGateway.createPaymentIntent(amount * 100, 'payment for order ' + orderId);
   return intent;
 }
 

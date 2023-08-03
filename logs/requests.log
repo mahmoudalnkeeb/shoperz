@@ -192,3 +192,13 @@
 [0mGET /api/v1/cart [32m200[0m 14.353 ms - 707[0m
 [0mGET /api/v1/cart [32m200[0m 11.962 ms - 707[0m
 [0mPOST /api/v1/orders [31m500[0m 14.650 ms - 102[0m
+[0mPOST /api/v1/auth/login [32m200[0m 605.374 ms - 263[0m
+[0mGET /api/v1/cart [32m200[0m 213.763 ms - 707[0m
+[0mPOST /api/v1/orders [32m201[0m 177.808 ms - 706[0m
+[0mPOST /api/v1/orders [31m500[0m 619.977 ms - 102[0m
+[0mPOST /api/v1/orders [31m500[0m 700.970 ms - 102[0m
+[0mPOST /api/v1/orders [31m500[0m 729.997 ms - 102[0m
+[0mPOST /api/v1/orders [31m500[0m 797.514 ms - 102[0m
+[0mPOST /api/v1/orders [31m500[0m 842.584 ms - 102[0m
+[0mPOST /api/v1/orders [32m201[0m 755.380 ms - 767[0m
+[0mGET /api/v1/orders/user [32m200[0m 10.559 ms - 5218[0m

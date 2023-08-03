@@ -76,6 +76,19 @@ const removeFromCart = async (req, res, next) => {
   }
 };
 
+const clearCart = async (req, res, next) => {
+  try {
+    let userCart = await Cart.findOne({ userId: req.userId });
+    await userCart.clearCartItems();
+    const responser = new Responser(200, 'product deleted successfully', {
+      userCart: userCart.items,
+    });
+    responser.respond(res);
+  } catch (error) {
+    next(new InternalError('Internal Error while removing item from cart'), error);
+  }
+};
+
 const updateItemQuantity = async (req, res, next) => {
   try {
     let { productId, quantity } = req.params;
@@ -89,4 +102,4 @@ const updateItemQuantity = async (req, res, next) => {
   }
 };
 
-module.exports = { getUserCart, getCartById, addToCart, removeFromCart, updateItemQuantity };
+module.exports = { getUserCart, getCartById, addToCart, removeFromCart, clearCart, updateItemQuantity };

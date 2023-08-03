@@ -1,3 +1,4 @@
+/* deprecated
 const { PaymentFailedError } = require('../middlewares/errorhandler');
 const Order = require('../models/Order');
 const { payWithStripe } = require('../services/payments');
@@ -28,5 +29,5 @@ const createIntent = async (req, res, next) => {
     next(error);
   }
 };
-
 module.exports = { createIntent };
+*/
