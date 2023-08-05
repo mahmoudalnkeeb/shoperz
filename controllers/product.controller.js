@@ -2,7 +2,7 @@ const { isValidObjectId } = require('mongoose');
 const Product = require('../models/Product');
 const { filterQuery, parseFilters } = require('../utils/filtering');
 const Responser = require('../utils/responser');
-const { ValidationError } = require('../middlewares/errorhandler');
+const { ValidationError, NotFoundError } = require('../middlewares/errorhandler');
 
 const getProducts = async (req, res, next) => {
   try {
@@ -51,7 +51,6 @@ const getProducts = async (req, res, next) => {
 const getFeatured = async (req, res, next) => {};
 const getTopSellers = async (req, res, next) => {};
 
-
 const getTopRated = async (req, res, next) => {
   try {
     //
@@ -85,7 +84,6 @@ const getTopRated = async (req, res, next) => {
     next(error);
   }
 };
-
 
 const getMegaOffers = async (req, res, next) => {
   try {
@@ -123,21 +121,13 @@ const getMegaOffers = async (req, res, next) => {
   }
 };
 
-// @desc search inside the products and return list of matched product
-// @route /products/search
-// @access Public
-// query { q : string }
-
 const getProductById = async (req, res, next) => {
   try {
     const { id } = req.params;
     if (!isValidObjectId(id)) throw new ValidationError('Not a valid product id ' + id);
     const product = await Product.findById(id).populate({ path: 'category_id', select: 'name' });
-    if (product) {
-      let responser = new Responser(200, 'Product details was fetched successfully .', { product });
-      return responser.respond(res);
-    }
-    let responser = new Responser(404, 'Product details is not exist .', { product: [] });
+    if (!product) throw new NotFoundError('No product found with this id ' + id);
+    let responser = new Responser(200, 'Product details was fetched successfully .', { product });
     return responser.respond(res);
   } catch (error) {
     next(error);
