@@ -1,6 +1,18 @@
 const Address = require('../models/Address');
 const Responser = require('../utils/responser');
-const { InternalError } = require('../middlewares/errorhandler');
+const { InternalError, NotFoundError } = require('../middlewares/errorhandler');
+
+const getAddressById = async (req, res, next) => {
+  try {
+    let { id } = req.params;
+    let address = await Address.findById(id);
+    if (!address) return next(new NotFoundError('No address found with this id ' + id));
+    const responser = new Responser(200, 'address fetched', { address });
+    responser.respond(res);
+  } catch (error) {
+    next(new InternalError('Internal Error while getting address by id'), error);
+  }
+};
 
 const getUserAddresses = async (req, res, next) => {
   try {
@@ -52,4 +64,10 @@ const removeUserAddress = async (req, res, next) => {
   }
 };
 
-module.exports = { getUserAddresses, createUserAddress, updateUserAddress, removeUserAddress };
+module.exports = {
+  getAddressById,
+  getUserAddresses,
+  createUserAddress,
+  updateUserAddress,
+  removeUserAddress,
+};

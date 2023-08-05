@@ -126,7 +126,7 @@ const getProductById = async (req, res, next) => {
     const { id } = req.params;
     if (!isValidObjectId(id)) throw new ValidationError('Not a valid product id ' + id);
     const product = await Product.findById(id).populate({ path: 'category_id', select: 'name' });
-    if (!product) throw new NotFoundError('No product found with this id ' + id);
+    if (!product) return next(new NotFoundError('No product found with this id ' + id));
     let responser = new Responser(200, 'Product details was fetched successfully .', { product });
     return responser.respond(res);
   } catch (error) {
