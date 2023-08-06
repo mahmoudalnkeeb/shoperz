@@ -34,7 +34,7 @@ const getProducts = async (req, res, next) => {
           pagination: {
             limit,
             currentPage: page,
-            remainingPages: Math.ceil(actualProductsLength / +limit),
+            remainingPages: actualProductsLength / +limit > 1 ? Math.ceil(actualProductsLength / +limit) : 0,
             actualProductsLength,
             length: products?.length,
           },
