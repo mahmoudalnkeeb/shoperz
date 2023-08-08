@@ -24,6 +24,7 @@ const getOrderById = async (req, res) => {
     let order = await Order.findById(id)
       .populate('products.productId', 'name thumbnail price discount')
       .populate('userId', 'fullname email phone')
+      .populate('addressId')
       .lean();
     if (!order) return next(new NotFoundError('no order found with this id ' + id));
     let responser = new Responser(200, 'order fetched successfully', order);
