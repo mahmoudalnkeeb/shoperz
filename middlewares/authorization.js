@@ -13,7 +13,7 @@ const authorize = (role) => {
     if (user.role != role) {
       let responser = new Responser(401, 'you are not authorized to do this action');
       return responser.respond(res);
-    }
+    } else if (user.role == 'MODERATOR') return next();
     next();
   };
 };

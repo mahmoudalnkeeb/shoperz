@@ -85,4 +85,16 @@ const getOrders = async (req, res) => {
     next(new InternalError('Internal error', error));
   }
 };
-module.exports = { createOrder, getOrderById, getUserOrders, getOrders };
+
+const deleteOrder = async (req, res) => {
+  try {
+    let { id } = req.params;
+    let order = await Order.findByIdAndDelete(id);
+    let responser = new Responser(200, `order ${id} deleted successfully`, { deletedOrder: order._id });
+    responser.respond(res);
+  } catch (error) {
+    next(new InternalError('Internal error', error));
+  }
+};
+
+module.exports = { createOrder, getOrderById, getUserOrders, getOrders, deleteOrder };
