@@ -9,7 +9,7 @@ class ProductClass {
       products: await this.find(query)
         .limit(limit)
         .skip((page - 1) * limit)
-        .sort(sort ? (sort.includes(',') ? sort.split(',').join(' ') : JSON.parse(sort)) : '-createdAt')
+        .sort(sort ? (sort.includes(',') ? sort.split(',').join(' ') : sort) : '-createdAt')
         .select(' _id category_id name colors brand rating price thumbnail description sku createdAt')
         .populate({ path: 'category_id', select: 'name' })
         .lean(),
