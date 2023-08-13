@@ -53,21 +53,14 @@ const getTopSellers = async (req, res, next) => {};
 
 const getTopRated = async (req, res, next) => {
   try {
-    //
-    const { limit = 15, page = 1, relatedByCategory } = req.query;
-    const skip = +page * +limit;
-    const query = Product.find();
-    if (!relatedByCategory) {
-      query.where('rating').gte(4.0);
-      query.limit(limit);
-      query.skip(skip);
-    } else {
-      query.where('rating').gte(4.0);
-      query.limit(limit);
-      query.skip(skip);
-      query.where('category_id', relatedByCategory);
-    }
-    const topRatedProducts = await query;
+    const { limit = 15, page = 1, relatedByCategory = null } = req.query;
+    const skip = (+page - 1) * +limit;
+    const topRatedProducts = await Product.find({ rating: { $gte: 4 }, category_id: relatedByCategory })
+      .skip(skip)
+      .limit(limit)
+      .select('_id name description price thumbnail images category_id discount rating')
+      .populate('category_id', 'name');
+
     const msg =
       topRatedProducts?.length >= 1
         ? 'The data was successfully obtained .'
@@ -87,23 +80,17 @@ const getTopRated = async (req, res, next) => {
 
 const getMegaOffers = async (req, res, next) => {
   try {
-    const { page = 1, limit = 3, relatedByCategory } = req.query;
-    const skip = +page * +limit;
-
-    const query = Product.find();
-    if (!relatedByCategory) {
-      query.where('discount').gte(10);
-      query.where('rating').gte(3.0);
-      query.skip(skip);
-      query.limit(limit);
-    } else {
-      query.where('discount').gte(10);
-      query.where('rating').gte(3.0);
-      query.skip(skip);
-      query.limit(limit);
-      query.where('category_id', relatedByCategory);
-    }
-    const megaOfferProducts = await query;
+    const { page = 1, limit = 3, relatedByCategory = null } = req.query;
+    const skip = (+page - 1) * +limit;
+    const megaOfferProducts = await Product.find({
+      rating: { $gte: 3 },
+      discount: { $gte: 10 },
+      category_id: relatedByCategory,
+    })
+      .skip(skip)
+      .limit(limit)
+      .select('_id name description price thumbnail images category_id discount rating')
+      .populate('category_id', 'name');
     const msg =
       megaOfferProducts?.length >= 1
         ? 'The data was successfully obtained .'
@@ -125,7 +112,7 @@ const getProductById = async (req, res, next) => {
   try {
     const { id } = req.params;
     if (!isValidObjectId(id)) throw new ValidationError('Not a valid product id ' + id);
-    const product = await Product.findById(id).populate({ path: 'category_id', select: 'name' });
+    const product = await Product.findById(id).populate('category_id', 'name').lean();
     if (!product) return next(new NotFoundError('No product found with this id ' + id));
     let responser = new Responser(200, 'Product details was fetched successfully .', { product });
     return responser.respond(res);

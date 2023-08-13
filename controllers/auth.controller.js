@@ -14,7 +14,7 @@ const signup = async (req, res, next) => {
     if (isEmailExists || isPhoneExists) {
       let responser = new Responser(
         400,
-        'Worng Email or Phone please use anther email or phone ',
+        'Worng Email or Phone please use another email or phone ',
         null,
         'Error , wrong email or phone'
       );
