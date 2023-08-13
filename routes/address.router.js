@@ -15,6 +15,6 @@ addressRouter.put('/:addressId', authMiddleware, updateUserAddress);
 addressRouter.delete('/:addressId', authMiddleware, removeUserAddress);
 
 // admin router
-addressRouter.get('/:id', authMiddleware, authorize('ADMIN'), getAddressById);
+addressRouter.get('/:id', authMiddleware, getAddressById);
 
 module.exports = addressRouter;
